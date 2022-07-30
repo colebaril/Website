@@ -1,30 +1,34 @@
 ---
 date: "2019-08-02T11:04:49+08:00"
-description: About LoveIt
+description: About Cole
 draft: false
 images:
 - /Apple-Devices-Preview.png
 lightgallery: true
 math:
   enable: true
-title: About LoveIt
+title: About Cole
 ---
 
-{{< style "img { height: 1.25rem; }" >}}
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/dillonzq/LoveIt?style=flat-square)](https://github.com/dillonzq/LoveIt/releases)
-[![Hugo](https://img.shields.io/badge/Hugo-%5E0.62.0-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
-[![License](https://img.shields.io/github/license/dillonzq/LoveIt?style=flat-square)](https://github.com/dillonzq/LoveIt/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/dillonzq/LoveIt?style=social)](https://github.com/dillonzq/LoveIt)
-[![GitHub forks](https://img.shields.io/github/forks/dillonzq/LoveIt?style=social)](https://github.com/dillonzq/LoveIt/fork)
-{{< /style >}}
 
-> [:(far fa-kiss-wink-heart fa-fw): LoveIt](https://github.com/dillonzq/LoveIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by {{< person "https://dillonzq.com/" Dillon "author of the LoveIt theme" "/Dillon.png" >}}.
->
-> It is based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
 
-![Hugo Theme LoveIt](/images/Apple-Devices-Preview.png "Hugo Theme LoveIt")
+> I completed my Bachelor of Science in Biology at the University of Winnipeg where I first became interested in vector-borne pathogens.
+> I recently completed my Master of Science at Brandon University where I studied and led projects relating to mosquito borne pathogen 
+> surveillance.
+> My team and I conducted twice-weekly mosquito surveillance in Western Manitoba from June to August in 2020 and 2021 and caught ~300,000 
+> mosquitoes, conducted shotgun metatranscriptomic sequencing to identify pathogens harboured by mosquitoes, screened mosquitoes for the 
+> presence of California serogroup viruses and conducted generalized linear mixed modelling to identify relationships between mosquito activity 
+> and weather variables. 
 
-## Features
+> My other interests include baking, hiking and reading. I look for every excuse I can to bake. I specialize in cakes, cookies and crumbles. 
+> I regularly go hiking around Manitoba where my favourite place to hike is in Riding Mountain National Park. I also enjoy reading fantasy 
+> book series such as *Harry Potter*, *Lord of the Rings* and the *Inheritance Cycle*. 
+
+> Through my experience, I have gained a lot of knowledge and skills in molecular biology, public health and entomology, which I outline below.
+
+![Cole next to a large mosquito statue](/images/mosquitostatue.jpg "Me standing next to the largest mosquito in the world in Komarno, Manitoba. The name of the town, Komarno, translates to 'many mosquitoes' in Ukrainian")
+
+## Education
 
 ### Performance and SEO
 
