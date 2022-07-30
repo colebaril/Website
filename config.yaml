@@ -17,7 +17,7 @@ ignoreErrors:
 author:
   email: ''
   link: ''
-  name: xxxx
+  name: Cole Baril
 menu:
   main:
     - identifier: posts
@@ -486,17 +486,13 @@ languages:
         type: algolia
       social:
         Email: colewilliambaril95@gmail.com
+        LinkedIn: cole-baril-5875291a2
         Facebook: cole.baril.792
         GitHub: colebaril
         Instagram: colewbaril
-        Mastodon:
-          id: '@xxxx'
-          prefix: https://mastodon.technology/
         Phone: +1 204-588-3112
         RSS: yes
-        Telegram: xxxx
         Twitter: SkeeterPeeper
-        Youtubelegacy: xxxx
     weight: 1
   zh-cn:
     copyright: This work is licensed under a Creative Commons Attribution-NonCommercial
