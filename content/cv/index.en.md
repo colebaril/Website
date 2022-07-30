@@ -82,7 +82,7 @@ DL Seeds, Canola Breeding Program
 ## Skills 
 
 ### Laboratory Skills
-:::
+
 *	RNA/DNA extraction 
 *	Mosquito identification, handling, and rearing 
 *	Reverse transcriptase reactions
@@ -94,4 +94,4 @@ DL Seeds, Canola Breeding Program
 *	Media preparation and pouring 
 *	RNA interference design
 *	Primer design and troubleshooting
-:::
+
