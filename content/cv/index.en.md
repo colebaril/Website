@@ -38,6 +38,7 @@ title: Curriculum Vitae
 ## Research Experience 
 
 ### Graduate Researcher 
+Brandon University, Department of Biology
 
 *	Planned, organized, and managed all facets of several research projects related to mosquito surveillance, including leading a team of research assistants.
 *	Managed inventory control for laboratory supplies and prepare purchase requisitions.
@@ -60,7 +61,14 @@ title: Curriculum Vitae
 *	Was recognized as the first researcher to detect California serogroup viruses in mosquito pools within Manitoba in recent years.
 *	Identified over 30 putative insect viruses representing over 15 viral families infecting Manitoban mosquitoes and a variety of parasite, bacteria, fungi, and plant species, including novel and concerning species with the potential to impact public health and the economy.
 
-## License
+### Research Assistant 
+Cibus, Product Development 
+
+* Created, edited and reviewed fieldbooks for field observation collection using Excel. 
+* Authored a report detailing the relationships between weather variables and Sclerotinia infection of canola plants.
+* Made educated reccomendations for future research site selection.
+* Visited experimental canola plots to observe plant quality, infestations, weed status and presence of disease.
+* Compiled photos and reports of field visits into Microsoft OneNote files for each site. 
 
 LoveIt is licensed under the **MIT** license.
 
