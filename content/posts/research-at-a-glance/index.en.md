@@ -15,6 +15,10 @@ resources:
 tags:
 - research
 - abstract
+- mosquitoes
+- pathogens
+- viruses
+- weather
 title: Research at a Glance
 toc:
   auto: false
