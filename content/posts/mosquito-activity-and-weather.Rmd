@@ -25,7 +25,8 @@ toc:
 weight: 1
 ---
 
-Mosquito borne diseases account for over 700,000 deaths globally each year, yet little is known about factors that drive mosquito vectors, particularly those of the re-emerging California serogroup viruses, in Manitoba. We conducted a two-year intensive surveillance program to identify the activity of vector species in Manitoba. Further, we utilized generalized linear mixed models to determine the relationships between mosquito vectors and time, degree days, precipitation, and relative humidity. Approximately 270,000 mosquitoes were trapped over the two-year surveillance period. *Aedes vexans*, *Coquillettidia perturbans*, *Ochlerotatus dorsalis* and *Culex tarsalis* were predominant while *Ochlerotatus flavescens*, *Ochlerotatus triseriatus*, *Ochlerotatus trivittatus*, *Aedes canadensis*, and *Anopheles earlei* were present in low numbers. Positive relationships were identified between Ae. vexans and degree days, precipitation. and relative humidity. Relationships were also identified between *Cq. perturbans* and relative humidity. Furthermore, positive relationships were also identified between *Oc. dorsalis* and degree days and relative humidity as well as *Cx. tarsalis* and degree days and relative humidity. This chapter will contribute to our knowledge of mosquito species abundance, population dynamics, and describe weather factors that drive mosquito abundance in Manitoba. 
+An analysis of the relationships between mosquitoes and weather variables in Manitoba, Canada. 
+Authors: **Baril, C. W.**, Koloski, C.W., Duncan, C., Sparrow, J., Pilling, B., Mikkelsen, M., LaZerte, S., Cassone, B.J.
 
 <!--more-->
 
