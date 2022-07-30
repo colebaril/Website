@@ -41,12 +41,12 @@ menu:
       title: ''
       url: /categories/
       weight: 3
-    - identifier: resume
-      name: Resume
+    - identifier: curriculum vitae
+      name: Cirriculum Vitae
       post: ''
       pre: ''
       title: ''
-      url: /resume/
+      url: /cv/
       weight: 4
 params:
   analytics:
@@ -445,12 +445,12 @@ languages:
           title: ''
           url: /categories/
           weight: 3
-        - identifier: resume
-          name: Resume
+        - identifier: curriculum vitae
+          name: Curriculum Vitae
           post: ''
           pre: ''
           title: ''
-          url: /resume/
+          url: /cv/
           weight: 4
         - identifier: documentation
           name: Docs
