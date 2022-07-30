@@ -117,5 +117,5 @@ cols_label(
 
 ```
 
-gtmcw2020
+print(gtmcw2020)
 
