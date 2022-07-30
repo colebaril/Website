@@ -3,11 +3,11 @@ author: Cole
 authorLink: https://colebaril.netlify.app
 categories:
 - research
-date: "`r Sys.Date()`"
+date: `r Sys.Date()`
 description: Mosquito Activity and Weather 
 draft: false
 images: []
-lastmod: "`r Sys.Date()`"
+lastmod: `r Sys.Date()`
 lightgallery: true
 resources:
 - name: featured-image
