@@ -105,7 +105,7 @@ params:
       typeit: no
   home:
     posts:
-      enable: no
+      enable: yes
       paginate: 6
     profile:
       avatarURL: /images/avatar.jpg
