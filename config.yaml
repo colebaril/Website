@@ -110,7 +110,7 @@ params:
       title: ''
       typeit: yes
     rss: 10
-  images: /logo.png
+  images: 
   list:
     dateFormat: 01-02
     paginate: 20
@@ -495,7 +495,7 @@ languages:
         Phone: +1 204-588-3112
         RSS: yes
         Telegram: xxxx
-        Twitter: xxxx
+        Twitter: https://twitter.com/SkeeterPeeper
         Youtubelegacy: xxxx
     weight: 1
   zh-cn:
