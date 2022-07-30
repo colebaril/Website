@@ -1,4 +1,4 @@
-baseURL: https://example.com
+baseURL: https://colebaril.netlify.app
 theme: LoveIt
 title: LoveIt
 defaultContentLanguage: en
@@ -60,7 +60,7 @@ params:
     svgFavicon: ''
     themeColor: '#ffffff'
     tileColor: '#da532c'
-    title: LoveIt
+    title: Cole Baril
   cdn:
     data: jsdelivr.yml
   compatibility:
