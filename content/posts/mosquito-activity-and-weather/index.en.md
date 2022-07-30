@@ -99,8 +99,8 @@ row_to_names(row_number = 1)
 gtmcw2020 <- 
 gt(mosqcw2020) %>% 
 tab_header(
-title = md("**Weekly Number of Mosquitoes Trapped**"),
-subtitle = "Western Manitoba, 2020"
+title = md("**Table 1-1: Weekly Number of Mosquitoes Trapped**"),
+subtitle = md("The total number of five mosquito species trapped in eight communities in Western Manitoba from June 1<sup>st</sup> to September 1<sup>st</sup>, 2020")
 )
 
 # Italicize species names
@@ -115,7 +115,8 @@ cols_label(
   
 )
 
+gtmcw2020
 ```
 
-print(gtmcw2020)
+
 
