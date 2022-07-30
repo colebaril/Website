@@ -4,7 +4,7 @@ authorLink: https://colebaril.netlify.app
 categories:
 - research
 date: "2022-07-30T21:29:01+08:00"
-description: Discover my Research at a Glance 
+description: Mosquito Activity and Weather 
 draft: false
 images: []
 lastmod: "2020-03-06T21:29:01+08:00"
@@ -16,8 +16,8 @@ tags:
 - research
 - abstract
 - mosquitoes
-- pathogens
-- viruses
+- modelling
+- model
 - weather
 title: Mosquito Activity and Weather
 toc:

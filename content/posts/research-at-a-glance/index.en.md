@@ -26,7 +26,7 @@ weight: 1
 ---
 
 Discover the research I conducted during my Master's at a glance. For more details,
-visit the full post. 
+visit the full post for each section. 
 
 <!--more-->
 
