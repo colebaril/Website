@@ -101,7 +101,7 @@ params:
       enable: yes
       paginate: 6
     profile:
-      avatarURL: /images/avatar.png
+      avatarURL: /images/avatar.jpg
       disclaimer: ''
       enable: yes
       gravatarEmail: ''
@@ -213,7 +213,7 @@ params:
     seo:
       images: []
       publisher:
-        logoUrl: /images/avatar.png
+        logoUrl: /images/avatar.jpg
         name: xxxx
     share:
       Baidu: no
@@ -462,7 +462,7 @@ languages:
     params:
       home:
         profile:
-          avatarURL: /images/avatar.png
+          avatarURL: /images/avatar.jpg
           disclaimer: ''
           enable: yes
           gravatarEmail: ''
@@ -492,7 +492,7 @@ languages:
         Mastodon:
           id: '@xxxx'
           prefix: https://mastodon.technology/
-        Phone: 555-555-555
+        Phone: +1 204-588-3112
         RSS: yes
         Telegram: xxxx
         Twitter: xxxx
@@ -550,7 +550,7 @@ languages:
     params:
       home:
         profile:
-          avatarURL: /images/avatar.png
+          avatarURL: /images/avatar.jpg
           disclaimer: ''
           enable: yes
           gravatarEmail: ''
@@ -576,9 +576,9 @@ languages:
         Bilibili: xxxx
         Devto: xxxx
         Douban: xxxx
-        Email: xxxx@xxxx.com
+        Email: colewilliambaril95@@gmail.com
         GitHub: xxxx
-        Phone: 555-555-555
+        Phone: +1 204-588-3112
         RSS: yes
         Steam: xxxx
         Weibo: xxxx
