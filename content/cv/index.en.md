@@ -35,29 +35,30 @@ title: Curriculum Vitae
 * Completed a R Workshop taught by Dr. Steffi LaZerte
 * Completed [Laboratory Essentials for COVID-19 Testing](https://www.rrc.ca/part-time/programs/health-education/covid-testing-lab-skills/) at Red River College
 
-### Extended Features
+## Research Experience 
 
-* :(fas fa-search fa-fw): **Search** supported by [Lunr.js](https://lunrjs.com/) or [algolia](https://www.algolia.com/)
-* :(far fa-grin-tongue-wink fa-fw): **Twemoji** supported
-* :(fas fa-code fa-fw): Automatically **highlighting** code
-* :(far fa-copy fa-fw): **Copy code** to clipboard with one click
-* :(far fa-images fa-fw): **Images gallery** supported by [lightGallery](https://github.com/sachinchoolur/lightgallery)
-* :(fab fa-font-awesome fa-fw): Extended Markdown syntax for **[Font Awesome](https://fontawesome.com/) icons**
-* :(fas fa-superscript fa-fw): Extended Markdown syntax for **ruby annotation**
-* :(fas fa-percentage fa-fw): Extended Markdown syntax for **fraction**
-* :(fas fa-square-root-alt fa-fw): **Mathematical formula** supported by [$\KaTeX$](https://katex.org/)
-* :(fas fa-project-diagram fa-fw): **Diagrams** shortcode supported by [mermaid](https://github.com/mermaid-js/mermaid)
-* :(fas fa-chart-pie fa-fw): **Interactive data visualization** shortcode supported by [ECharts](https://echarts.apache.org/)
-* :(fas fa-map-marked-alt fa-fw): **Mapbox** shortcode supported by [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js)
-* :(fas fa-music fa-fw): **Music player** shortcode supported by [APlayer](https://github.com/MoePlayer/APlayer) and [MetingJS](https://github.com/metowolf/MetingJS)
-* :(fab fa-bilibili fa-fw): **Bilibili player** shortcode
-* :(fas fa-note-sticky fa-fw): Kinds of **admonitions** shortcode
-* :(fab fa-css3 fa-fw): **Custom style** shortcode
-* :(fab fa-js-square fa-fw): **Custom script** shortcode
-* :(fas fa-i-cursor fa-fw): **Animated typing** supported by [TypeIt](https://typeitjs.com/)
-* :(fas fa-cookie-bite fa-fw): **Cookie consent banner** supported by [cookieconsent](https://github.com/osano/cookieconsent)
-* :(far fa-user-circle fa-fw): **Person** shortcode
-* ...
+### Graduate Researcher 
+
+*	Planned, organized, and managed all facets of several research projects related to mosquito surveillance, including leading a team of research assistants.
+*	Managed inventory control for laboratory supplies and prepare purchase requisitions.
+*	Inspected, sterilized, and maintained laboratory equipment to mitigate issues.
+*	Utilized strong project management skills in independently planning, organizing, designing, and delivering scientific (biology) projects within Brandon University.
+*	Employed sound operational decision-making skills for strategic planning, materials, equipment, analysis techniques, software usage and all aspects of the project. 
+*	Administered project operating budgets, including diligently controlling labour and research procurement costs to meet fiscal and project goals with limited resources.
+*	Analyzed RNA Sequencing data to characterize the mosquito microbiome of mosquitoes in Manitoba.
+*	Prepared weekly, monthly and annual reports on mosquito surveillance findings for 2020 and 2021 and shared data with the Manitoba’s West Nile Surveillance Program, Manitoba Health (Manitoba Government) and the Public Health Agency of Canada (Canadian Government). 
+*	Established connections with a network of other scientists throughout North America to discuss their research and request information to enhance lab surveillance projects by learning best practices.
+
+**Selected Achievements:**
+*	Trained, supervised, evaluated, and coached over 15 staff in the summer sessions of 2020 and 2021.
+*	Allocated and delegated workloads to each team member to optimize productivity, quality assurance and performance while meeting deadlines.
+*	Carefully planned routes, transportation, fuel, and staff vehicle schedules for field projects for cost control and optimal efficiency. 
+*	Provided oral reports to the supervisor on team performance and progress. 
+*	Taught lab and field collection techniques to team members, including mosquito collection, identification, RNA extraction, and reverse transcriptase polymerase chain reaction. Instructed on computer application features (Microsoft Office Suite and Google Sheets).
+*	Demonstrated initiative and a continuous improvement focus by streamlining lab workflows to complete study requirements ahead of schedule.
+*	Identified and resolved a risk to the lab research by strategically analyzing and eliminating a potential contaminant by partnering with a supplier to obtain an RNA cleanup kit to optimize the accuracy of results. Collaborated with a research lab in California to review the problem and shared the solution with researchers to benefit both parties.
+*	Was recognized as the first researcher to detect California serogroup viruses in mosquito pools within Manitoba in recent years.
+*	Identified over 30 putative insect viruses representing over 15 viral families infecting Manitoban mosquitoes and a variety of parasite, bacteria, fungi, and plant species, including novel and concerning species with the potential to impact public health and the economy.
 
 ## License
 
