@@ -120,4 +120,3 @@ gtmcw2020 <-
 gtmcw2020
 ```
 
-![](images/table1-1.html)
