@@ -80,6 +80,20 @@ DL Seeds, Canola Breeding Program
 *	Seeded, transplanted, and harvested canola plants.
 *	Logged experiment data in Excel.
 
+## Skills 
+
+### Laboratory Skills
+*	RNA/DNA extraction 
+*	Mosquito identification, handling, and rearing 
+*	Reverse transcriptase reactions
+*	Polymerase chain reactions 
+*	Polymerase chain reaction design
+*	Gel electrophoresis
+*	ELISA 
+*	Aseptic techniques
+*	Media preparation and pouring 
+*	RNA interference design
+*	Primer design and troubleshooting
 
 LoveIt is licensed under the **MIT** license.
 
