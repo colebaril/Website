@@ -75,3 +75,47 @@ Preliminary exploration suggested that trap count differences with local weather
 
 All model fits and assumptions were assessed with the [DHARMa package](https://www.rdocumentation.org/packages/DHARMa/versions/0.4.5) (v0.4.4; Hartig, 2021); multicollinearity was assessed with the [performance package](https://www.rdocumentation.org/packages/performance/versions/0.9.1) (v0.8.0; Lüdecke et al., 2021); and figures were created with the [ggplot2 package](https://ggplot2.tidyverse.org/) (v3.3.5; Wickham, 2016). Note that figure scales are log10 transformed after first adding 1 to better visualize patterns. 
 
+## 3 Results
+
+### 3.1 Mosquito Activity 
+
+In 2020, approximately 150,000 mosquitoes (estimated from sub-sampling) were collected from 17 communities in Manitoba from June 1 to September 1 (week 23 to 36). In Cypress River and Virden, collections were stopped after August 25th due to very low trap counts. Most of the mosquitoes were trapped from July to mid-August in 2020 and towards the end of June and early July in 2021 (Figure 1 1). Of a total of approximately 121,000 mosquitoes collected in eight communities in West Manitoba in 2020, approximately 50,000 mosquitoes representing five species: *Ae. vexans*, *Oc. dorsalis*, *Oc. flavescens*, *Cx. tarsalis*, and *Cq. perturbans*. *Ae. vexans* was the most numerous species among the five identified and represented 41% of mosquitoes identified. *Ae. vexans* was followed by *Cq. perturbans*, *Cx. tarsalis*, *Oc. dorsalis*, and *Oc. flavescens* which represented 30%, 15%, 10%, and 3% of species identified, respectively (Table 1 1; Table 1 2). Trap counts were highest in mid-July which triggered the City of Brandon to fog on July 16th and 17th, after which a slow decrease in mosquito activity was observed (Figure 1 1). Note that the majority of *Cq. perturbans* were trapped in Cypress River. Of the remaining 28,494 specimens supplied to us from Eastern Manitoba (Winnipeg Insect Control Branch), 10,491 were identified to represent five mosquito species caught at various time-points from June 1st to September 1st, 2020.  Of the identified species, Ae. vexans was predominant, representing 77.3%. Following *Ae. vexans* was *Cx. tarsalis* at 9.8%, *Oc. dorsalis* at 7.1%, *Cq. perturbans* at 5.0%, and *Oc. flavescens* at 0.9%. The number of *Cx. tarsalis* specimens is lower than the actual number due to *Cx. tarsalis* being largely removed prior to receiving the trap.  
+
+```Table_Code
+
+library(tidyverse)
+library(here)
+library(readxl)
+library(lubridate)
+library(assertr)
+library(janitor)
+library(gt)
+
+#Upload and clean
+mosqcw2020 <- read_excel(here("data/raw/mosqweekcount2020.xlsx")) %>% 
+row_to_names(row_number = 1)
+
+# Add header
+gtmcw2020 <- 
+gt(mosqcw2020) %>% 
+tab_header(
+title = md("**Weekly Number of Mosquitoes Trapped**"),
+subtitle = "Western Manitoba, 2020"
+)
+
+# Italicize species names
+gtmcw2020 <- 
+gtmcw2020 %>% 
+cols_label(
+  "Ae. vexans" = md("*Ae. vexans*"),
+  "Oc. dorsalis" = md("*Oc. dorsalis*"),
+  "Oc. flavescens" = md("*Oc. flavescens*"),
+  "Cx. tarsalis" = md("*Cx. tarsalis*"),
+  "Cq. perturbans" = md("*Cq. perturbans*"),
+  
+)
+
+```
+
+gtmcw2020
+
