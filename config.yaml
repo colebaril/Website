@@ -106,7 +106,7 @@ params:
       enable: yes
       gravatarEmail: ''
       social: yes
-      subtitle: A Clean, Elegant but Advanced Hugo Theme
+      subtitle: Test
       title: ''
       typeit: yes
     rss: 10
