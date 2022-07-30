@@ -222,10 +222,10 @@ params:
       Evernote: no
       Facebook: yes
       Flipboard: no
-      HackerNews: yes
+      HackerNews: no
       Instapaper: no
-      Line: yes
-      Linkedin: no
+      Line: no
+      Linkedin: yes
       Mix: no
       Odnoklassniki: no
       Pinterest: no
@@ -486,16 +486,16 @@ languages:
         type: algolia
       social:
         Email: colewilliambaril95@gmail.com
-        Facebook: /cole.baril.792
-        GitHub: /colebaril
-        Instagram: /colewbaril
+        Facebook: cole.baril.792
+        GitHub: colebaril
+        Instagram: colewbaril
         Mastodon:
           id: '@xxxx'
           prefix: https://mastodon.technology/
         Phone: +1 204-588-3112
         RSS: yes
         Telegram: xxxx
-        Twitter: /SkeeterPeeper
+        Twitter: SkeeterPeeper
         Youtubelegacy: xxxx
     weight: 1
   zh-cn:
