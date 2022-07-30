@@ -1,12 +1,13 @@
 ---
-title: "Curriculum Vitae"
+date: "2019-08-02T11:04:49+08:00"
 description: Curriculum Vitae
-date: '2019-08-02T11:04:49+08:00'
-images: /Apple-Devices-Preview.png
-lightgallery: yes
+draft: false
+images:
+- /Apple-Devices-Preview.png
+lightgallery: true
 math:
-  enable: yes
-draft: no
+  enable: true
+title: Curriculum Vitae
 ---
 
 > I completed my Bachelor of Science in Biology at the University of Winnipeg where I first became interested in vector-borne pathogens.
@@ -79,19 +80,36 @@ DL Seeds, Canola Breeding Program
 *	Seeded, transplanted, and harvested canola plants.
 *	Logged experiment data in Excel.
 
-## Skills 
 
-### Laboratory Skills
+LoveIt is licensed under the **MIT** license.
 
-*	RNA/DNA extraction 
-*	Mosquito identification, handling, and rearing 
-*	Reverse transcriptase reactions
-*	Polymerase chain reactions 
-*	Polymerase chain reaction design
-*	Gel electrophoresis
-*	ELISA 
-*	Aseptic techniques
-*	Media preparation and pouring 
-*	RNA interference design
-*	Primer design and troubleshooting
+Check the [LICENSE file](https://github.com/dillonzq/LoveIt/blob/master/LICENSE) for details.
 
+## Special Thanks
+
+Thanks to the authors of following resources included in the theme:
+
+* [normalize.css](https://github.com/necolas/normalize.css)
+* [Font Awesome](https://fontawesome.com/)
+* [Simple Icons](https://github.com/simple-icons/simple-icons)
+* [Animate.css](https://daneden.github.io/animate.css/)
+* [autocomplete](https://github.com/algolia/autocomplete)
+* [Lunr.js](https://lunrjs.com/)
+* [algoliasearch](https://github.com/algolia/algoliasearch-client-javascript)
+* [lazysizes](https://github.com/aFarkas/lazysizes)
+* [object-fit-images](https://github.com/fregante/object-fit-images)
+* [Twemoji](https://github.com/twitter/twemoji)
+* [emoji-data](https://github.com/iamcal/emoji-data)
+* [lightGallery](https://github.com/sachinchoolur/lightgallery)
+* [clipboard.js](https://github.com/zenorocha/clipboard.js)
+* [Sharer.js](https://github.com/ellisonleao/sharer.js)
+* [TypeIt](https://typeitjs.com/)
+* [$\KaTeX$](https://katex.org/)
+* [mermaid](https://github.com/mermaid-js/mermaid)
+* [ECharts](https://echarts.apache.org/)
+* [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js)
+* [APlayer](https://github.com/MoePlayer/APlayer)
+* [MetingJS](https://github.com/metowolf/MetingJS)
+* [Gitalk](https://github.com/gitalk/gitalk)
+* [Valine](https://valine.js.org/)
+* [cookieconsent](https://github.com/osano/cookieconsent)
