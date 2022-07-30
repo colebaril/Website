@@ -121,5 +121,4 @@ gtmcw2020 <-
 
 gtmcw2020
 ```
-
-![Test](images/table1-1-03.png)
+![Figure 1-1](images/table1-1-03.png)
