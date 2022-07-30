@@ -340,7 +340,7 @@ params:
     Youtubecustom: ''
     Youtubelegacy: ''
     Zhihu: ''
-  title: LoveIt
+  title: Cole Baril
   typeit:
     cursorChar: '|'
     cursorSpeed: 1000
@@ -467,7 +467,7 @@ languages:
           enable: yes
           gravatarEmail: ''
           social: yes
-          subtitle: A Clean, Elegant but Advanced Hugo Theme
+          subtitle: Test
           title: ''
           typeit: yes
         rss: 10
