@@ -1,13 +1,12 @@
 ---
-date: "2019-08-02T11:04:49+08:00"
+title: "Curriculum Vitae"
 description: Curriculum Vitae
-draft: false
-images:
-- /Apple-Devices-Preview.png
-lightgallery: true
+date: '2019-08-02T11:04:49+08:00'
+images: /Apple-Devices-Preview.png
+lightgallery: yes
 math:
-  enable: true
-title: Curriculum Vitae
+  enable: yes
+draft: no
 ---
 
 > I completed my Bachelor of Science in Biology at the University of Winnipeg where I first became interested in vector-borne pathogens.
@@ -21,12 +20,14 @@ title: Curriculum Vitae
 
 ## Education
 
-### Master of Science at Brandon University ([Cassone Lab](https://www.cassonelab.com/))
+### Master of Science
+Brandon University ([Cassone Lab](https://www.cassonelab.com/))
 
 * Thesis: "Insights into the Population Dynamics and Microbiome of Mosquitoes in Manitoba"
 * Supervisor: Bryan J. Cassone, PhD
 
-### Bachelor of Science in Biology at The University of Winnipeg
+### Bachelor of Science in Biology
+The University of Winnipeg
 
 * Distinctions: Dean's Honour List 
 
@@ -70,35 +71,27 @@ Cibus, Product Development
 * Visited experimental canola plots to observe plant quality, infestations, weed status and presence of disease.
 * Compiled photos and reports of field visits into Microsoft OneNote files for each site. 
 
-LoveIt is licensed under the **MIT** license.
+### Greenhouse Assistant 
+DL Seeds, Canola Breeding Program
 
-Check the [LICENSE file](https://github.com/dillonzq/LoveIt/blob/master/LICENSE) for details.
+*	Assisted in canola breeding programs by cross-pollinating plants in compliance with the supervisor’s instructions and caring for healthy plants and those infected with pathogens (e.g., Sclerotinia and clubroot) in high-tech greenhouses and growth rooms.
+*	Prepared plant samples for marker testing for agricultural studies. 
+*	Seeded, transplanted, and harvested canola plants.
+*	Logged experiment data in Excel.
 
-## Special Thanks
+## Skills 
 
-Thanks to the authors of following resources included in the theme:
-
-* [normalize.css](https://github.com/necolas/normalize.css)
-* [Font Awesome](https://fontawesome.com/)
-* [Simple Icons](https://github.com/simple-icons/simple-icons)
-* [Animate.css](https://daneden.github.io/animate.css/)
-* [autocomplete](https://github.com/algolia/autocomplete)
-* [Lunr.js](https://lunrjs.com/)
-* [algoliasearch](https://github.com/algolia/algoliasearch-client-javascript)
-* [lazysizes](https://github.com/aFarkas/lazysizes)
-* [object-fit-images](https://github.com/fregante/object-fit-images)
-* [Twemoji](https://github.com/twitter/twemoji)
-* [emoji-data](https://github.com/iamcal/emoji-data)
-* [lightGallery](https://github.com/sachinchoolur/lightgallery)
-* [clipboard.js](https://github.com/zenorocha/clipboard.js)
-* [Sharer.js](https://github.com/ellisonleao/sharer.js)
-* [TypeIt](https://typeitjs.com/)
-* [$\KaTeX$](https://katex.org/)
-* [mermaid](https://github.com/mermaid-js/mermaid)
-* [ECharts](https://echarts.apache.org/)
-* [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js)
-* [APlayer](https://github.com/MoePlayer/APlayer)
-* [MetingJS](https://github.com/metowolf/MetingJS)
-* [Gitalk](https://github.com/gitalk/gitalk)
-* [Valine](https://valine.js.org/)
-* [cookieconsent](https://github.com/osano/cookieconsent)
+### Laboratory Skills
+:::
+*	RNA/DNA extraction 
+*	Mosquito identification, handling, and rearing 
+*	Reverse transcriptase reactions
+*	Polymerase chain reactions 
+*	Polymerase chain reaction design
+*	Gel electrophoresis
+*	ELISA 
+*	Aseptic techniques
+*	Media preparation and pouring 
+*	RNA interference design
+*	Primer design and troubleshooting
+:::
