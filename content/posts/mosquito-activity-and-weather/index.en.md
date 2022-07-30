@@ -29,7 +29,7 @@ Publication in preparation.
 
 An analysis of the relationships between mosquitoes and weather variables in Manitoba, Canada. 
 
-Authors: **Baril, C. W.**, Koloski, C.W., Duncan, C., Sparrow, J., Pilling, B., Mikkelsen, M., LaZerte, S., Cassone,
+Authors: **Baril, C. W.**, Koloski, C.W., Duncan, C., Sparrow, J., Pilling, B., Mikkelsen, M., LaZerte, S., Cassone, B.J.
 
 <!--more-->
 
