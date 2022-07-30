@@ -101,7 +101,7 @@ params:
       logo: ''
       name: Cole Baril
       post: ''
-      pre: <i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i>
+      pre: 
       typeit: no
   home:
     posts:
