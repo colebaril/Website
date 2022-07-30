@@ -117,9 +117,9 @@ gtmcw2020 <-
       "Cx. tarsalis" = md("*Cx. tarsalis*"),
       "Cq. perturbans" = md("*Cq. perturbans*")
     ) %>%
-  gtsave(filename = "table1-1.pdf")
+  gtsave(filename = "table1-1.png", zoom = 1)
 
 gtmcw2020
 ```
 
-![Table 1-1](images/table1-1-05.png)
+![Table 1-1](images/table1-1-06.png)
