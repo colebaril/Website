@@ -23,40 +23,17 @@ title: Curriculum Vitae
 
 ### Master of Science at Brandon University ([Cassone Lab](https://www.cassonelab.com/))
 
-* :(fas fa-rocket fa-fw): Optimized for **performance**: [99]/[100] on mobile and [100]/[100] on desktop in [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights)
-* :(fab fa-searchengin fa-fw): Optimized SEO performance with a correct **SEO SCHEMA** based on JSON-LD
-* :(fab fa-google fa-fw): **[Google Analytics](https://analytics.google.com/analytics)** supported
-* :(far fa-chart-bar fa-fw): **[Fathom Analytics](https://usefathom.com/)** supported
-* :(fas fa-chart-column fa-fw): **[Plausible Analytics](https://plausible.io/)** supported
-* :(fab fa-yandex-international fa-fw): **[Yandex Metrica](https://metrica.yandex.com/)** supported
-* :(fas fa-sitemap fa-fw): Search engine **verification** supported (Google, Bind, Yandex and Baidu)
-* :(fas fa-tachometer-alt fa-fw): **CDN** for third-party libraries supported
-* :(fas fa-cloud-download-alt fa-fw): Automatically converted images with **Lazy Load** by [lazysizes](https://github.com/aFarkas/lazysizes)
+* Thesis: "Insights into the Population Dynamics and Microbiome of Mosquitoes in Manitoba"
+* Supervisor: Bryan J. Cassone, PhD
 
-### Appearance and Layout
+### Bachelor of Science in Biology at The University of Winnipeg
 
-* :(fas fa-mobile-screen fa-fw): **[Desktop]/[Mobile] responsive** layout
-* :(fas fa-circle-half-stroke fa-rotate-180 fa-fw): **[Light]/[Dark]** mode
-* :(fas fa-layer-group fa-fw): Globally consistent **design language**
-* :(fas fa-ellipsis-h fa-fw): **Pagination** supported
-* :(far fa-list-alt fa-fw): Easy-to-use and self-expanding **table of contents**
-* :(fas fa-language fa-fw): **Multilanguage** supported and i18n ready
-* :(fab fa-css3-alt fa-fw): Beautiful **CSS animation**
+* Distinctions: Dean's Honour List 
 
-### Social and Comment Systems
+### Additional Certifications
 
-* :(far fa-user fa-fw): **Gravatar** supported by [Gravatar](https://gravatar.com)
-* :(fas fa-user-circle fa-fw): Local **Avatar** supported
-* :(far fa-id-card fa-fw): Up to **73** social links supported
-* :(fas fa-share-square fa-fw): Up to **24** share sites supported
-* :(far fa-comment fa-fw): **Disqus** comment system supported by [Disqus](https://disqus.com)
-* :(far fa-comment-dots fa-fw): **Gitalk** comment system supported by [Gitalk](https://github.com/gitalk/gitalk)
-* :(far fa-comment-alt fa-fw): **Valine** comment system supported by [Valine](https://valine.js.org/)
-* :(far fa-comments fa-fw): **Facebook comments** system supported by [Facebook](https://developers.facebook.com/docs/plugins/comments/)
-* :(fas fa-comment fa-fw): **Telegram comments** system supported by [Comments](https://comments.app/)
-* :(fas fa-comment-dots fa-fw): **Commento** comment system supported by [Commento](https://commento.io/)
-* :(fas fa-comment-alt fa-fw): **utterances** comment system supported by [utterances](https://utteranc.es/)
-* :(fas fa-comments fa-fw): **giscus** comment system supported by [giscus](https://giscus.app/)
+* Completed a R Workshop taught by Dr. Steffi LaZerte
+* Completed [Laboratory Essentials for COVID-19 Testing](https://www.rrc.ca/part-time/programs/health-education/covid-testing-lab-skills/) at Red River College
 
 ### Extended Features
 
