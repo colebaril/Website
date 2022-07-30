@@ -41,6 +41,13 @@ menu:
       title: ''
       url: /categories/
       weight: 3
+    - identifier: resume
+      name: Resume
+      post: ''
+      pre: ''
+      title: ''
+      url: /resume/
+      weight: 4
 params:
   analytics:
     enable: no
@@ -98,7 +105,7 @@ params:
       typeit: no
   home:
     posts:
-      enable: yes
+      enable: no
       paginate: 6
     profile:
       avatarURL: /images/avatar.jpg
@@ -438,27 +445,34 @@ languages:
           title: ''
           url: /categories/
           weight: 3
+        - identifier: resume
+          name: Resume
+          post: ''
+          pre: ''
+          title: ''
+          url: /resume/
+          weight: 4
         - identifier: documentation
           name: Docs
           post: ''
           pre: ''
           title: ''
           url: /categories/documentation/
-          weight: 4
+          weight: 5
         - identifier: about
           name: About
           post: ''
           pre: ''
           title: ''
           url: /about/
-          weight: 5
+          weight: 6
         - identifier: github
           name: ''
           post: ''
           pre: <i class='fab fa-github fa-fw' aria-hidden='true'></i>
           title: GitHub
           url: https://github.com/colebaril
-          weight: 6
+          weight: 7
     params:
       home:
         profile:
