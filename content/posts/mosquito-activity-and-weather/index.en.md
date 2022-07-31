@@ -177,6 +177,8 @@ Of the \~116,000 mosquitoes collected in 2021, 93,065 mosquitoes that can transm
 
 #### 3.1.3 Summary Figures
 
+![Figure 1-1](figure1-1.png "Figure 1-1. Weekly average trap counts for each community for the four most predominant mosquito vector species collected in 2020 (A) and 2021 (B).")
+
 ```{r}
 library(tidyverse)
 library(readxl)
@@ -249,8 +251,6 @@ g2020 + g2021 + plot_layout(guides = "collect") +
 
 # Then export using R. 
 ```
-
-![Figure 1-1](figure1-1.png "Figure 1-1. Weekly average trap counts for each community for the four most predominant mosquito vector species collected in 2020 (A) and 2021 (B).")
 
 ![Figure 1-2](figure1-2.png "Figure 1-2. Mosquito activity for 8 mosquito species in each trapping location in 2020 and 2021.")
 
