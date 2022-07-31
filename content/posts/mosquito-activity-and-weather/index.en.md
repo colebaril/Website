@@ -177,7 +177,7 @@ Of the \~116,000 mosquitoes collected in 2021, 93,065 mosquitoes that can transm
 
 #### 3.1.3 Summary Figures
 
-| ![Figure 1-2](images/Figure%201-1.png)) |
+| ![Figure 1-2](images/Figure%201-1.png) |
 
 |:--:|
 
