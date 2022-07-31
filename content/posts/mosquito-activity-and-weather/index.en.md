@@ -176,10 +176,12 @@ In 2021, a total of about 116,000 mosquitoes (estimated from sub-sampling) were 
 Of the \~116,000 mosquitoes collected in 2021, 93,065 mosquitoes that can transmit pathogens to humans were identified. *Cq. perturbans* was the predominant species among those identified, representing 57.5% of mosquitoes identified. Note, however, that like 2020, most (97.8%) *Cq. perturbans* mosquitoes were caught in Cypress River (Figure 1 2). Following behind was *Ae. vexans*, which represented 35.0% of mosquitoes identified. 61% of *Ae. vexans* were caught on CDC week 26 and 46% of *Ae. vexans* were caught in Brandon. The other mosquitoes identified were *Cx. tarsalis*, representing 4.7% of mosquitoes identified, *Oc. dorsalis*, representing 1.8% of mosquitoes identified, *An. earlei*, representing 0.5% of those identified, *Oc. trivittatus*, representing 0.4% of mosquitoes identified, *Oc. flavescens*, representing 0.2% of mosquitoes identified, and *Ae. canadensis*, representing 0.05% of mosquitoes identified (Table 1 3; Table 1 4). No mosquitoes were collected from Eastern Manitoba in 2021.
 
 #### 3.1.3 Summary Figures
+<figure>
+<![Figure 1-2](images/Figure%201-1.png)>
 
-![Figure 1-2](images/Figure%201-1.png)
+<figcaption align = "center"><b>Figure 1-2. Mosquito activity for 8 mosquito species in each trapping location in 2020 and 2021. *Culex tarsalis* counts are not included for all locations to the east of and including Portage la Prairie due to prior removal by the City of Winnipeg Insect Control Branch (denoted with an asterisk*). Ae. canadensis, An. earlei, *Oc. trivittatus* and *Oc. triseriatus* were not surveyed in 2020. We collected one *Oc. triseriatus* in 2021 and did not include that data in this figure.
+</figure>
 
-Figure 1-2 \@ref(fig:Figure 1-2). Mosquito activity for 8 mosquito species in each trapping location in 2020 and 2021. *Culex tarsalis* counts are not included for all locations to the east of and including Portage la Prairie due to prior removal by the City of Winnipeg Insect Control Branch (denoted with an asterisk*). Ae. canadensis, An. earlei, *Oc. trivittatus* and *Oc. triseriatus* were not surveyed in 2020. We collected one *Oc. triseriatus* in 2021 and did not include that data in this figure.
 
 ### 3.2 Statistical Analysis
 
