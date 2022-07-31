@@ -8,12 +8,7 @@ lightgallery: true
 math:
   enable: true
 title: Curriculum Vitae
-toc:
-  auto: false
-weight: 1
 ---
-
-<!--more-->
 
 > I completed my Bachelor of Science in Biology at the University of Winnipeg where I first became interested in vector-borne pathogens.
 > I recently completed my Master of Science at Brandon University where I studied and led projects relating to mosquito borne pathogen 
@@ -24,7 +19,7 @@ weight: 1
 > and weather variables. 
 
 
-## Education
+## 1 Education
 
 ### Master of Science
 Brandon University ([Cassone Lab](https://www.cassonelab.com/))
@@ -86,6 +81,20 @@ DL Seeds, Canola Breeding Program
 *	Logged experiment data in Excel.
 
 ## Teaching 
+
+### Sessional Instructor (Diseases 15:366)
+
+* Prepared laboratory materials, media, and organisms.
+* Created relevant quizzes and tests. Grade quizzes, tests, and assignments.
+* Researched, designed, and delivered pre-lab presentations.
+* Supported, tutored, and guided students during lab sessions.
+
+### Teaching Assistant (Biodiversity, Functions and Interactions 15:163)
+
+* Prepared and delivered pre-lab briefings in two lab sections prior to student experiments to explain concepts and procedures using the Zoom virtual platform.
+* Assisted students using MacMillan Learning Software during lab procedures and responded to questions.
+* Graded assignments and tests. Provided written and oral critiques to improve student performance.
+* Assisted the professor in test creation.
 
 ## Skills 
 
