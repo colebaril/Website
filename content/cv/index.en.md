@@ -133,7 +133,9 @@ DL Seeds, Canola Breeding Program
 * [CLC Genomics Workbench](https://www.qiagen.com/us/products/discovery-and-translational-research/next-generation-sequencing/informatics-and-data/analysis-and-visualization/clc-genomics-workbench/)
 * [Chan Zuckerberg ID](https://czid.org/)
 * R & Rstudio 
-* Data manipulation, transformation (e.g., [dplyr](https://dplyr.tidyverse.org/)), organization and visualization ([ggplot2](https://ggplot2.tidyverse.org/))
+* Data manipulation, transformation (e.g., [dplyr](https://dplyr.tidyverse.org/)), organization and visualization
+(e.g., [ggplot2](https://ggplot2.tidyverse.org/))
+* RMarkdown, Markdown, HTML, CSS
 * MEGAX for phylogenetic and sequence analysis 
 * Familiar with NCBI databases (e.g., nr, protein, nucleotide)
 * Familiar with NCBI web applications (e.g., BLAST suite, ORFfinder, conserved domains)

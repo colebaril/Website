@@ -75,6 +75,10 @@ Preliminary exploration suggested that trap count differences with local weather
 
 All model fits and assumptions were assessed with the [DHARMa package](https://www.rdocumentation.org/packages/DHARMa/versions/0.4.5) (v0.4.4; Hartig, 2021); multicollinearity was assessed with the [performance package](https://www.rdocumentation.org/packages/performance/versions/0.9.1) (v0.8.0; Lüdecke et al., 2021); and figures were created with the [ggplot2 package](https://ggplot2.tidyverse.org/) (v3.3.5; Wickham, 2016). Note that figure scales are log10 transformed after first adding 1 to better visualize patterns.
 
+{{< admonition note "Note" >}}
+All statistical analyses was carried out by [Dr. Steffi LaZerte](https://steffilazerte.ca/). 
+{{< /admonition >}}
+
 ## 3 Results
 
 ### 3.1 Mosquito Activity
@@ -345,6 +349,10 @@ g2020 + g2021 + plot_layout(guides = "collect") +
 ### 3.2 Statistical Analysis
 
 GLMMs were used to explore differences in mosquito activity between communities, time and the relationships between mosquito activity and temperature, precipitation, and relative humidity. In both the 2020 and 2021 surveillance periods, there were more *Ae. vexans* than any of the other main mosquito species caught (*Cq. perturbans*, *Cx. tarsalis*, *Oc. dorsalis*; P \< 0.05) and there was 96% more *Ae. vexans* per trap in 2021 compared to 2020 (Est = 0.671; z = 3.068; P = 0.002). In 2020, there were 59% more *Oc. dorsalis* compared to Cx. tarsalis (P = 0.044), but no differences in 2021 (P = 0.867). *Cq. perturbans* trap counts were 15.2 times higher in 2021 compared to 2020 (Est = 2.72; z = 5.259; P \< 0.001). Additionally, there were 7.4x more *Oc. dorsalis* and 4.6x more *Cx. tarsalis* than *Cq. perturbans* in 2020 ( P \< 0.001), but no differences in 2021 (P = 0.944).
+
+{{< admonition note "Note" >}}
+All statistical analyses was carried out by [Dr. Steffi LaZerte](https://steffilazerte.ca/). 
+{{< /admonition >}}
 
 #### 3.2.1 *Aedes Vexans*
 
