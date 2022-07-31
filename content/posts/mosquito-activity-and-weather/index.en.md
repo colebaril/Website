@@ -177,7 +177,82 @@ Of the \~116,000 mosquitoes collected in 2021, 93,065 mosquitoes that can transm
 
 #### 3.1.3 Summary Figures
 
-![Complete configuration preview](figure1-2.png "Figure 1-2. Mosquito activity for 8 mosquito species in each trapping location in 2020 and 2021. *Culex tarsalis* counts are not included for all locations to the east of and including Portage la Prairie due to prior removal by the City of Winnipeg Insect Control Branch (denoted with an asterisk). *Ae. canadensis*, *An. earlei*, *Oc. trivittatus* and *Oc. triseriatus* were not surveyed in 2020. We collected one *Oc. triseriatus* in 2021 and did not include that data in this figure.")
+```{r}
+library(tidyverse)
+library(readxl)
+library(janitor)
+library(skimr)
+library(patchwork)
+library(here)
+
+#2020 and 2021 Import
+
+mosquito2020 <- read_excel(here("data/raw/Mosquito2020.xlsx"))
+
+mosquito2021 <- read_excel(here("data/raw/Mosquito2021.xlsx"))
+
+
+#2020 Mosquito Grouping and Summarise
+
+mosquito2020<-group_by(mosquito2020,cdcweek,site,Species)
+mosquito2020_sum<-summarise(mosquito2020,mean_trap_count=mean(trapcount))
+
+
+#2020 Graphs
+
+g2020 <- ggplot(data=mosquito2020_sum, aes(
+  x = cdcweek,
+  y = mean_trap_count, 
+  fill = Species))+
+  geom_bar(stat='identity') +
+  scale_fill_viridis_d(
+    labels = c(expression(italic("Ae. vexans")), 
+               expression(italic("Cq. perturbans")),
+               expression(italic("Cx. tarsalis")),
+               expression(italic("Oc. dorsalis")))) +
+  facet_wrap(~site) +
+  labs(title="",
+       x="CDC Week (2020)",
+       y="Mean Weekly Trap Count",
+       colour="Species") +
+  theme_bw() +
+  theme(legend.position = c(0.75,0.05))
+
+#2021 Mosquito Grouping and Facet
+mosquito2021<-group_by(mosquito2021,cdcweek,site,Species)
+mosquito2021_sum<-summarise(mosquito2021,mean_trap_count=mean(trapcount))
+
+#2021 Graphs
+g2021 <- ggplot(data=mosquito2021_sum, aes(
+  x = cdcweek,
+  y = mean_trap_count, 
+  fill = Species)) +
+  geom_bar(stat='identity') +
+  scale_fill_viridis_d(
+    labels = c(expression(italic("Ae. vexans")), 
+               expression(italic("Cq. perturbans")),
+               expression(italic("Cx. tarsalis")),
+               expression(italic("Oc. dorsalis")))) +
+  facet_wrap(~site) +
+  labs(title="",
+       x="CDC Week (2021)",
+       y="Mean Weekly Trap Count") +
+         theme_bw()+
+  theme(legend.position = c(0.8,0.15))
+
+  
+
+g2020 + g2021 + plot_layout(guides = "collect") + 
+  plot_annotation(title = "Mosquito Collection Time Series",
+                  tag_levels = "A",
+                  tag_suffix = ")") 
+
+# Then export using R. 
+```
+
+![Figure 1-1](figure1-1.png "Figure 1-1. Weekly average trap counts for each community for the four most predominant mosquito vector species collected in 2020 (A) and 2021 (B).")
+
+![Figure 1-2](figure1-2.png "Figure 1-2. Mosquito activity for 8 mosquito species in each trapping location in 2020 and 2021.")
 
 ### 3.2 Statistical Analysis
 
