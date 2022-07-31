@@ -114,10 +114,10 @@ DL Seeds, Canola Breeding Program
 
 ### Computer Skills
 * Next generation sequencing analysis 
-* CLC Genomics Workbench 
+* [CLC Genomics Workbench](https://www.qiagen.com/us/products/discovery-and-translational-research/next-generation-sequencing/informatics-and-data/analysis-and-visualization/clc-genomics-workbench/)
 * [Chan Zuckerberg ID](https://czid.org/)
 * R & Rstudio 
-* Data manipulation, transformation (dplyr), organization and visualization (ggplot2)
+* Data manipulation, transformation (e.g., [dplyr](https://dplyr.tidyverse.org/)), organization and visualization ([ggplot2](https://ggplot2.tidyverse.org/))
 * MEGAX for phylogenetic and sequence analysis 
 * Familiar with NCBI databases (e.g., nr, protein, nucleotide)
 * Familiar with NCBI web applications (e.g., BLAST suite, ORFfinder, conserved domains)
