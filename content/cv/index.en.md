@@ -95,6 +95,38 @@ DL Seeds, Canola Breeding Program
 *	RNA interference design
 *	Primer design and troubleshooting
 
+### Laboratory Equipment 
+*	Dissection and compound microscope 
+*	Light microscope camera
+*	CDC light trap
+*	Ultracold freezer 
+*	Micropipette and pipette
+*	Microcentrifuge
+*	Dry and wet bath
+*	Thermocycler
+*	Gel electrophoresis apparatus
+*	Bio-Rad ChemiDoc Imaging System
+*	Autoclave 
+*	Incubator
+*	Fume hood
+*	Implen NanoPhotometer
+*	Microplate photometer
+
+### Computer Skills
+* Next generation sequencing analysis 
+* CLC Genomics Workbench 
+* [Chan Zuckerberg ID](https://czid.org/)
+* R & Rstudio 
+* Data manipulation, transformation (dplyr), organization and visualization (ggplot2)
+* MEGAX for phylogenetic and sequence analysis 
+* Familiar with NCBI databases (e.g., nr, protein, nucleotide)
+* Familiar with NCBI web applications (e.g., BLAST suite, ORFfinder, conserved domains)
+* Experience building models (GLMMs) for mosquito- and sclerotinia-weather based modelling
+* Familiar with the Environment Canada weather database
+* Experience manipulating weather data 
+* Advanced proficiency in Microsoft Office Suite (Word, Excel, PowerPoint, Teams, Sharepoint and Outlook), Zoom, Linux, Windows, and Google Sheets.
+
+
 LoveIt is licensed under the **MIT** license.
 
 Check the [LICENSE file](https://github.com/dillonzq/LoveIt/blob/master/LICENSE) for details.
