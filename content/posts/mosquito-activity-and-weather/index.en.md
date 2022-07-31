@@ -177,7 +177,7 @@ Of the \~116,000 mosquitoes collected in 2021, 93,065 mosquitoes that can transm
 
 #### 3.1.3 Summary Figures
 
-![Complete configuration preview](Figure 1-1.png "Figure 1-2. Mosquito activity for 8 mosquito species in each trapping location in 2020 and 2021. *Culex tarsalis* counts are not included for all locations to the east of and including Portage la Prairie due to prior removal by the City of Winnipeg Insect Control Branch (denoted with an asterisk*). Ae. canadensis, An. earlei, *Oc. trivittatus* and *Oc. triseriatus* were not surveyed in 2020. We collected one *Oc. triseriatus* in 2021 and did not include that data in this figure.")
+![Complete configuration preview](figure1-2.png "Figure 1-2. Mosquito activity for 8 mosquito species in each trapping location in 2020 and 2021. *Culex tarsalis* counts are not included for all locations to the east of and including Portage la Prairie due to prior removal by the City of Winnipeg Insect Control Branch (denoted with an asterisk*). Ae. canadensis, An. earlei, *Oc. trivittatus* and *Oc. triseriatus* were not surveyed in 2020. We collected one *Oc. triseriatus* in 2021 and did not include that data in this figure.")
 
 ### 3.2 Statistical Analysis
 
