@@ -35,9 +35,9 @@ Authors: **Baril, C. W.**, Koloski, C.W., Duncan, C., Sparrow, J., Pilling, B., 
 
 ## 1 Introduction
 
-The IPCC (2018) has stated that mosquito borne diseases (MBDs) are the group of diseases that will be most impacted by climate change. Mosquito range, habitat and density will increase as temperatures warm and precipitation patterns change. In turn, this can lead to increases in density of mosquitoes already present in an area and increase the burden of MBDs. In Canada, the MBD burden has already increased by 10% in the last 20 years and this trend is expected to continue (Ludwig et al., 2019). Furthermore, climate change will facilitate continued northward expansion of mosquito vectors not already present in a given area and result in the introduction of pathogens novel to geographic regions. For example, the northbound range of *Aedes aegypti* Linnaeus, which is associated with 54 viruses and Plasmodium parasite transmission, stretches from the southern US states upwards towards the northeastern US states and southeastern Canada (Kraemer et al., 2015). Additionally, the cold-tolerant *Aedes albopictus* Skuse has moved farther north into the US and Canada (Kraemer et al., 2015). Both *Ae. aegypti* and *Ae. albopictus* have been found in Eastern Canada during routine surveillance, however, species establishment in these areas has not occurred (CBC, 2018; Lowe et al., 2021). This highlights the importance of a comprehensive mosquito surveillance program and understanding how mosquitoes respond to varying weather variables. Combined, surveillance and weather modelling allow for advanced warning and detection and of mosquito vector presence and density and allows for timely mosquito control measures and public health warnings to be issued.
+The IPCC (2018) has stated that mosquito borne diseases (MBDs) are the group of diseases that will be most impacted by climate change. Mosquito range, habitat and density will increase as temperatures warm and precipitation patterns change. In turn, this can lead to increases in density of mosquitoes already present in an area and increase the burden of MBDs. In Canada, the MBD burden has already increased by 10% in the last 20 years and this trend is expected to continue (Ludwig et al., 2019). Furthermore, climate change will facilitate continued northward expansion of mosquito vectors not already present in a given area and result in the introduction of pathogens novel to geographic regions. For example, the northbound range of *Aedes aegypti* Linnaeus, which is associated with 54 viruses and *Plasmodium* parasite transmission, stretches from the southern US states upwards towards the northeastern US states and southeastern Canada (Kraemer et al., 2015). Additionally, the cold-tolerant *Aedes albopictus* Skuse has moved farther north into the US and Canada (Kraemer et al., 2015). Both *Ae. aegypti* and *Ae. albopictus* have been found in Eastern Canada during routine surveillance, however, species establishment in these areas has not occurred (CBC, 2018; Lowe et al., 2021). This highlights the importance of a comprehensive mosquito surveillance program and understanding how mosquitoes respond to varying weather variables. Combined, surveillance and weather modelling allow for advanced warning and detection and of mosquito vector presence and density and allows for timely mosquito control measures and public health warnings to be issued.
 
-In Manitoba, the [City of Winnipeg](https://winnipeg.ca/publicworks/insectControl/default.stm) and [City of Brandon](https://www.brandon.ca/mosquito-abatement/mosquito-abatement-program) conduct adult and larval mosquito surveillance for nuisance mosquitoes as well as Culex tarsalis Coquillett. These surveillance programs inform when and where mosquito larvicide and adulticide measures are implemented and considers the full suite of factors that affect mosquito abundance (e.g., temperature, degree day models, precipitation, larval development sites; City of Winnipeg, 2020). West Nile Virus (WNV) surveillance and modelling is conducted by [Manitoba Health](https://www.gov.mb.ca/health/wnv/) and utilizes specimens and data collected by the City of Winnipeg and City of Brandon. Pools of *Cx. tarsalis*, the main WNV mosquito vector in Manitoba, are screened for WNV. Using the number of positive WNV *Cx. tarsalis* pools, *Cx. tarsalis* trap counts, human population density, time of the year, incorporating weather modelling, and corvid and human WNV cases, Manitoba Health is responsible for making decisions about enhancing WNV surveillance, increasing larvicide and adulticide measures by issuing mosquito control under an Order if a public health threat exists. Under a provincially issued Order for mosquito control, buffer zones may be ignored to ensure thorough adulticide application (Manitoba Health, 2022).
+In Manitoba, the [City of Winnipeg](https://winnipeg.ca/publicworks/insectControl/default.stm) and [City of Brandon](https://www.brandon.ca/mosquito-abatement/mosquito-abatement-program) conduct adult and larval mosquito surveillance for nuisance mosquitoes as well as *Culex tarsalis* Coquillett. These surveillance programs inform when and where mosquito larvicide and adulticide measures are implemented and considers the full suite of factors that affect mosquito abundance (e.g., temperature, degree day models, precipitation, larval development sites; City of Winnipeg, 2020). West Nile Virus (WNV) surveillance and modelling is conducted by [Manitoba Health](https://www.gov.mb.ca/health/wnv/) and utilizes specimens and data collected by the City of Winnipeg and City of Brandon. Pools of *Cx. tarsalis*, the main WNV mosquito vector in Manitoba, are screened for WNV. Using the number of positive WNV *Cx. tarsalis* pools, *Cx. tarsalis* trap counts, human population density, time of the year, incorporating weather modelling, and corvid and human WNV cases, Manitoba Health is responsible for making decisions about enhancing WNV surveillance, increasing larvicide and adulticide measures by issuing mosquito control under an Order if a public health threat exists. Under a provincially issued Order for mosquito control, buffer zones may be ignored to ensure thorough adulticide application (Manitoba Health, 2022).
 
 While Manitoba Health has a thorough WNV and *Cx. tarsalis* surveillance program, there is no mosquito surveillance and modelling carried out for other species which may vector pathogens in Manitoba such as Aedes, Ochlerotatus and *Coquillettidia* species which can vector California serogroup viruses (CSGVs), a group of emerging mosquito-borne viruses in Canada (Drebot, 2015). Furthermore, to our knowledge, no recent comprehensive surveillance studies have been conducted in Western Manitoba. Next, the benefits of a comprehensive mosquito surveillance program with personnel trained in mosquito identification, particularly mosquitoes that are difficult to identify, can provide critical insights into the presence of disease vectors. For example, *Ochlerotatus triseriatus* Say, the main vector of La Crosse virus, was identified out of the range of its eastern bounds in Manitoba in 2008 and from traps in 2019 and 2020 (Koloski et al., 2021; McMahon TJ et al., 2008). *Oc. triseriatus* is a relatively rare species in Manitoba and is a difficult to identify mosquito species, requiring a trained eye and in some cases molecular identification.
 
@@ -53,9 +53,9 @@ This study will identify mosquito activity from two years of mosquito surveillan
 
 ### 2.1 Mosquito Trapping
 
-Mosquitoes were trapped using [CDC Miniature Light Traps](https://www.johnwhock.com/products/mosquito-sandfly-traps/new-standard-miniature-incandescent-light-trap/) with carbon dioxide (Model 1012, John W. Hock, Gainesville, FL). Carbon dioxide regulators were set to 15 psi. Traps were set approximately 5-6 feet off the ground hanging off a tree branch on the periphery of townsites and human dwellings. Traps were configured to turn on at dusk and stay on until dawn at which point the fan remains on to retain the catch. The light on the trap was disabled to reduce the number of non-mosquito insects trapped. Traps were operated twice weekly on Monday and Tuesday nights in 2020 and 2021 from June to August (week 23 to 36) in eight communities in Western Manitoba. In 2020, two traps were setup in each location except in Brandon where ten traps were deployed. In 2021, one trap was set up at each location. In total, there were 24 traps deployed twice weekly in 8 locations (2020) and 8 traps in 8 locations (2021) (Table 5 1; Figure 1 2). Traps were collected in the morning and live mosquitoes were transported to Brandon University where they were knocked down in a -20°C freezer and emptied into petri plates. Mosquitoes were immediately put into a -80°C freezer until identification.
+Mosquitoes were trapped using [CDC Miniature Light Traps](https://www.johnwhock.com/products/mosquito-sandfly-traps/new-standard-miniature-incandescent-light-trap/) with carbon dioxide (Model 1012, John W. Hock, Gainesville, FL). Carbon dioxide regulators were set to 15 psi. Traps were set approximately 5-6 feet off the ground hanging off a tree branch on the periphery of townsites and human dwellings. Traps were configured to turn on at dusk and stay on until dawn at which point the fan remains on to retain the catch. The light on the trap was disabled to reduce the number of non-mosquito insects trapped. Traps were operated twice weekly on Monday and Tuesday nights in 2020 and 2021 from June to August (week 23 to 36) in eight communities in Western Manitoba. In 2020, two traps were setup in each location except in Brandon where ten traps were deployed. In 2021, one trap was set up at each location. In total, there were 24 traps deployed twice weekly in 8 locations (2020) and 8 traps in 8 locations (2021) (Table 5 1; Figure 1-2). Traps were collected in the morning and live mosquitoes were transported to Brandon University where they were knocked down in a -20°C freezer and emptied into petri plates. Mosquitoes were immediately put into a -80°C freezer until identification.
 
-To augment the analysis, mosquito specimens from 9 other locations throughout the province were collected via one-time satellite traps (CDC Light Traps) and provided to us by the City of Winnipeg Insect Control Branch (Table 5 2; Figure 1 2). For samples provided by the Winnipeg Insect Control Branch, Culex mosquitoes were removed prior to receiving them.
+To augment the analysis, mosquito specimens from 9 other locations throughout the province were collected via one-time satellite traps (CDC Light Traps) and provided to us by the City of Winnipeg Insect Control Branch (Table 5 2; Figure 1-2). For samples provided by the Winnipeg Insect Control Branch, Culex mosquitoes were removed prior to receiving them.
 
 ### 2.2 Mosquito Identification
 
@@ -173,7 +173,95 @@ gtml2020
 
 In 2021, a total of about 116,000 mosquitoes (estimated from sub-sampling) were caught throughout Western Manitoba from June 1st to September 1st (week 24 to 36). The average number of mosquitoes per trap started off low in June, and then dramatically increased on week 26 to an average of 2,919 mosquitoes per trap and a total of 41,884 (38,652 identified) mosquitoes caught in week 26 (Figure 1-1; Table 1 3). The sharp increase of mosquitoes in Brandon on week 26 triggered the City of Brandon to fog for mosquitoes, after which a decline in mosquito activity was observed. For the remainder of July and August, the average trap counts continued to decline (Figure 1-1; Table 1 3; Table 1 4).
 
-Of the \~116,000 mosquitoes collected in 2021, 93,065 mosquitoes that can transmit pathogens to humans were identified. *Cq. perturbans* was the predominant species among those identified, representing 57.5% of mosquitoes identified. Note, however, that like 2020, most (97.8%) *Cq. perturbans* mosquitoes were caught in Cypress River (Figure 1 2). Following behind was *Ae. vexans*, which represented 35.0% of mosquitoes identified. 61% of *Ae. vexans* were caught on CDC week 26 and 46% of *Ae. vexans* were caught in Brandon. The other mosquitoes identified were *Cx. tarsalis*, representing 4.7% of mosquitoes identified, *Oc. dorsalis*, representing 1.8% of mosquitoes identified, *An. earlei*, representing 0.5% of those identified, *Oc. trivittatus*, representing 0.4% of mosquitoes identified, *Oc. flavescens*, representing 0.2% of mosquitoes identified, and *Ae. canadensis*, representing 0.05% of mosquitoes identified (Table 1 3; Table 1 4). No mosquitoes were collected from Eastern Manitoba in 2021.
+Of the \~116,000 mosquitoes collected in 2021, 93,065 mosquitoes that can transmit pathogens to humans were identified. *Cq. perturbans* was the predominant species among those identified, representing 57.5% of mosquitoes identified. Note, however, that like 2020, most (97.8%) *Cq. perturbans* mosquitoes were caught in Cypress River (Figure 1-2). Following behind was *Ae. vexans*, which represented 35.0% of mosquitoes identified. 61% of *Ae. vexans* were caught on CDC week 26 and 46% of *Ae. vexans* were caught in Brandon. The other mosquitoes identified were *Cx. tarsalis*, representing 4.7% of mosquitoes identified, *Oc. dorsalis*, representing 1.8% of mosquitoes identified, *An. earlei*, representing 0.5% of those identified, *Oc. trivittatus*, representing 0.4% of mosquitoes identified, *Oc. flavescens*, representing 0.2% of mosquitoes identified, and *Ae. canadensis*, representing 0.05% of mosquitoes identified (Table 1 3; Table 1 4). No mosquitoes were collected from Eastern Manitoba in 2021.
+
+![Table 1-3](images/table1-3.png)
+
+```{r}
+library(tidyverse)
+library(here)
+library(readxl)
+library(lubridate)
+library(assertr)
+library(janitor)
+library(gt)
+library(gtExtras)
+library(webshot)
+
+#Upload and clean
+mosqcw2021 <- read_excel(here("data/raw/mosquitoweek2021.xlsx"))
+
+
+# Add header
+gtmcw2021 <- 
+  gt(mosqcw2021) %>% 
+  tab_header(
+    title = md("**Table 1-3: Weekly Number of Mosquitoes Trapped**"),
+    subtitle = md("The total number of five mosquito species trapped in eight
+                  communities in Western Manitoba from June 1<sup>st</sup> to
+                  September 1<sup>st</sup>, 2021")
+)
+
+# Italicize species names
+gtmcw2021 <- 
+  gtmcw2021 %>% 
+    cols_label(
+      "Ae. vexans" = md("*Ae. vexans*"),
+      "Oc. dorsalis" = md("*Oc. dorsalis*"),
+      "Oc. flavescens" = md("*Oc. flavescens*"),
+      "Cx. tarsalis" = md("*Cx. tarsalis*"),
+      "Cq. perturbans" = md("*Cq. perturbans*"),
+      "An. earlei" = md("*An. earlei*"),
+      "Ae. canadensis" = md("*Ae. canadensis*")
+    ) %>%
+  gtsave(filename = "table1-3.png", zoom = 1)
+
+gtmcw2021
+```
+
+![Table 1-4](images/table1-4.png)
+
+```{r}
+library(tidyverse)
+library(here)
+library(readxl)
+library(lubridate)
+library(assertr)
+library(janitor)
+library(gt)
+library(gtExtras)
+library(webshot)
+
+#Upload and clean
+mosql2021 <- read_excel(here("data/raw/mosquitolocation2021.xlsx"))
+
+
+# Add header
+gtml2021 <- 
+  gt(mosql2021) %>% 
+  tab_header(
+    title = md("**Table 1-4: Total Number of Mosquitoes Trapped by Location**"),
+    subtitle = md("The total number of five mosquito species trapped in eight
+                  communities in Western Manitoba from June 1<sup>st</sup> to
+                  September 1<sup>st</sup>, 2021")
+)
+
+# Italicize species names
+gtml2021 <- 
+  gtml2021 %>% 
+    cols_label(
+      "Ae. vexans" = md("*Ae. vexans*"),
+      "Oc. dorsalis" = md("*Oc. dorsalis*"),
+      "Oc. flavescens" = md("*Oc. flavescens*"),
+      "Cx. tarsalis" = md("*Cx. tarsalis*"),
+      "Cq. perturbans" = md("*Cq. perturbans*"),
+      "An. earlei" = md("*An. earlei*"),
+      "Ae. canadensis" = md("*Ae. canadensis*")
+    ) %>%
+  gtsave(filename = "table1-4.png", zoom = 1)
+
+gtml2021
+```
 
 #### 3.1.3 Summary Figures
 
@@ -256,4 +344,8 @@ g2020 + g2021 + plot_layout(guides = "collect") +
 
 ### 3.2 Statistical Analysis
 
-GLMMs were used to explore differences in mosquito activity between communities, time and the relationships between mosquito activity and temperature, precipitation, and relative humidity. In both the 2020 and 2021 surveillance periods, there were more *Ae. vexans* than any of the other main mosquito species caught (*Cq. perturbans*, *Cx. tarsalis*, *Oc. dorsalis*; P \< 0.05) and there was 96% more *Ae. vexans* per trap in 2021 compared to 2020 (Est = 0.671; z = 3.068; P = 0.002). In 2020, there were 59% more Oc. dorsalis compared to Cx. tarsalis (P = 0.044), but no differences in 2021 (P = 0.867). *Cq. perturbans* trap counts were 15.2 times higher in 2021 compared to 2020 (Est = 2.72; z = 5.259; P \< 0.001). Additionally, there were 7.4x more *Oc. dorsalis* and 4.6x more *Cx. tarsalis* than *Cq. perturbans* in 2020 ( P \< 0.001), but no differences in 2021 (P = 0.944).
+GLMMs were used to explore differences in mosquito activity between communities, time and the relationships between mosquito activity and temperature, precipitation, and relative humidity. In both the 2020 and 2021 surveillance periods, there were more *Ae. vexans* than any of the other main mosquito species caught (*Cq. perturbans*, *Cx. tarsalis*, *Oc. dorsalis*; P \< 0.05) and there was 96% more *Ae. vexans* per trap in 2021 compared to 2020 (Est = 0.671; z = 3.068; P = 0.002). In 2020, there were 59% more *Oc. dorsalis* compared to Cx. tarsalis (P = 0.044), but no differences in 2021 (P = 0.867). *Cq. perturbans* trap counts were 15.2 times higher in 2021 compared to 2020 (Est = 2.72; z = 5.259; P \< 0.001). Additionally, there were 7.4x more *Oc. dorsalis* and 4.6x more *Cx. tarsalis* than *Cq. perturbans* in 2020 ( P \< 0.001), but no differences in 2021 (P = 0.944).
+
+#### 3.2.1 *Aedes Vexans*
+
+We found significant quadratic relationships between *Ae. vexans* trap counts and trap week (P < 0.001; Chisq = 152.15), degree days (P < 0.001; Chisq = 38.38), precipitation (P = 0.001; Chisq = 13.20), and relative humidity (P < 0.001; Chisq = 27.34). In the 2020 and 2021 surveillance periods, *Ae. vexans* trap counts increased until mid-July and then decreased into August, with trap counts peaking in July (Figure 1 3; Figure 1 4; Figure 1 5). *Ae. vexans* trap counts were highest with intermediate values of degree days (i.e., not too hot, not too cold; Figure 1 3), and when weather was humid (~75% relative humidity; Figure 1 5) and when precipitation was low (Figure 1 4).  Checks for multicollinearity for the model was performed and resulted in low to moderate correlations (Table 1 5). 
