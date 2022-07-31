@@ -8,7 +8,12 @@ lightgallery: true
 math:
   enable: true
 title: Curriculum Vitae
+toc:
+  auto: false
+weight: 1
 ---
+
+<!--more-->
 
 > I completed my Bachelor of Science in Biology at the University of Winnipeg where I first became interested in vector-borne pathogens.
 > I recently completed my Master of Science at Brandon University where I studied and led projects relating to mosquito borne pathogen 
@@ -79,6 +84,8 @@ DL Seeds, Canola Breeding Program
 *	Prepared plant samples for marker testing for agricultural studies. 
 *	Seeded, transplanted, and harvested canola plants.
 *	Logged experiment data in Excel.
+
+## Teaching 
 
 ## Skills 
 

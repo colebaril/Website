@@ -169,7 +169,7 @@ gtml2020 <-
 gtml2020
 ```
 
-#### 3.1.2 2020
+#### 3.1.2 2021
 
 In 2021, a total of about 116,000 mosquitoes (estimated from sub-sampling) were caught throughout Western Manitoba from June 1st to September 1st (week 24 to 36). The average number of mosquitoes per trap started off low in June, and then dramatically increased on week 26 to an average of 2,919 mosquitoes per trap and a total of 41,884 (38,652 identified) mosquitoes caught in week 26 (Figure 1-1; Table 1-3). The sharp increase of mosquitoes in Brandon on week 26 triggered the City of Brandon to fog for mosquitoes, after which a decline in mosquito activity was observed. For the remainder of July and August, the average trap counts continued to decline (Figure 1-1; Table 1-3; Table 1-4).
 
