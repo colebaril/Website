@@ -108,7 +108,7 @@ params:
       enable: yes
       paginate: 6
     profile:
-      avatarURL: /images/avatar.jpg
+      avatarURL: /images/mosquitostatue.jpg
       disclaimer: ''
       enable: yes
       gravatarEmail: ''
@@ -220,7 +220,7 @@ params:
     seo:
       images: []
       publisher:
-        logoUrl: /images/avatar.jpg
+        logoUrl: /images/mosquitostatue.jpg
         name: xxxx
     share:
       Baidu: no
@@ -476,7 +476,7 @@ languages:
     params:
       home:
         profile:
-          avatarURL: /images/avatar.jpg
+          avatarURL: /images/mosquitostatue.jpg
           disclaimer: ''
           enable: yes
           gravatarEmail: ''
@@ -560,7 +560,7 @@ languages:
     params:
       home:
         profile:
-          avatarURL: /images/avatar.jpg
+          avatarURL: /images/mosquitostatue.jpg
           disclaimer: ''
           enable: yes
           gravatarEmail: ''

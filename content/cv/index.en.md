@@ -19,7 +19,7 @@ title: Curriculum Vitae
 > and weather variables. 
 
 
-## 1 Education
+## Education
 
 ### Master of Science
 Brandon University ([Cassone Lab](https://www.cassonelab.com/))
