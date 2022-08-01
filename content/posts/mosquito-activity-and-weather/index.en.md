@@ -76,7 +76,7 @@ Preliminary exploration suggested that trap count differences with local weather
 All model fits and assumptions were assessed with the [DHARMa package](https://www.rdocumentation.org/packages/DHARMa/versions/0.4.5) (v0.4.4; Hartig, 2021); multicollinearity was assessed with the [performance package](https://www.rdocumentation.org/packages/performance/versions/0.9.1) (v0.8.0; Lüdecke et al., 2021); and figures were created with the [ggplot2 package](https://ggplot2.tidyverse.org/) (v3.3.5; Wickham, 2016). Note that figure scales are log10 transformed after first adding 1 to better visualize patterns.
 
 {{< admonition note "Note" >}}
-All statistical analyses was carried out by [Dr. Steffi LaZerte](https://steffilazerte.ca/). 
+All statistical analyses were carried out by [Dr. Steffi LaZerte](https://steffilazerte.ca/). 
 {{< /admonition >}}
 
 ## 3 Results
@@ -269,7 +269,7 @@ gtml2021
 
 #### 3.1.3 Summary Figures
 
-![Figure 1-1](figure1-1.png "Figure 1-1. Weekly average trap counts for each community for the four most predominant mosquito vector species collected in 2020 (A) and 2021 (B).")
+![Figure 1-1](figure1-1.png "Figure 1-1. Weekly average trap counts for each community for the four most predominant mosquito vector species collected in 2020 (A) and 2021 (B). Some weeks of data were not received from the Winnipeg Insect Control Branch in 2020, denoted with an asterisk.")
 
 ```{r}
 library(tidyverse)
@@ -351,9 +351,30 @@ g2020 + g2021 + plot_layout(guides = "collect") +
 GLMMs were used to explore differences in mosquito activity between communities, time and the relationships between mosquito activity and temperature, precipitation, and relative humidity. In both the 2020 and 2021 surveillance periods, there were more *Ae. vexans* than any of the other main mosquito species caught (*Cq. perturbans*, *Cx. tarsalis*, *Oc. dorsalis*; P \< 0.05) and there was 96% more *Ae. vexans* per trap in 2021 compared to 2020 (Est = 0.671; z = 3.068; P = 0.002). In 2020, there were 59% more *Oc. dorsalis* compared to Cx. tarsalis (P = 0.044), but no differences in 2021 (P = 0.867). *Cq. perturbans* trap counts were 15.2 times higher in 2021 compared to 2020 (Est = 2.72; z = 5.259; P \< 0.001). Additionally, there were 7.4x more *Oc. dorsalis* and 4.6x more *Cx. tarsalis* than *Cq. perturbans* in 2020 ( P \< 0.001), but no differences in 2021 (P = 0.944).
 
 {{< admonition note "Note" >}}
-All statistical analyses was carried out by [Dr. Steffi LaZerte](https://steffilazerte.ca/). 
+All statistical analyses were carried out by [Dr. Steffi LaZerte](https://steffilazerte.ca/). 
 {{< /admonition >}}
 
-#### 3.2.1 *Aedes Vexans*
+{{< admonition tip "Post-Hoc Analysis" >}}
+This study was a *post-hoc* analysis. In other words, we did not plan our field collections with this statistical analysis in mind. Future studies would do well to use various trap types, trapping locations, various trapping times and account for moonlight, wind and snowmelt. 
+{{< /admonition >}}
 
-We found significant quadratic relationships between *Ae. vexans* trap counts and trap week (P \< 0.001; Chisq = 152.15), degree days (P \< 0.001; Chisq = 38.38), precipitation (P = 0.001; Chisq = 13.20), and relative humidity (P \< 0.001; Chisq = 27.34). In the 2020 and 2021 surveillance periods, *Ae. vexans* trap counts increased until mid-July and then decreased into August, with trap counts peaking in July (Figure 1 3; Figure 1 4; Figure 1 5). *Ae. vexans* trap counts were highest with intermediate values of degree days (i.e., not too hot, not too cold; Figure 1 3), and when weather was humid (\~75% relative humidity; Figure 1 5) and when precipitation was low (Figure 1 4). Checks for multicollinearity for the model was performed and resulted in low to moderate correlations (Table 1 5).
+#### 3.2.1 *Aedes Vexans* Model
+
+We found significant quadratic relationships between *Ae. vexans* trap counts and trap week (P \< 0.001; Chisq = 152.15), degree days (P \< 0.001; Chisq = 38.38), precipitation (P = 0.001; Chisq = 13.20), and relative humidity (P \< 0.001; Chisq = 27.34). In the 2020 and 2021 surveillance periods, *Ae. vexans* trap counts increased until mid-July and then decreased into August, with trap counts peaking in July (Figure 1-3; Figure 1-4; Figure 1-5). *Ae. vexans* trap counts were highest with intermediate values of degree days (i.e., not too hot, not too cold; Figure 1-3), and when weather was humid (\~75% relative humidity; Figure 1-5) and when precipitation was low (Figure 1-4). Checks for multicollinearity for the model was performed and resulted in low to moderate correlations (Table 1 5).
+
+
+```Model
+glmmTMB(trapcount ~ poly(week, degree = 2) + poly(ddm14, degree = 2) + 
+                    poly(pt14, degree = 2) + poly(rha14, degree = 2) + 
+                    year + ttmin + (1|site),
+                    family = "nbinom2", data = mosq)
+```
+
+**Degree Days**
+![Figure 1-3](vexansdd.png "Figure 1-3. The GLMM to predict the weekly trap count at a given number of degree days. Trap counts were modelled (lines) using second degree polynomial terms of week, 14-day mean degree days, precipitation, and relative humidity. Minimum temperature on the trap date and year were included as covariates with site as a random intercept. Week corresponds to the week of the year for 2020 and 2021 (e.g., week 24 is the 24th week of both 2020 and 2021). Points represent observed data.")
+
+**Precipitation**
+![Figure 1-4](vexanspp.png "Figure 1-4. The GLMM to predict the weekly trap count at a given amount of precipitation. Trap counts were modelled (lines) using second degree polynomial terms of week, 14-day mean degree days, precipitation, and relative humidity. Minimum temperature on the trap date and year were included as covariates with site as a random intercept. Week corresponds to the week of the year for 2020 and 2021 (e.g., week 24 is the 24th week of both 2020 and 2021). Points represent observed data.")
+
+**Relative Humidity**
+![Figure 1-5](vexansrh.png "Figure 1-5. The GLMM to predict the weekly trap count at a given relative humidity. Trap counts were modelled (lines) using second degree polynomial terms of week, 14-day mean degree days, precipitation, and relative humidity. Minimum temperature on the trap date and year were included as covariates with site as a random intercept. Week corresponds to the week of the year for 2020 and 2021 (e.g., week 24 is the 24th week of both 2020 and 2021). Points represent observed data.")
