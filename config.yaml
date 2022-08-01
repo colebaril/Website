@@ -452,20 +452,27 @@ languages:
           title: ''
           url: /cv/
           weight: 4
+        - identifier: publications-press
+          name: Publications and Presentations
+          post: ''
+          pre: ''
+          title: ''
+          url: /publications-presentations/
+          weight: 5
         - identifier: documentation
           name: Docs
           post: ''
           pre: ''
           title: ''
           url: /categories/documentation/
-          weight: 5
+          weight: 6
         - identifier: about
           name: About
           post: ''
           pre: ''
           title: ''
           url: /about/
-          weight: 6
+          weight: 7
         - identifier: github
           name: ''
           post: ''
