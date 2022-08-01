@@ -452,7 +452,7 @@ languages:
           title: ''
           url: /cv/
           weight: 4
-        - identifier: publications-press
+        - identifier: publications-presentations
           name: Publications and Presentations
           post: ''
           pre: ''

@@ -1,13 +1,13 @@
 ---
 date: "2019-08-02T11:04:49+08:00"
-description: Publications and Presentations
+description: Public Relations
 draft: false
 images:
 - /Apple-Devices-Preview.png
 lightgallery: true
 math:
   enable: true
-title: Publications and Presentations
+title: Public Relations
 ---
 
 ## Posters
