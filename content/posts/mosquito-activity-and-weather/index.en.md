@@ -87,7 +87,7 @@ All statistical analyses were carried out by [Dr. Steffi LaZerte](https://steffi
 
 In 2020, approximately 150,000 mosquitoes (estimated from sub-sampling) were collected from 17 communities in Manitoba from June 1 to September 1 (week 23 to 36). In Cypress River and Virden, collections were stopped after August 25th due to very low trap counts. Most of the mosquitoes were trapped from July to mid-August in 2020 and towards the end of June and early July in 2021 (Figure 1-1). Of a total of approximately 121,000 mosquitoes collected in eight communities in West Manitoba in 2020, approximately 50,000 mosquitoes representing five species: *Ae. vexans*, *Oc. dorsalis*, *Oc. flavescens*, *Cx. tarsalis*, and *Cq. perturbans*. *Ae. vexans* was the most numerous species among the five identified and represented 41% of mosquitoes identified. *Ae. vexans* was followed by *Cq. perturbans*, *Cx. tarsalis*, *Oc. dorsalis*, and *Oc. flavescens* which represented 30%, 15%, 10%, and 3% of species identified, respectively (Table 1-1; Table 1-2). Trap counts were highest in mid-July which triggered the City of Brandon to fog on July 16th and 17th, after which a slow decrease in mosquito activity was observed (Figure 1-1). Note that the majority of *Cq. perturbans* were trapped in Cypress River. Of the remaining 28,494 specimens supplied to us from Eastern Manitoba (Winnipeg Insect Control Branch), 10,491 were identified to represent five mosquito species caught at various time-points from June 1<sup>st</sup> to September 1<sup>st</sup>, 2020. Of the identified species, Ae. vexans was predominant, representing 77.3%. Following *Ae. vexans* was *Cx. tarsalis* at 9.8%, *Oc. dorsalis* at 7.1%, *Cq. perturbans* at 5.0%, and *Oc. flavescens* at 0.9%. The number of *Cx. tarsalis* specimens is lower than the actual number due to *Cx. tarsalis* being largely removed prior to receiving the trap.
 
-![Table 1-1](images/table1-1-06.png)
+![Table 3-1](images/table3-3-06.png)
 
 ```{r}
 library(tidyverse)
@@ -109,7 +109,7 @@ mosqcw2020 <- read_excel(here("data/raw/mosqweekcount2020.xlsx")) %>%
 gtmcw2020 <- 
   gt(mosqcw2020) %>% 
   tab_header(
-    title = md("**Table 1-1: Weekly Number of Mosquitoes Trapped**"),
+    title = md("**Table 3-1: Weekly Number of Mosquitoes Trapped**"),
     subtitle = md("The total number of five mosquito species trapped in eight
                   communities in Western Manitoba from June 1<sup>st</sup> to
                   September 1<sup>st</sup>, 2020")
@@ -125,12 +125,12 @@ gtmcw2020 <-
       "Cx. tarsalis" = md("*Cx. tarsalis*"),
       "Cq. perturbans" = md("*Cq. perturbans*")
     ) %>%
-  gtsave(filename = "table1-1.png", zoom = 1)
+  gtsave(filename = "table3-1.png", zoom = 1)
 
 gtmcw2020
 ```
 
-![Table 1-2](images/table1-2.png)
+![Table 3-2](images/table3-2.png)
 
 ```{r}
 library(tidyverse)
@@ -152,7 +152,7 @@ mosql2020 <- read_excel(here("data/raw/mosqlocation2020.xlsx")) %>%
 gtml2020 <- 
   gt(mosql2020) %>% 
   tab_header(
-    title = md("**Table 1-2: Total Number of Mosquitoes Trapped by Location**"),
+    title = md("**Table 3-2: Total Number of Mosquitoes Trapped by Location**"),
     subtitle = md("The total number of five mosquito species trapped in eight
                   communities in Western Manitoba from June 1<sup>st</sup> to
                   September 1<sup>st</sup>, 2020")
@@ -168,18 +168,18 @@ gtml2020 <-
       "Cx. tarsalis" = md("*Cx. tarsalis*"),
       "Cq. perturbans" = md("*Cq. perturbans*")
     ) %>%
-  gtsave(filename = "table1-2.png", zoom = 1)
+  gtsave(filename = "table3-2.png", zoom = 1)
 
 gtml2020
 ```
 
 #### 3.1.2 2021
 
-In 2021, a total of about 116,000 mosquitoes (estimated from sub-sampling) were caught throughout Western Manitoba from June 1st to September 1st (week 24 to 36). The average number of mosquitoes per trap started off low in June, and then dramatically increased on week 26 to an average of 2,919 mosquitoes per trap and a total of 41,884 (38,652 identified) mosquitoes caught in week 26 (Figure 1-1; Table 1-3). The sharp increase of mosquitoes in Brandon on week 26 triggered the City of Brandon to fog for mosquitoes, after which a decline in mosquito activity was observed. For the remainder of July and August, the average trap counts continued to decline (Figure 1-1; Table 1-3; Table 1-4).
+In 2021, a total of about 116,000 mosquitoes (estimated from sub-sampling) were caught throughout Western Manitoba from June 1st to September 1st (week 24 to 36). The average number of mosquitoes per trap started off low in June, and then dramatically increased on week 26 to an average of 2,919 mosquitoes per trap and a total of 41,884 (38,652 identified) mosquitoes caught in week 26 (Figure 3-1; Table 3-3). The sharp increase of mosquitoes in Brandon on week 26 triggered the City of Brandon to fog for mosquitoes, after which a decline in mosquito activity was observed. For the remainder of July and August, the average trap counts continued to decline (Figure 3-1; Table 3-3; Table 3-4).
 
-Of the \~116,000 mosquitoes collected in 2021, 93,065 mosquitoes that can transmit pathogens to humans were identified. *Cq. perturbans* was the predominant species among those identified, representing 57.5% of mosquitoes identified. Note, however, that like 2020, most (97.8%) *Cq. perturbans* mosquitoes were caught in Cypress River (Figure 1-2). Following behind was *Ae. vexans*, which represented 35.0% of mosquitoes identified. 61% of *Ae. vexans* were caught on CDC week 26 and 46% of *Ae. vexans* were caught in Brandon. The other mosquitoes identified were *Cx. tarsalis*, representing 4.7% of mosquitoes identified, *Oc. dorsalis*, representing 1.8% of mosquitoes identified, *An. earlei*, representing 0.5% of those identified, *Oc. trivittatus*, representing 0.4% of mosquitoes identified, *Oc. flavescens*, representing 0.2% of mosquitoes identified, and *Ae. canadensis*, representing 0.05% of mosquitoes identified (Table 1-3; Table 1-4). No mosquitoes were collected from Eastern Manitoba in 2021.
+Of the \~116,000 mosquitoes collected in 2021, 93,065 mosquitoes that can transmit pathogens to humans were identified. *Cq. perturbans* was the predominant species among those identified, representing 57.5% of mosquitoes identified. Note, however, that like 2020, most (97.8%) *Cq. perturbans* mosquitoes were caught in Cypress River (Figure 3-2). Following behind was *Ae. vexans*, which represented 35.0% of mosquitoes identified. 61% of *Ae. vexans* were caught on CDC week 26 and 46% of *Ae. vexans* were caught in Brandon. The other mosquitoes identified were *Cx. tarsalis*, representing 4.7% of mosquitoes identified, *Oc. dorsalis*, representing 1.8% of mosquitoes identified, *An. earlei*, representing 0.5% of those identified, *Oc. trivittatus*, representing 0.4% of mosquitoes identified, *Oc. flavescens*, representing 0.2% of mosquitoes identified, and *Ae. canadensis*, representing 0.05% of mosquitoes identified (Table 3-3; Table 3-4). No mosquitoes were collected from Eastern Manitoba in 2021.
 
-![Table 1-3](images/table1-3.png)
+![Table 3-3](images/table3-3.png)
 
 ```{r}
 library(tidyverse)
@@ -200,7 +200,7 @@ mosqcw2021 <- read_excel(here("data/raw/mosquitoweek2021.xlsx"))
 gtmcw2021 <- 
   gt(mosqcw2021) %>% 
   tab_header(
-    title = md("**Table 1-3: Weekly Number of Mosquitoes Trapped**"),
+    title = md("**Table 3-3: Weekly Number of Mosquitoes Trapped**"),
     subtitle = md("The total number of five mosquito species trapped in eight
                   communities in Western Manitoba from June 1<sup>st</sup> to
                   September 1<sup>st</sup>, 2021")
@@ -218,12 +218,12 @@ gtmcw2021 <-
       "An. earlei" = md("*An. earlei*"),
       "Ae. canadensis" = md("*Ae. canadensis*")
     ) %>%
-  gtsave(filename = "table1-3.png", zoom = 1)
+  gtsave(filename = "table3-3.png", zoom = 1)
 
 gtmcw2021
 ```
 
-![Table 1-4](images/table1-4.png)
+![Table 3-4](images/table3-4.png)
 
 ```{r}
 library(tidyverse)
@@ -244,7 +244,7 @@ mosql2021 <- read_excel(here("data/raw/mosquitolocation2021.xlsx"))
 gtml2021 <- 
   gt(mosql2021) %>% 
   tab_header(
-    title = md("**Table 1-4: Total Number of Mosquitoes Trapped by Location**"),
+    title = md("**Table 3-4: Total Number of Mosquitoes Trapped by Location**"),
     subtitle = md("The total number of five mosquito species trapped in eight
                   communities in Western Manitoba from June 1<sup>st</sup> to
                   September 1<sup>st</sup>, 2021")
@@ -262,14 +262,14 @@ gtml2021 <-
       "An. earlei" = md("*An. earlei*"),
       "Ae. canadensis" = md("*Ae. canadensis*")
     ) %>%
-  gtsave(filename = "table1-4.png", zoom = 1)
+  gtsave(filename = "table3-4.png", zoom = 1)
 
 gtml2021
 ```
 
 #### 3.1.3 Summary Figures
 
-![Figure 1-1](figure1-1.png "Figure 1-1. Weekly average trap counts for each community for the four most predominant mosquito vector species collected in 2020 (A) and 2021 (B). Some weeks of data were not received from the Winnipeg Insect Control Branch in 2020, denoted with an asterisk.")
+![Figure 3-1](figure3-1.png "Figure 3-1. Weekly average trap counts for each community for the four most predominant mosquito vector species collected in 2020 (A) and 2021 (B). Some weeks of data were not received from the Winnipeg Insect Control Branch in 2020, denoted with an asterisk.")
 
 ```{r}
 library(tidyverse)
@@ -344,7 +344,7 @@ g2020 + g2021 + plot_layout(guides = "collect") +
 # Then export using R. 
 ```
 
-![Figure 1-2](figure1-2.png "Figure 1-2. Mosquito activity for 8 mosquito species in each trapping location in 2020 and 2021.")
+![Figure 3-2](figure3-2.png "Figure 3-2. Mosquito activity for 8 mosquito species in each trapping location in 2020 and 2021.")
 
 ### 3.2 Statistical Analysis
 
@@ -354,13 +354,17 @@ GLMMs were used to explore differences in mosquito activity between communities,
 All statistical analyses were carried out by [Dr. Steffi LaZerte](https://steffilazerte.ca/). 
 {{< /admonition >}}
 
+{{< admonition note "Note on Figures" >}}
+Where a black line exists in a figure in this section, the variable was not significant and the black line only shows seasonal effects. 
+{{< /admonition >}}
+
 {{< admonition tip "Post-Hoc Analysis" >}}
 This study was a *post-hoc* analysis. In other words, we did not plan our field collections with this statistical analysis in mind. Future studies would do well to use various trap types, trapping locations, various trapping times and account for moonlight, wind and snowmelt. 
 {{< /admonition >}}
 
-#### 3.2.1 *Aedes Vexans* Model
+#### 3.2.1 *Aedes Vexans* Model 
 
-We found significant quadratic relationships between *Ae. vexans* trap counts and trap week (P \< 0.001; Chisq = 152.15), degree days (P \< 0.001; Chisq = 38.38), precipitation (P = 0.001; Chisq = 13.20), and relative humidity (P \< 0.001; Chisq = 27.34). In the 2020 and 2021 surveillance periods, *Ae. vexans* trap counts increased until mid-July and then decreased into August, with trap counts peaking in July (Figure 1-3; Figure 1-4; Figure 1-5). *Ae. vexans* trap counts were highest with intermediate values of degree days (i.e., not too hot, not too cold; Figure 1-3), and when weather was humid (\~75% relative humidity; Figure 1-5) and when precipitation was low (Figure 1-4). Checks for multicollinearity for the model was performed and resulted in low to moderate correlations (Table 1 5).
+We found significant quadratic relationships between *Ae. vexans* trap counts and trap week (P \< 0.001; Chisq = 152.15), degree days (P \< 0.001; Chisq = 38.38), precipitation (P = 0.001; Chisq = 13.20), and relative humidity (P \< 0.001; Chisq = 27.34). In the 2020 and 2021 surveillance periods, *Ae. vexans* trap counts increased until mid-July and then decreased into August, with trap counts peaking in July (Figure 3-3; Figure 3-4; Figure 3-5). *Ae. vexans* trap counts were highest with intermediate values of degree days (i.e., not too hot, not too cold; Figure 3-3), and when weather was humid (\~75% relative humidity; Figure 3-5) and when precipitation was low (Figure 3-4). Checks for multicollinearity for the model was performed and resulted in low to moderate correlations and did not cause issues for the model.
 
 
 ```Model
@@ -371,10 +375,109 @@ glmmTMB(trapcount ~ poly(week, degree = 2) + poly(ddm14, degree = 2) +
 ```
 
 **Degree Days**
-![Figure 1-3](vexansdd.png "Figure 1-3. The GLMM to predict the weekly trap count at a given number of degree days. Trap counts were modelled (lines) using second degree polynomial terms of week, 14-day mean degree days, precipitation, and relative humidity. Minimum temperature on the trap date and year were included as covariates with site as a random intercept. Week corresponds to the week of the year for 2020 and 2021 (e.g., week 24 is the 24th week of both 2020 and 2021). Points represent observed data.")
+![Figure 3-3](vexansdd.png "Figure 3-3. The GLMM to predict the weekly trap count at a given number of degree days. Trap counts were modelled (lines) using second degree polynomial terms of week, 14-day mean degree days, precipitation, and relative humidity. Minimum temperature on the trap date and year were included as covariates with site as a random intercept. Week corresponds to the week of the year for 2020 and 2021 (e.g., week 24 is the 24th week of both 2020 and 2021). Points represent observed data.")
 
 **Precipitation**
-![Figure 1-4](vexanspp.png "Figure 1-4. The GLMM to predict the weekly trap count at a given amount of precipitation. Trap counts were modelled (lines) using second degree polynomial terms of week, 14-day mean degree days, precipitation, and relative humidity. Minimum temperature on the trap date and year were included as covariates with site as a random intercept. Week corresponds to the week of the year for 2020 and 2021 (e.g., week 24 is the 24th week of both 2020 and 2021). Points represent observed data.")
+![Figure 3-4](vexanspp.png "Figure 3-4. The GLMM to predict the weekly trap count at a given amount of precipitation. Trap counts were modelled (lines) using second degree polynomial terms of week, 14-day mean degree days, precipitation, and relative humidity. Minimum temperature on the trap date and year were included as covariates with site as a random intercept. Week corresponds to the week of the year for 2020 and 2021 (e.g., week 24 is the 24th week of both 2020 and 2021). Points represent observed data.")
 
 **Relative Humidity**
-![Figure 1-5](vexansrh.png "Figure 1-5. The GLMM to predict the weekly trap count at a given relative humidity. Trap counts were modelled (lines) using second degree polynomial terms of week, 14-day mean degree days, precipitation, and relative humidity. Minimum temperature on the trap date and year were included as covariates with site as a random intercept. Week corresponds to the week of the year for 2020 and 2021 (e.g., week 24 is the 24th week of both 2020 and 2021). Points represent observed data.")
+![Figure 3-5](vexansrh.png "Figure 3-5. The GLMM to predict the weekly trap count at a given relative humidity. Trap counts were modelled (lines) using second degree polynomial terms of week, 14-day mean degree days, precipitation, and relative humidity. Minimum temperature on the trap date and year were included as covariates with site as a random intercept. Week corresponds to the week of the year for 2020 and 2021 (e.g., week 24 is the 24th week of both 2020 and 2021). Points represent observed data.")
+
+#### 3.2.2 *Ochlerotatus dorsalis* Model 
+
+We found a significant quadratic relationship between *Oc. dorsalis* trap count and degree days (P < 0.001; Chisq = 15.44; Figure 3-6) and linear relationships between *Oc. dorsalis* trap counts and trap week as well as between trap counts and average relative humidity (Figure 3-8). Trap counts were 0.57 times lower (or decreased by 43%) for each week of the season (Est = 0.561; P < 0.001; z = -9.198) and increased by 1.11 times (11%) for each percent increase in average relative humidity (Est = 0.102; P < 0.001; z = 2.854). There was no effect of average precipitation (P = 0.617; z = .500; Figure 3-7).  Checks for multicollinearity for the model was performed and resulted in low to moderate correlations and did not cause issues for the model.
+
+```Model
+glmmTMB(trapcount ~ poly(week, degree = 2) + poly(ddm14, degree = 2) + 
+                    poly(rha14, degree = 2) + pt14 +
+                    year + ttmin + (1|site),
+                    family = "nbinom2", data = mosq)
+```
+{{< admonition note "Note" >}}
+Where a variable was insignificant as a polynomial term (e.g., precipitation (pt14) as in above for *Oc. dorsalis*), it was dropped and included as a linear term. 
+{{< /admonition >}}
+
+**Degree Days**
+![Figure 3-6](dorsalisdd.png "Figure 3-6. The GLMM to predict the weekly trap count at a given number of degree days. Trap counts were modelled (lines) using second degree polynomial terms of week, 14-day mean degree days, precipitation, and relative humidity. Minimum temperature on the trap date and year were included as covariates with site as a random intercept. Week corresponds to the week of the year for 2020 and 2021 (e.g., week 24 is the 24th week of both 2020 and 2021). Points represent observed data.")
+
+**Precipitation**
+![Figure 3-7](dorsalispp.png "Figure 3-7. The GLMM to predict the weekly trap count at a given amount of precipitation. The relationship was insignificant, therefore there is one line showing seasonal effects. Trap counts were modelled (lines) using second degree polynomial terms of week, 14-day mean degree days, precipitation, and relative humidity. Minimum temperature on the trap date and year were included as covariates with site as a random intercept. Week corresponds to the week of the year for 2020 and 2021 (e.g., week 24 is the 24th week of both 2020 and 2021). Points represent observed data.")
+
+**Relative Humidity**
+![Figure 3-8](dorsalisrh.png "Figure 3-8. The GLMM to predict the weekly trap count at a given relative humidity. Trap counts were modelled (lines) using second degree polynomial terms of week, 14-day mean degree days, precipitation, and relative humidity. Minimum temperature on the trap date and year were included as covariates with site as a random intercept. Week corresponds to the week of the year for 2020 and 2021 (e.g., week 24 is the 24th week of both 2020 and 2021). Points represent observed data.")
+
+#### 3.2.2 *Culex tarsalis* Model 
+
+We found significant quadratic relationships between *Cx. tarsalis* trap counts and trap week (P < 0.001; Chisq = 28.82), and relative humidity (P = 0.004; Chisq = 11.15) such that trap counts were highest with >75% relative humidity (Figure 3-10). There was a linear relationship between trap counts and degree days such that *Cx. tarsalis* trap counts increased by 1.36 times (36%) for every 1 increase in degree days (Est = 0.306; P = 0.007; z = 2.711; Figure 3-8).  Throughout the 2020 and 2021 surveillance periods, *Cx. tarsalis* trap count were low in June and increased in late July into August and decreased towards the end of August, with trap counts peaking in late July (Figure 3-8; Figure 3-9; Figure 3-10). In addition, *Cx. tarsalis* trap counts were 3.02 times higher in 2021 compared to 2020 (Est = 1.104; P < 0.001; z = 3.932). There was no effect of trap day minimum temperature (z = -0.653; P = 0.514) nor of precipitation (P = 0.691; z = 0.397).  Checks for multicollinearity for the model was performed and resulted in low to moderate correlations and did not cause issues for the model.
+
+```Model
+glmmTMB(trapcount ~ poly(week, degree = 2) + poly(ddm14, degree = 2) + 
+                    poly(rha14, degree = 2) + pt14
+                    year + ttmin + (1|site),
+                    family = "nbinom2", data = mosq)
+```
+
+**Degree Days**
+![Figure 3-8](tarsalisdd.png "Figure 3-8. The GLMM to predict the weekly trap count at a given number of degree days. Trap counts were modelled (lines) using second degree polynomial terms of week, 14-day mean degree days, precipitation, and relative humidity. Minimum temperature on the trap date and year were included as covariates with site as a random intercept. Week corresponds to the week of the year for 2020 and 2021 (e.g., week 24 is the 24th week of both 2020 and 2021). Points represent observed data.")
+
+**Precipitation**
+![Figure 3-9](tarsalispp.png "Figure 3-9. The GLMM to predict the weekly trap count at a given amount of precipitation. The relationship was insignificant, therefore there is one line showing seasonal effects. Trap counts were modelled (lines) using second degree polynomial terms of week, 14-day mean degree days, precipitation, and relative humidity. Minimum temperature on the trap date and year were included as covariates with site as a random intercept. Week corresponds to the week of the year for 2020 and 2021 (e.g., week 24 is the 24th week of both 2020 and 2021). Points represent observed data.")
+
+**Relative Humidity**
+![Figure 3-10](tarsalisrh.png "Figure 3-10. The GLMM to predict the weekly trap count at a given relative humidity. Trap counts were modelled (lines) using second degree polynomial terms of week, 14-day mean degree days, precipitation, and relative humidity. Minimum temperature on the trap date and year were included as covariates with site as a random intercept. Week corresponds to the week of the year for 2020 and 2021 (e.g., week 24 is the 24th week of both 2020 and 2021). Points represent observed data.")
+
+
+#### 3.2.2 *Coquillettidia perturbans* Model 
+
+We found significant quadratic relationships between *Cq. perturbans* trap counts and trap week (P = 0.001; Chisq = 53.54) and relative humidity (P < 0.001; Chisq = 11.43). Trap counts were highest when relative humidity was ~75% (Figure 3-13). There were no relationships, quadratic or linear, of degree days (P = 0.249; z = -1.154; Figure 3-11) nor precipitation (P = 0.490; z = -0.689; Figure 3-12). Furthermore, trap counts were 1.35 times (or 35%) greater with every 1℃ increase in minimum temperature on the trap date (Est = 0.302; z = 4.847; P < 0.001).  Checks for multicollinearity for the model was performed and resulted in low to moderate correlations and did not cause issues for the model.
+
+{{< admonition note "Note" >}}
+The Cypress River site was omitted from the model because we believe affect of habitat significantly confounded trapping results and we are interested in weather variables, not habitat variables. 
+{{< /admonition >}}
+
+```Model
+glmmTMB(trapcount ~ poly(week, degree = 2) + poly(rha14, degree = 2) + 
+                    pt14 + ddm14 +
+                    year + ttmin + (1|site),
+                    family = "nbinom2", data = mosq)
+```
+
+**Degree Days**
+![Figure 3-11](cqdd.png "Figure 3-11. The GLMM to predict the weekly trap count at a given number of degree days. The relationship was insignificant, therefore there is one line showing seasonal effects. Trap counts were modelled (lines) using second degree polynomial terms of week, 14-day mean degree days, precipitation, and relative humidity. Minimum temperature on the trap date and year were included as covariates with site as a random intercept. Week corresponds to the week of the year for 2020 and 2021 (e.g., week 24 is the 24th week of both 2020 and 2021). Points represent observed data.")
+
+**Precipitation**
+![Figure 3-12](cqpp.png "Figure 3-12. The GLMM to predict the weekly trap count at a given amount of precipitation. The relationship was insignificant, therefore there is one line showing seasonal effects. Trap counts were modelled (lines) using second degree polynomial terms of week, 14-day mean degree days, precipitation, and relative humidity. Minimum temperature on the trap date and year were included as covariates with site as a random intercept. Week corresponds to the week of the year for 2020 and 2021 (e.g., week 24 is the 24th week of both 2020 and 2021). Points represent observed data.")
+
+**Relative Humidity**
+![Figure 3-13](cqrh.png "Figure 3-13. The GLMM to predict the weekly trap count at a given relative humidity. Trap counts were modelled (lines) using second degree polynomial terms of week, 14-day mean degree days, precipitation, and relative humidity. Minimum temperature on the trap date and year were included as covariates with site as a random intercept. Week corresponds to the week of the year for 2020 and 2021 (e.g., week 24 is the 24th week of both 2020 and 2021). Points represent observed data.")
+
+## 4 Discussion
+
+Our objective was to explore the relationships between mosquitoes in Manitoba and location, time, and relationships with temperature, precipitation, and relative humidity by conducting a post-hoc analysis on mosquito surveillance data that was originally designed for pathogen detection. All the mosquitoes investigated in this study can harbour pathogens such as WNV, CSGVs, and heartworm. *Ae. vexans* is a major nuisance mosquito while *Cq. perturbans* and *Oc. dorsalis* are situationally nuisance mosquitoes. *Cx. tarsalis* is not a significant nuisance mosquito but is the main vector for WNV in Manitoba. We conducted mosquito surveillance in Manitoba from June to August in 2020 and 2021 and investigated the relationships between four of the most prevalent mosquito species caught in Manitoba in 2020 and 2021 and the effects of weather on their activity using GLMMs. We observed differences between species with respect to activity and relationships with weather variables that is consistent with previous studies and knowledge.  In 2020 we caught approximately 150,000 mosquitoes and identified approximately 121,000 mosquitoes representing five species. In 2021 we caught approximately 116,000 mosquitoes and identified approximately 93,000 mosquitoes representing eight species. Of those identified, *Ae. vexans*, *Oc. dorsalis*, *Cq. perturbans* and *Cx. tarsalis* were the most numerous species and these are the species on which statistical analyses were conducted.
+
+*Ae. vexans* was present throughout the surveillance period and emerged early (weeks 25-26) in 2020 and slightly later in 2021 (weeks 27-28) and peaked in mid-July in 2020 and early July in 2021. *Ae. vexans* overwinters in the egg stage and eggs are triggered to hatch during periods of warm weather, precipitation, and high relative humidity (Wood et al., 1979). Furthermore, Ae. vexans activity is most impacted by rainfall events. This accounts for differences in emergence between 2020 and 2021: 2021 was significantly drier. *Ae. vexans* was the most prevalent mosquito in both years (disregarding Cypress River which is an outlier, discussed later), which is in line with historical mosquito activity in the plains (Anderson et al., 2015; Ripoche et al., 2019; Wood et al., 1979). *Oc. dorsalis* was found to emerge early in 2020 and was present in very low numbers in 2021. Like *Ae. vexans*, *Oc. dorsalis* overwinters in the egg stage and a combination of warm weather, precipitation, and relative humidity triggers eggs to hatch (Wood et al., 1979). Based on our results, it appears that we started trapping after *Oc. dorsalis* emergence in 2020, indicating an earlier emergence compared to *Ae. vexans*. However, *Ae. vexans* was present at higher numbers in more locations. On the contrary, *Cx. tarsalis* emerged mid-summer in mid to late July in both years, consistent with descriptions by Wood and Dang (1979). *Cx. tarsalis* emerges later in the summer because they overwinter as non-blood-fed females and must seek a bloodmeal and then lay eggs that must then hatch. Furthermore, *Cx. tarsalis* develop better in hotter and drier temperatures (Manitoba Health), which also explains their later emergence. *Cq. perturbans* was present in low numbers except for in Cypress River where extreme trap counts, sometimes >12,000 specimen per trap, was observed. *Cq. perturbans* populations occurred in single “bursts” where they emerged, were present for a few weeks (e.g., Virden, 2021), and then disappeared drastically, which could be attributed to their univoltine nature where the other species are multivoltine (or have the potential to be multivoltine). In Cypress River, they emerged in mid-June and disappeared mid-August, exhibiting a longer period of activity compared to in other locations (e.g., compared to in Virden in 2021). This is in line with what is known about their biology. *Cq. perturbans* produces one generation each year, typically resulting in a short window of activity before entering diapause to overwinter (Wood et al., 1979). In Cypress River, we suspect their presence to be extreme due to habitat, since *Cq. perturbans* larvae feed on cattails which surrounded the trapping site in Cypress River (Poirier and Berry, 2011; Sérandour et al., 2010; Wood et al., 1979). 
+
+We checked our models for multicollinearity and the results indicated low (1-5) to moderate (5.1-9.9) correlation. None of the VIFs were over 10 which is a commonly used VIF threshold to indicate if there are problems with multicollinearity such that it causes problems for the model (O’Brien, 2007). In most cases, there is low correlation for model terms. Moderate correlation occurred for relative humidity (rha14) and week for some models which is expected because relative humidity is a function of temperature and humidity, and temperature rises and falls over the entire trapping season. While there is some correlation, this is to be expected and VIFs indicate that model terms are not correlated to a degree such that model performance is significantly impacted. 
+
+We found that most *Ae. vexans* were trapped during periods of moderate degree days, that is, hot, but not too hot, which agrees with findings from *Ae. vexans* in South Korea by Lim et al., (2021) where *Ae. vexans* were more numerous at warmer temperatures. *Oc. dorsalis* followed the same pattern. This indicates a temperature range within which *Ae. vexans* and *Oc. dorsalis* activity will be highest, where if too cool mosquito activity drops due to slowed metabolism, or if too hot increased mortality or shelter-seeking occurs, thereby reducing host-seeking activity and therefore trapping numbers. However, we did not evaluate this behavior, only their presence in traps. On the other hand, *Cx. tarsalis* mosquitoes thrived in the hotter weather compared to *Ae. vexans* and *Oc. dorsalis*, which is consistent with information published by Manitoba Health. *Cx. tarsalis* numbers reached high levels due to the hot weather observed in 2021. No relationship was made between *Cq. perturbans* and temperature. This could be due to a low sample size after removing Cypress River (where the vast majority of *Cq. perturbans* was trapped). However, it could also indicate that other factors such as humidity or habitat could be stronger drivers of their activity. 
+
+For all four mosquito species, the most mosquitoes were trapped under humid conditions (75-85% relative humidity), which is in line with what is understood about mosquitoes and humidity. Mosquitoes are sensitive to desiccation and while mosquitoes can re-hydrate by acquiring water or drinking nectar,  mosquitoes tend to reduce activity during periods of low humidity in favour of seeking shelter to avoid desiccation and explains why we found mosquito activity to be positively correlated with relative humidity (Holmes and Benoit, 2019). For all but one species, there were no significant relationships with precipitation, and for the one species for which there is a significant relationship, Ae. vexans, the relationship is negative. That is, there are more *Ae. vexans* trapped in dry conditions. This is contrary to what is known about mosquitoes, particularly floodwater species such as *Ae. vexans* which rely on precipitation events to trigger egg hatching. In both 2020 and 2021, precipitation events were sparse and when they did occur, there was significant rainfall, especially in 2020 where inland flooding was caused in July. With extreme amounts of precipitation, flowing water can wash mosquito eggs away and reduce the number of mosquitoes that hatch. Not only that, but it is possible that our model did not catch precipitation events within the 14-day window because precipitation events were so sparse, and precipitation from >14 days prior to trapping was not accounted for. 
+
+We carried out in-depth analysis on the four main mosquito species we trapped in Manitoba in 2020 and 2021: *Ae. vexans*, *Oc. dorsalis*, *Cq. perturbans* and *Cx. tarsalis*. We also surveyed the presence of other species including *Oc. flavescens*, *Oc. trivittatus*, *Oc. triseriatus*, *An. earlei* and *Ae. canadensis*, however, did not carry out statistical analysis on these species because we caught too few specimens. For example, in 2021 we only caught 24 *Ae. canadensis* mosquitoes in total and only one *Oc. triseriatus* mosquito. While we did not conduct in-depth statistical analysis for the species activity, documenting their presence is important for understanding the diversity of mosquito vectors present in Manitoba and their low activity could be explained by trap placement and trap type. For example, *Ae. canadensis* is known to be found in wooded areas and larvae thrive in woodland pools (Wood et al., 1979). All our traps were on the periphery of human communities and human dwellings and often adjacent to plains rather than wooded areas. Furthermore, *Oc. triseriatus* is commonly found in Eastern Canada, and its presence in Western Manitoba is newly described (Koloski et al., 2021; McMahon TJ et al., 2008). In the case of *Oc. trivittatus*, it has been documented that light trap such as the CDC Light Trap, are uninformative of *Oc. trivittatus* population activity, while resting boxes have been found to be more effective measures of their activity (Rolston et al., n.d.). Future assessments of mosquito population activity and diversity in Manitoba should seek to include a variety of habitat trapping locations as well as multiple different sets of trap types (e.g., Light traps, resting traps, gravid traps, larval traps).  
+
+It is generally understood that surface temperatures on earth are rising and extreme weather events such as flash flooding and drought becoming more frequent due to climate change, with the Canadian prairies set to experience more drastic climate changes due to the characteristics of its continental climate (IPCC, 2018). Consequently, the distribution and activity of mosquitoes that harbour human pathogens will change too. Understanding how mosquitoes in Manitoba respond to different weather variables can help to predict mosquito-borne disease outbreaks and mitigate public health impacts by strengthening the mosquito and arbovirus surveillance infrastructure allowing for timely mosquito control measures and public awareness campaigns.  
+
+While we found relationships between mosquito trap counts and weather variables, there are some limitations to our study. Mosquitoes have a complex life cycle and are affected by many aspects of their environment. Future studies in Manitoba should account for the impacts of wind speed, moonlight, winter precipitation, rate of snowmelt, irrigation (e.g., this could trigger mosquito eggs to hatch, but is not precipitation), domestic water sources (e.g., lawn watering, backyard mosquito habitat) and differences in land-cover (e.g., grassy vs agricultural vs forest) all of which could impact mosquito activity (Chen et al., 2013; Chuang et al., 2011; Ripoche et al., 2019). For example, *Cx. tarsalis* is commonly found in rural areas around agricultural sites, where *Ae. vexans* is commonly found in ditches, shallow swales, and lawns, and *Cq. perturbans* thrives in swampy areas containing cattails (Chen et al., 2013; Ripoche et al., 2019; Wood et al., 1979). Furthermore, our study used data from two years, 2020 and 2021. While our data set was robust, mosquito populations can fluctuate year-to-year, where one species may dominate in one year and another the next. Additionally, in both years, Manitoba experienced abnormal weather. In 2020 we experienced unprecedented amounts of rainfall concentrated over a few days, whereas in 2021 conditions were very dry (Environment Canada). Moreover, this study was originally designed for pathogen detection only, which resulted in many biases in collection. Namely, we only used one trap type (Miniature CDC Light Trap, light removed), we set traps up on the interface between human dwellings and forest/agricultural land, and locations were chosen based on a combination of pre-existing established trapping networks and human population size. To improve on future iterations of this study in Manitoba, multiple trap types (e.g., gravid traps) should be used in conjunction with a variety of different sites (e.g., in forest, urban and rural areas, agricultural areas).  Finally, we used the closest weather stations available that serviced each trapping location and in some cases these weather stations were many tens of kilometres apart. Therefore, there could be differences between locations that are not accounted for.  
+
+
+## 5 Conclusions
+
+To conclude, we trapped approximately 270,000 mosquitoes in 2020 and 2021 from June to August, running traps twice per week. Using GLMMs, we found linear and non-linear relationships between four mosquito species trapped in Manitoba and temperature, precipitation, and relative humidity. We also explored temporal and location differences.  Particularly, we found that *Ae. vexans* and *Oc. dorsalis* numbers are highest at moderate temperatures, where more *Cx. tarsalis* mosquitoes are caught in warmer temperatures. Relative humidity was positively correlated with all four mosquito species, while relationships with precipitation were only found for *Ae. vexans*. This information will be valuable in understanding how mosquitoes in Manitoba respond to weather variables and climate change and will help improve effectiveness of mosquito and arbovirus surveillance programs.  
+
+We used GLMMs to identify relationships between mosquito vectors and degree days, relative humidity, and precipitation, as well as identified mosquito activity for key pathogen vectoring mosquito species in Manitoba. Combined, this information can inform mosquito abatement and public health decisions. Future studies in Manitoba should consider deploying traps in different habitats (e.g., swamp, urban, woodland), using different types of traps (e.g., CDC light trap, gravid trap), as well as accounting for variables such as wind speed, moonlight, and human light sources.  
+
+## Acknowledgements 
+
+We would like to thank the Public Health Agency of Canada (Infections Disease and Climate Change Fund) for funding, Manitoba Health for trapping supplies and access to trapping sites, and the Winnipeg Insect Control Branch for providing specimens.  
+
+
