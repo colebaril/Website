@@ -179,7 +179,7 @@ In 2021, a total of about 116,000 mosquitoes (estimated from sub-sampling) were 
 
 Of the \~116,000 mosquitoes collected in 2021, 93,065 mosquitoes that can transmit pathogens to humans were identified. *Cq. perturbans* was the predominant species among those identified, representing 57.5% of mosquitoes identified. Note, however, that like 2020, most (97.8%) *Cq. perturbans* mosquitoes were caught in Cypress River (Figure 3-2). Following behind was *Ae. vexans*, which represented 35.0% of mosquitoes identified. 61% of *Ae. vexans* were caught on CDC week 26 and 46% of *Ae. vexans* were caught in Brandon. The other mosquitoes identified were *Cx. tarsalis*, representing 4.7% of mosquitoes identified, *Oc. dorsalis*, representing 1.8% of mosquitoes identified, *An. earlei*, representing 0.5% of those identified, *Oc. trivittatus*, representing 0.4% of mosquitoes identified, *Oc. flavescens*, representing 0.2% of mosquitoes identified, and *Ae. canadensis*, representing 0.05% of mosquitoes identified (Table 3-3; Table 3-4). No mosquitoes were collected from Eastern Manitoba in 2021.
 
-![Table 3-3](images/table3-3.png)
+![Table 3-3](images/table1-3.png)
 
 ```{r}
 library(tidyverse)
@@ -223,7 +223,7 @@ gtmcw2021 <-
 gtmcw2021
 ```
 
-![Table 3-4](images/table3-4.png)
+![Table 3-4](images/table1-4.png)
 
 ```{r}
 library(tidyverse)
@@ -269,7 +269,7 @@ gtml2021
 
 #### 3.1.3 Summary Figures
 
-![Figure 3-1](figure3-1.png "Figure 3-1. Weekly average trap counts for each community for the four most predominant mosquito vector species collected in 2020 (A) and 2021 (B). Some weeks of data were not received from the Winnipeg Insect Control Branch in 2020, denoted with an asterisk.")
+![Figure 3-1](figure1-1.png "Figure 3-1. Weekly average trap counts for each community for the four most predominant mosquito vector species collected in 2020 (A) and 2021 (B). Some weeks of data were not received from the Winnipeg Insect Control Branch in 2020, denoted with an asterisk.")
 
 ```{r}
 library(tidyverse)
@@ -344,7 +344,7 @@ g2020 + g2021 + plot_layout(guides = "collect") +
 # Then export using R. 
 ```
 
-![Figure 3-2](figure3-2.png "Figure 3-2. Mosquito activity for 8 mosquito species in each trapping location in 2020 and 2021.")
+![Figure 3-2](figure1-2.png "Figure 3-2. Mosquito activity for 8 mosquito species in each trapping location in 2020 and 2021.")
 
 ### 3.2 Statistical Analysis
 
@@ -476,8 +476,10 @@ To conclude, we trapped approximately 270,000 mosquitoes in 2020 and 2021 from J
 
 We used GLMMs to identify relationships between mosquito vectors and degree days, relative humidity, and precipitation, as well as identified mosquito activity for key pathogen vectoring mosquito species in Manitoba. Combined, this information can inform mosquito abatement and public health decisions. Future studies in Manitoba should consider deploying traps in different habitats (e.g., swamp, urban, woodland), using different types of traps (e.g., CDC light trap, gravid trap), as well as accounting for variables such as wind speed, moonlight, and human light sources.  
 
-## Acknowledgements 
+## 6 Acknowledgements 
 
 We would like to thank the Public Health Agency of Canada (Infections Disease and Climate Change Fund) for funding, Manitoba Health for trapping supplies and access to trapping sites, and the Winnipeg Insect Control Branch for providing specimens.  
+
+## 7 References
 
 
