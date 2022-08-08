@@ -132,7 +132,7 @@ DL Seeds, Canola Breeding Program
 * Next generation sequencing analysis 
 * [CLC Genomics Workbench](https://www.qiagen.com/us/products/discovery-and-translational-research/next-generation-sequencing/informatics-and-data/analysis-and-visualization/clc-genomics-workbench/)
 * [Chan Zuckerberg ID](https://czid.org/)
-* R & Rstudio 
+* R & RStudio 
 * Data manipulation, transformation (e.g., [dplyr](https://dplyr.tidyverse.org/)), organization and visualization
 (e.g., [ggplot2](https://ggplot2.tidyverse.org/))
 * RMarkdown, Markdown, HTML, CSS

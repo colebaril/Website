@@ -113,7 +113,7 @@ params:
       enable: yes
       gravatarEmail: ''
       social: yes
-      subtitle: Laboratory Technician at the Public Health Agency of Canada
+      subtitle: Website Under Construction
       title: ''
       typeit: yes
     rss: 10
@@ -488,7 +488,7 @@ languages:
           enable: yes
           gravatarEmail: ''
           social: yes
-          subtitle: Laboratory Technician at the Public Health Agency of Canada
+          subtitle: Website Under Construction
           title: ''
           typeit: yes
         rss: 10
