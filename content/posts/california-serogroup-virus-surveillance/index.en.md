@@ -7,7 +7,7 @@ date: "2022-08-7T21:29:01+08:00"
 description: A comprehensive mosquito-borne virus surveillance project in Western Manitoba.
 draft: false
 images: []
-lastmod: "2020-03-06T21:29:01+08:00"
+lastmod: "22022-08-7T21:29:01+08:00"
 lightgallery: true
 resources:
 - name: featured-image
