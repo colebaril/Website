@@ -10,7 +10,11 @@ math:
 title: Public Relations
 ---
 
-## 1 Posters
+## 1 Publications 
+
+(In Prep): Black queen cell virus detected in Canadian mosquitoes. Authors: **Cole Baril**, Christophe MR. LeMoine, Bryan J. Cassone. 
+
+## 2 Posters
 
 ### Neglected mosquito-borne pathogen surveillance in Manitoba, Canada
 
@@ -22,7 +26,7 @@ Authors: **Baril, C.W.** & Cassone, B.J.
 
 ![Figure 1-3](posterdenver.jpg "Me standing next to the poster I presented at the 2021 Entomological Society of America Conference in Denver, Colorado at the Denver Convention Center.")
 
-## 2 Presentations
+## 3 Presentations
 
 ### Mosquito Surveillance and California Serogroup in Manitoba 
 
@@ -46,7 +50,7 @@ Research presentation for the Brandon University 2021 Science Seminar Series.
 
 Author: Baril, C.W.
 
-## 3 Press 
+## 4 Press 
 
 ### Media Features for Mosquito Surveillance
 
