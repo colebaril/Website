@@ -12,7 +12,12 @@ title: Publications and Presentations
 
 ## 1 Publications 
 
-(In Prep): Black queen cell virus detected in Canadian mosquitoes. Authors: **Cole Baril**, Christophe MR. LeMoine, Bryan J. Cassone. 
+1. (In Prep): Black queen cell virus detected in Canadian mosquitoes. Authors: **Cole Baril**, Christophe MR. LeMoine, Bryan J. Cassone. 
+
+> Black queen cell virus (BQCV) is a ubiquitous honeybee viruses and significant pathogen to queen bee (Apis mellifera) larvae. In this study, we used next generation sequencing to identify 
+> BQCV in Aedes vexans collected in 2019 and 2020 from Manitoba, Canada. We assembled de novo the near complete genome sequence of the virus, which is the first available from North America 
+> and first report of BQCV being harbored by mosquitoes. Since we also identified sequences of plant origin in the mosquito samples, we hypothesize that the virus was indirectly acquired by 
+> foraging at the same nectar sources as honey bees. 
 
 ## 2 Posters
 
