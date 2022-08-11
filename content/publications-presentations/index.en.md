@@ -10,7 +10,7 @@ math:
 title: Public Relations
 ---
 
-## Posters
+## 1 Posters
 
 ### Neglected mosquito-borne pathogen surveillance in Manitoba, Canada
 
@@ -22,11 +22,11 @@ Authors: **Baril, C.W.** & Cassone, B.J.
 
 ![Figure 1-3](posterdenver.jpg "Me standing next to the poster I presented at the 2021 Entomological Society of America Conference in Denver, Colorado at the Denver Convention Center.")
 
-## Presentations
+## 2 Presentations
 
 ### Mosquito Surveillance and California Serogroup in Manitoba 
 
-Presented a research presentation for the National Vectorborne Disease Sharing Table. 
+Presented a research presentation for the National Vector-borne Disease Sharing Table. 
 
 August 10<sup>th</sup>, 2022. 
 
@@ -46,7 +46,7 @@ Research presentation for the Brandon University 2021 Science Seminar Series.
 
 Author: Baril, C.W.
 
-## Press 
+## 3 Press 
 
 ### Media Features for Mosquito Surveillance
 
