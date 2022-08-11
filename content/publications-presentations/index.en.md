@@ -24,6 +24,14 @@ Authors: **Baril, C.W.** & Cassone, B.J.
 
 ## Presentations
 
+### Mosquito Surveillance and California Serogroup in Manitoba 
+
+Presented a research presentation for the National Vectorborne Disease Sharing Table. 
+
+August 10<sup>th</sup>, 2022. 
+
+Author: Baril, C.W.
+
 ### Characterizing the Microbiome of Manitoban Mosquitoes
 
 Presented a research presentation for the [North Central Mosquito Control Association](http://north-central-mosquito.org/WPSite/) 2022 Annual Meeting
