@@ -20,7 +20,7 @@ tags:
 - CSGV
 - virus
 - arbovirus
-title: California Serogroup Virus Surveillance
+title: Mosquito-borne Bunyavirus Surveillance
 toc:
   auto: false
 weight: 1
@@ -76,7 +76,7 @@ In 2021, pools of mosquitoes representing 16,759 mosquitoes were screened for th
 
 ## 4 Discussion
 
-We detected two *Ae. vexans* mosquito pools, one in each year of surveillance (Brandon, MB in 2020 and Shoal Lake, MB in 2021) that tested positive for the presence of a CSGV by PCR. One of the positive samples (Shoal Lake) was identified as Cache Valley virus by Sanger sequencing, while the Brandon sample could not be resolved to species level. To our knowledge, this is the first occurrence of CSGV detected in mosquitoes in Manitoba in recent years. While human cases have been identified in Manitoba, to our knowledge no mosquito screening for CSGVs is carried out in the same way that WNV screening exists in the province.
+We detected two *Ae. vexans* mosquito pools, one in each year of surveillance (Brandon, MB in 2020 and Shoal Lake, MB in 2021) that tested positive for the presence of a CSGV by PCR. One of the positive samples (Shoal Lake) was identified as Cache Valley virus (CVV) of the Bunyamwera serogroup by Sanger sequencing, while the Brandon sample could not be resolved to species level. To our knowledge, this is the first occurrence of CVV detected in mosquitoes in Manitoba in recent years. While human cases have been identified in Manitoba, to our knowledge no mosquito screening for mosquito-borne bunyaviruses is carried out in the same way that WNV screening exists in the province. In 2009, nine human CVV cases were identified from a pool of suspected WNV patients who tested negative for WNV. CVV is also known to be prolofic in the sheep population. Serosurveys estimate CVV antibodies exist in about 40% of sheep. 
 
 ## 5 Conclusions
 
