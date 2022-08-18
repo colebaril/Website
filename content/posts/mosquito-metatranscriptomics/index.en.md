@@ -2,7 +2,7 @@
 author: Cole
 authorLink: https://colebaril.netlify.app
 categories:
-- research
+- Research
 date: "2022-07-30T21:29:01+08:00"
 description: A first-of-its kind study in Canada to identify the full range of pathogens harboured by mosquitoes in Manitoba using an *a priori* technique.
 draft: false
@@ -70,9 +70,7 @@ Mosquito RNA pools were combined by species, year, and location to form larger p
 ```{r, include = FALSE, echo = FALSE}
 library(readxl)
 library(here)
-library(knitr)
 library(tidyverse)
-library(janitor)
 library(gt)
 library(gtExtras)
 library(webshot)
@@ -109,7 +107,7 @@ gtpools <- gt(pools) %>%
 
 ### 2.6 *De novo* Assembly
 
-The host and quality filtered reads are allowed to continue through the CZID pipeline, which involves *de novo* assembly with SPADES using default settings and only the assembly module. After assembly, reads are mapped back to contigs with Bowtie2. Additionally, the host and quality filtered reads from CZID were downloaded and *de novo* assembled with the CLC Genomics Workbench version 20 assembler with a minimum contig length of 250 nt, mismatch cost of 2, insertion cost of 3, deletion cost of 3, length fraction of 0.7 and a similarity fraction of 0.95. Contigs were subject to BLASTn and BLASTp searches on the NCBI nt and nr databases, respectively. The BLAST results were very similar between CZID and CLC, thus we opted to use CLC Genomics Workbench version 20 for subsequent analyses.
+The host and quality filtered reads are allowed to continue through the CZID pipeline, which involves *de novo* assembly with [SPAdes](https://github.com/ablab/spades) using default settings and only the assembly module. After assembly, reads are mapped back to contigs with Bowtie2. Additionally, the host and quality filtered reads from CZID were downloaded and *de novo* assembled with the CLC Genomics Workbench version 20 assembler with a minimum contig length of 250 nt, mismatch cost of 2, insertion cost of 3, deletion cost of 3, length fraction of 0.7 and a similarity fraction of 0.95. Contigs were subject to BLASTn and BLASTp searches on the NCBI nt and nr databases, respectively. The BLAST results were very similar between CZID and CLC, thus we opted to use CLC Genomics Workbench version 20 for subsequent analyses.
 
 ### 2.7 BLAST
 
@@ -127,7 +125,28 @@ A group of ORF-predicted protein sequences related to the query sequence were co
 
 ## 3 Results
 
+### 3.1 Overview 
+
 Of a total of 3,382,675,290 reads (average of 75,170,562 reads per sample) sequenced from 45 mosquito samples, 3,127,343,660 reads (92.45%) passed quality filters. Contig filtering was carried out post-BLASTn. Contigs were determined to be a positive match to a given taxon if the E-value was ≤1x10<sup>-100</sup>, the alignment length to a sequence in the nt database was  ≥250 bp, the percent nucleotide identity was ≥90%, and the average coverage depth was ≥10X. Based on these parameters, 4,956,079 reads were determined to be viral. 80.52% of viral reads mapped to contigs aligning with positive sense single stranded RNA viruses, 6.08% of viral reads mapped to contigs aligning with negative sense single stranded RNA viruses, 13.03% of viral reads mapped to contigs aligning with double stranded RNA viruses and 0.36% of viral reads mapped to contigs aligning with single stranded DNA viruses (Figure 2-1). 33 unique viruses were sequenced of which 12 consisted of (-)ssRNA genomes, 20 consisted of (+)ssRNA genomes, 2 consisted of dsRNA genomes and one virus had a ssDNA genome (Figure 2-2).
+
+134,554 reads mapped to contigs aligning with non-virus, non-host sequences. The majority of non-host, non-virus reads (53%) mapped to fungi, chiefly members of blastocladiomycota  and microsporidia. A total of 29% of non-virus, non-host reads mapped to protozoan contigs, chiefly represented by Trypanosomatidae (Euglenozoa) and Plasmodium (Apicomplexa). 13% of non-host, non-virus reads mapped to bacterial contigs, the majority of which were in the phylum Firmicutes. 3% of non-host, non viral reads mapped to Virdiplantae sequences, and 1% of non-virus, non-host reads mapped to Chordata sequences (Figure 2 3).  
+
+{{< admonition note "Note" >}}
+A significantly lower proportion of reads mapped to non-viral, non-mosquito sequences. 
+{{< /admonition >}}
+
+### 3.2 Differences Among Genera 
+
+Across four mosquito genera, Aedes, Ochlerotatus, Coquillettidia and Culex, differences in viral read composition were observed across 4,956,079 viral reads. An average of 57,163 (1,200,420 total) viral reads were sequenced per Aedes sample. Of the total Aedes reads, 0.1% were viral. For Aedes, most reads mapped to viruses in the family Birnaviridae (52%), known to infect mosquitoes. All birnavirus reads belonged to Manitoba birnavirus 1, a putatively novel Entomobirnavirus discussed later.  Following behind Birnaviridae, the majority of (+)ssRNA reads mapped to contigs aligning with viruses in the genus Negevirus (24%), which is known to ubiquitously infect insects including mosquitoes. Following behind Negevirus is Iflaviridae (7%), an unclassified virus in the order Picornavirales (7%), Tymoviridae (5%), Rhabdoviridae (3%), Dicistroviridae (1%), and Chuviridae (1%), all of which contain viral species known to widely infect mosquitoes around the world (Figure 2 5). Five viruses were exclusively detected in Aedes samples including three novel viruses (Manitoba rhabdovirus 1, Manitoba rhabdovirus 2 and Manitoba mononega-like virus 1), black queen cell virus and Cordoba negevirus (Figure 2 4; Figure 2 5). 15 viruses were recovered from Aedes samples of which 9 had (+)ssRNA genomes, 5 had (-)ssRNA genomes and 1 had a dsRNA genome (Figure 2 6).
+
+An average of 482,240 (2,894,143 total) viral reads per Ochlerotatus sample was sequenced. Of the total reads, 0.8% of reads were viral. Most reads mapped to contigs that aligned with viruses in the families Iflaviridae (50%), unclassified Picornavirales viruses (33%), Tymoviridae (16%), the genus Negevirus (1%) (Figure 2 5). No viruses were exclusively sequenced from Ochlerotatus samples (Figure 2 4; Figure 2 5). The number of reads were higher for this genus because of some outliers that were identified, specifically, for an Oc. flavescens sample, where 1,424,712 reads mapped to an unclassified virus in the order Picornavirales, much higher than in any other sample.  4 viruses were recovered from Ochlerotatus samples of which 3 had (+)ssRNA genomes and 1 had a (-)ssRNA genome (Figure 2 6).
+
+An average of 26,148 (156,090 total) viral reads meeting criteria were found per. Coquillettidia sample. Of the total reads, 0.04% were viral. Most reads mapped to contigs aligning with (+)ssRNA viruses (90%) primarily in the family Iflaviridae (88%), followed by Parvoviridae (7%), unclassified viruses in the order Picornavirales (2%) and Birnaviridae (2%) (Figure 2 5). Furthermore, one virus was sequenced exclusively from Cq. perturbans (Figure 2 4; Figure 2 5). 7 viruses were recovered from Coquillettidia samples of which 4 had (+)ssRNA genomes, 1 had a (-)ssRNA genome, 1 had a dsRNA genome and 1 had a ssDNA genome (Figure 2 6). 
+
+An average of 65,089 (704,978 total) viral reads meeting criteria were found per Culex sample. Of the total reads, 0.1% of reads were viral. Most reads mapped to (+)ssRNA viruses (65%). Culex exhibited the most diverse viral read composition, with reads mapping to contigs aligning with many viral families including Iflaviridae (24%), Virgaviridae (13%), Flaviviridae 
+(7%), Luteoviridae (5%), Rhabdoviridae (20%), Orthomyxoviridae (13%), Peribunyaviridae 
+(1%), Partitiviridae (1%) and Parvoviridae (1%) and unclassified viruses in the order Picornavirales (9%) (Figure 2 5). Furthermore, 14 viruses were identified exclusively from Culex samples (Figure 2 4; Figure 2 5).  23 viruses were recovered from Culex samples of which 12 had (+)ssRNA genomes, 8 had (-)ssRNA genomes, 2 had dsRNA genomes and 1 had a ssDNA genome (Figure 2 6).
+
 
 ## 4 Discussion
 

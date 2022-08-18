@@ -2,7 +2,7 @@
 author: Cole
 authorLink: https://colebaril.netlify.app
 categories:
-- research
+- Research
 date: "2022-07-30T21:29:01+08:00"
 description: A comprehensive mosquito-borne virus surveillance project in Western Manitoba.
 draft: false
