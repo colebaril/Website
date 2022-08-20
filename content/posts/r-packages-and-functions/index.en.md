@@ -29,7 +29,9 @@ This post serves as a repository of R packages, functions and use-cases I come a
 
 <!--more-->
 
-## Tidyverse
+## Data Wrangling
+
+### Tidyverse
 
 [tidyverse](https://www.tidyverse.org/) is a collection of R packages that work together to form the 'tidyverse'. These include:
 
@@ -42,11 +44,11 @@ This post serves as a repository of R packages, functions and use-cases I come a
 -   stringr
 -   (NEW) Lubridate (easy date manipulation)
 
-## dplyr
+### dplyr
 
 [dplyr](https://dplyr.tidyverse.org/) is a grammar for manipulating data and is one of my most-used packages. It loads in with the tidyverse package.
 
-### Mutate
+
 
 `mutate()` adds new variables that are *functions* of existing variables. For example if you wish to square all values in column x within your dataframe:
 
@@ -60,7 +62,7 @@ ndw <- read_excel(here("Data/Raw/USW19-21.xlsx")) %>%
 
 The beauty of `mutate()` is that it leaves the original column alone and creates a new column.
 
-### Select
+
 
 `select()` enables selection or dropping of specific columns within your data frame. This is useful for data sets where there is a lot of irrelevant information (e.g., weather station data).
 
@@ -70,7 +72,6 @@ ndw <- read_excel(here("Data/Raw/USW19-21.xlsx")) %>%
          -avg_wind_speed_flag, -total_solar_rad_flag, -rainfall_flag, -dew_point_flag) 
 ```
 
-### Filter
 
 `filter()` allows you to filter your data set by names or values. For example, here I use `filter()` to identify outliers within a dataset inside of a `ggplot2` function. I apply the `filter()` function to the weather1 dataset and only view data where dsi \> 10. This can also be used with logical operators `==` (equals) and `!=` (does not equal) to filter out or in variables.
 
@@ -85,7 +86,7 @@ ggplot(data = filter(weather1, dsi > 10), aes(x = dsi, fill = site)) +
   geom_vline(xintercept = c(10, 20), linetype = "dotted")
 ```
 
-## Janitor
+### Janitor
 
 [Janitor](https://www.rdocumentation.org/packages/janitor/versions/2.1.0) is a package that helps with data cleaning. Useful functions I use include:
 
@@ -96,21 +97,23 @@ ggplot(data = filter(weather1, dsi > 10), aes(x = dsi, fill = site)) +
 row_to_names(df, row_number = 5) will bring the 5<sup>th</sup> row up to the column names and remove rows in between. 
 ```
 
-## Lubridate
+### Lubridate
 
 [Lubridate](https://lubridate.tidyverse.org/) makes dealing with dates (usually a nightmare) a little bit easier. This package has recently been integrated into the tidyverse.
 
-## tidyr
+### tidyr
 
 [tidyr](https://tidyr.tidyverse.org/) (part of the tidyverse) helps with tidying data. My favourite functions include:
 
--   `unite()` to unite split columns (common with dates, where, for example, Y/M/D are in separate columns).
+-   `unite()` to unite combine columns (common with dates, where, for example, Y/M/D are in separate columns).
 -   `separate()` and `extract()` to split columns into multiple columns (e.g., split a full name column into separate first and last name columns)
 -   `pivot_longer()` and `pivot_wider()` for extending data long and wide.
 -   `drop_na` to remove NA values.
 -   `replace_na` to replace a known value with NA.
 
-## assertr
+## Quality Control 
+
+### assertr
 
 [assertr](https://www.rdocumentation.org/packages/assertr/versions/2.8) includes many functions used for *assertive programming* and acts as a quality check before you start data analysis.
 
@@ -129,8 +132,9 @@ mtcars %>%
       group_by(cyl) %>%
       summarise(avg.mpg=mean(mpg))
 ```
+## Data Visualization
 
-## ggplot2
+### ggplot2
 
 [ggplot2](https://ggplot2.tidyverse.org/), part of the tidyverse, allows for elegant data visualization. The functions and customization within are endless, so I will share some examples of plots below.
 
@@ -156,7 +160,7 @@ ggplot(data = ndw_norm, aes(x = month, y = avg_air_temp)) + # sets data frame, a
   theme_bw() # a nice theme
 ```
 
-## Patchwork
+### Patchwork
 
 [patchwork](https://www.rdocumentation.org/packages/patchwork/versions/1.1.1) allows for the easy combining of multiple ggplots into a singlular graphic. Simply turn the ggplots into objects, and then add or divide objects together.
 
@@ -169,3 +173,5 @@ plot1 / plot2 # top and bottom
   plot_layout(guides = `collect`) & # collects any legends that are similar (e.g., 1 legend rather than 4)
   theme(legend.position = `bottom`) # specifies legend position
 ```
+
+### gt
