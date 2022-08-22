@@ -87,6 +87,156 @@ All statistical analyses were carried out by [Dr. Steffi LaZerte](https://steffi
 
 In 2020, approximately 150,000 mosquitoes (estimated from sub-sampling) were collected from 17 communities in Manitoba from June 1 to September 1 (week 23 to 36). In Cypress River and Virden, collections were stopped after August 25th due to very low trap counts. Most of the mosquitoes were trapped from July to mid-August in 2020 and towards the end of June and early July in 2021 (Figure 1-1). Of a total of approximately 121,000 mosquitoes collected in eight communities in West Manitoba in 2020, approximately 50,000 mosquitoes representing five species: *Ae. vexans*, *Oc. dorsalis*, *Oc. flavescens*, *Cx. tarsalis*, and *Cq. perturbans*. *Ae. vexans* was the most numerous species among the five identified and represented 41% of mosquitoes identified. *Ae. vexans* was followed by *Cq. perturbans*, *Cx. tarsalis*, *Oc. dorsalis*, and *Oc. flavescens* which represented 30%, 15%, 10%, and 3% of species identified, respectively (Table 1-1; Table 1-2). Trap counts were highest in mid-July which triggered the City of Brandon to fog on July 16th and 17th, after which a slow decrease in mosquito activity was observed (Figure 1-1). Note that the majority of *Cq. perturbans* were trapped in Cypress River. Of the remaining 28,494 specimens supplied to us from Eastern Manitoba (Winnipeg Insect Control Branch), 10,491 were identified to represent five mosquito species caught at various time-points from June 1<sup>st</sup> to September 1<sup>st</sup>, 2020. Of the identified species, Ae. vexans was predominant, representing 77.3%. Following *Ae. vexans* was *Cx. tarsalis* at 9.8%, *Oc. dorsalis* at 7.1%, *Cq. perturbans* at 5.0%, and *Oc. flavescens* at 0.9%. The number of *Cx. tarsalis* specimens is lower than the actual number due to *Cx. tarsalis* being largely removed prior to receiving the trap.
 
+<table id = "t1">
+  <caption><strong>Table 3-1.</strong> Weekly Number of Mosquitoes Trapped. The total number of five mosquito species trapped in eight communities in Western Manitoba from June 1<sup>st</sup> to September 1<sup>st</sup>, 2020</caption>
+  <tr>
+    <th>Week</th>
+    <th><em>Ae. vexans</em></th>
+    <th><em>Oc. dorsalis</em></th>
+    <th><em>Oc. flavescens</em></th>
+    <th><em>Cx. tarsalis</em></th>
+    <th><em>Cq. perturbans</em></th>
+    <th>Total</th>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>238</td>
+    <td>1933</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>2171</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>753</td>
+    <td>774</td>
+    <td>222</td>
+    <td>15</td>
+    <td>146</td>
+    <td>1910</td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>563</td>
+    <td>199</td>
+    <td>488</td>
+    <td>10</td>
+    <td>2878</td>
+    <td>4138</td>
+  </tr>
+  <tr>
+    <td>25</td>
+    <td>520</td>
+    <td>61</td>
+    <td>361</td>
+    <td>5</td>
+    <td>1735</td>
+    <td>2682</td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>255</td>
+    <td>6</td>
+    <td>155</td>
+    <td>42</td>
+    <td>4029</td>
+    <td>4487</td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>2038</td>
+    <td>351</td>
+    <td>295</td>
+    <td>363</td>
+    <td>727</td>
+    <td>3774</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>8470</td>
+    <td>1170</td>
+    <td>82</td>
+    <td>1403</td>
+    <td>565</td>
+    <td>11690</td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>2995</td>
+    <td>332</td>
+    <td>1</td>
+    <td>2114</td>
+    <td>3757</td>
+    <td>9199</td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>789</td>
+    <td>163</td>
+    <td>0</td>
+    <td>1445</td>
+    <td>325</td>
+    <td>2722</td>
+  </tr>
+  <tr>
+    <td>31</td>
+    <td>2533</td>
+    <td>88</td>
+    <td>0</td>
+    <td>1170</td>
+    <td>1022</td>
+    <td>4813</td>
+  </tr>
+  <tr>
+    <td>32</td>
+    <td>1037</td>
+    <td>57</td>
+    <td>0</td>
+    <td>929</td>
+    <td>21</td>
+    <td>2044</td>
+  </tr>
+  <tr>
+    <td>33</td>
+    <td>472</td>
+    <td>7</td>
+    <td>0</td>
+    <td>59</td>
+    <td>0</td>
+    <td>538</td>
+  </tr>
+  <tr>
+    <td>34</td>
+    <td>146</td>
+    <td>16</td>
+    <td>0</td>
+    <td>41</td>
+    <td>0</td>
+    <td>203</td>
+  </tr>
+  <tr>
+    <td>35</td>
+    <td>90</td>
+    <td>24</td>
+    <td>0</td>
+    <td>13</td>
+    <td>0</td>
+    <td>127</td>
+  </tr>
+  <tfoot>
+  <tr>
+    <td>Total</td>
+    <td>20899</td>
+    <td>5181</td>
+    <td>1604</td>
+    <td>7609</td>
+    <td>15205</td>
+    <td>50498</td>
+  </tr>
+  </tfoot>
+</table>
+
 ![Table 3-1](images/table1-1-06.png)
 
 ```{r}

@@ -24,10 +24,93 @@ toc:
   auto: false
 weight: 1
 ---
+Usually when I run into problems while using R, cannot think of a solution off the top of my head, or forget something I have used in the past, I end up searching the internet for answers. This often results in a headache and wasted time searching for something I have already used before. 
 
 This post serves as a repository of R packages, functions and use-cases I come across that I do not want to forget and may be useful for others as well. It will be organized by package, then function and/or use/example. This is mainly so that I only have to look in one place to quickly find out what I need to know.
 
 <!--more-->
+
+## Package Summary
+
+The packages table links to each package documentation. Links to my description and use-case in the notable functions column.  
+<table>
+  <tr>
+    <th>Package</th>
+    <th>Description</th>
+    <th>Functions</th>
+  </tr>
+  <tr>
+    <td><a href="https://www.tidyverse.org/">Tidyverse</a></td>
+    <td>Collection of grammar and data structure packages</td>
+    <td>dplyr, ggplot2, tibble, readr, purrr, tidyr, stringr, Lubridate</td>
+  </tr>
+  <tr>
+  <td><a href="https://dplyr.tidyverse.org/">dplyr</a></td>
+    <td>Manipulation & organisation</td>
+    <td>mutate, select, filter</td>
+  </tr>
+  </tr>
+    <tr>
+  <td><a href="https://tidyr.tidyverse.org/">tidyr</a></td>
+    <td>Manipulation & organisation</td>
+    <td>unite, separate, pivot_longer, pivot_wider, replace_na</td>
+  </tr>
+  <tr>
+  <td><a href="https://lubridate.tidyverse.org/">Lubridate</a></td>
+    <td>Date & Time manipulation</td>
+    <td>as_Date</td>
+  </tr>
+    <tr>
+  <td><a href="https://www.rdocumentation.org/packages/janitor/versions/2.1.0">Janitor</a></td>
+    <td>Data cleaning</td>
+    <td>clean_names, row_to_number</td>
+  </tr>
+  <tr>
+  <td><a href="https://www.rdocumentation.org/packages/assertr/versions/2.8">assertr</a></td>
+    <td>Quality control</td>
+    <td>assert, verify, insist</td>
+  </tr>
+  <tr>
+  <td><a href="https://ggplot2.tidyverse.org/">ggplot2</a></td>
+    <td>Visualization</td>
+    <td>Elegant charts and figures</td>
+  </tr>
+      <tr>
+  <td><a href="https://www.rdocumentation.org/packages/patchwork/versions/1.1.1">patchwork</a></td>
+    <td>Visualization</td>
+    <td>Combining ggplot2 plot objects</td>
+  </tr>
+  <tr>
+  <td><a href="https://www.rdocumentation.org/packages/ggVennDiagram/versions/1.2.0">ggVennDiagram</a></td>
+    <td>Visualization</td>
+    <td>Pretty and informative Venn Diagrams</td>
+  </tr>
+  <tr>
+  <td><a href="https://gt.rstudio.com/">gt & gtExtras</a></td>
+    <td>Visualization</td>
+    <td>Elegant customizable tables</td>
+  </tr>
+  <tr>
+  <td><a href="https://www.rdocumentation.org/packages/knitr/versions/1.39/topics/kable">kable</a></td>
+    <td>Visualization</td>
+    <td>Simple table generator</td>
+  </tr>
+  <tr>
+  <td><a href="https://here.r-lib.org/">here</a></td>
+    <td>Functionality</td>
+    <td>Upload files from current working directory</td>
+  </tr>
+    <tr>
+  <td><a href="https://www.rdocumentation.org/packages/webshot/versions/0.5.3">webshot</a></td>
+    <td>Functionality</td>
+    <td>Takes screenshots of rendered figures/documents</td>
+  </tr>
+  <tr>
+  <td><a href="https://www.rdocumentation.org/packages/zoo/versions/1.8-10">zoo</a></td>
+    <td>Math/stats</td>
+    <td>Functions for dealing with time-series data (e.g., rolling mean)</td>
+  </tr>
+</table>
 
 ## Data Wrangling
 
@@ -175,3 +258,59 @@ plot1 / plot2 # top and bottom
 ```
 
 ### gt
+
+[`gt`](https://gt.rstudio.com/) allows for elegant and custom tables suitable for publication using easy-to-understand functions and commands. Furthermore, the `gtExtras` package contains functions for additional table customization. 
+
+Here is an example of a `gt` table I created:
+
+```{r, include = FALSE, echo = FALSE}
+library(readxl)
+library(here)
+library(tidyverse)
+library(gt)
+library(gtExtras)
+library(webshot)
+
+pools <- read_excel(here("data/raw/sequencepools.xlsx")) 
+
+gtpools <- gt(pools) %>% 
+  tab_options(
+    table.border.top.color = "white",
+    column_labels.border.top.width = 3,
+    column_labels.border.top.color = "black",
+    column_labels.border.bottom.width = 3,
+    column_labels.border.bottom.color = "black",
+    table_body.border.bottom.color = "black",
+    table.width = pct(75)) %>% 
+  tab_style(
+    style = cell_text(style = "italic"),
+    locations = cells_body(
+      columns = Species
+    )
+  ) %>% 
+  tab_header(
+    title = md("**Table 2-1: Sequenced Mosquito RNA Pools**"),
+    subtitle = md("The year, location, species of mosquito and number of specimens comprising each mosquito pool that was sent for RNA Sequencing. A total of 2 pools, 19 pools and 23 RNA pools were sequenced from mosquitoes caught in 2019, 2020 and 2021, respectively. 1 pool (*Oc. triseriatus*) was comprised of specimens caught in Manitoba in 2019 and 2020.")
+  ) %>%
+  gtsave(filename = "table2-1.png", zoom = 1)
+```
+
+## Math/Stats
+
+### zoo
+
+The [zoo](https://www.rdocumentation.org/packages/zoo/versions/1.8-10) package contains many functions for dealing with time series data.
+
+`rollapplyr()` calculates the rolling means. 
+
+For example, in the following code, the rolling mean for max and min temperature are calculated in 30-day intervals (assuming dates are consecutive). 
+
+{{< admonition note "Note" >}}
+If data has `NA` values, include the argument `na.rm = T` and `rollapplyr` will include the NA value in the 30 days. If not, any `NA` within a 30-day period will result in `NA`. 
+{{< /admonition >}}
+
+```{r}
+weather_rolled <- {weather %>% 
+  mutate(maxt30 = rollapplyr(max_temp, 30, mean, partial = TRUE, na.rm=T)) %>% 
+  mutate(mintt30 = rollapplyr(min_temp, 30, mean, partial = TRUE, na.rm=T)) 
+```

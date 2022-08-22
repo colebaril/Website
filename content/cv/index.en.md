@@ -129,19 +129,43 @@ DL Seeds, Canola Breeding Program
 *	Microplate photometer
 
 ### Computer Skills
+
+**General:**
+
+* Microsoft Office Suite (Word, Excel, PowerPoint, Teams, Sharepoint and Outlook)
+* Zoom 
+* Windows
+* Google Sheets 
+* Netlify (website hosting)
+* R & RStudio
+* Xaringon (HTML presentations)
+
+**Bioinformatics:**
+
 * Next generation sequencing analysis 
 * [CLC Genomics Workbench](https://www.qiagen.com/us/products/discovery-and-translational-research/next-generation-sequencing/informatics-and-data/analysis-and-visualization/clc-genomics-workbench/)
 * [Chan Zuckerberg ID](https://czid.org/)
-* R & RStudio 
-* Data manipulation, transformation (e.g., [dplyr](https://dplyr.tidyverse.org/)), organization and visualization
-(e.g., [ggplot2](https://ggplot2.tidyverse.org/))
-* RMarkdown, Markdown, HTML, CSS
 * MEGAX for phylogenetic and sequence analysis 
 * Familiar with NCBI databases (e.g., nr, protein, nucleotide)
 * Familiar with NCBI web applications (e.g., BLAST suite, ORFfinder, conserved domains)
+
+**Programming Languages:** 
+
+* R
+* RMarkdown & Markdown
+* HTML
+* CSS
+* Markup
+
+**Data Science:**
+
+* Data Manipulation, transformation and organization using Excel and R 
+* Data visualization using RStudio 
 * Experience building models (GLMMs) for mosquito- and sclerotinia-weather based modelling
 * Familiar with the Environment Canada weather database
 * Experience manipulating weather data 
-* Advanced proficiency in Microsoft Office Suite (Word, Excel, PowerPoint, Teams, Sharepoint and Outlook), Zoom, Linux, Windows, and Google Sheets.
+
+
+
 
 
