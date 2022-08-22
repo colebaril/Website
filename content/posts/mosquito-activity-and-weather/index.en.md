@@ -1,14 +1,13 @@
 ---
-author: Cole
-authorLink: https://colebaril.netlify.app
-categories:
-- Research
-date: "2022-07-30T21:29:01+08:00"
-description: Mosquito Activity and Weather 
-draft: false
+title: "Mosquito Activity and Weather"
+author: "Cole"
+date: '2022-07-30T21:29:01+08:00'
+categories: Research
+description: Mosquito Activity and Weather
+draft: no
 images: []
-lastmod: "2020-03-06T21:29:01+08:00"
-lightgallery: true
+lastmod: '2020-03-06T21:29:01+08:00'
+lightgallery: yes
 resources:
 - name: featured-image
   src: featured-image.jpg
@@ -19,9 +18,9 @@ tags:
 - modelling
 - model
 - weather
-title: Mosquito Activity and Weather
+authorLink: https://colebaril.netlify.app
 toc:
-  auto: false
+  auto: no
 weight: 1
 ---
 
@@ -237,48 +236,6 @@ In 2020, approximately 150,000 mosquitoes (estimated from sub-sampling) were col
   </tfoot>
 </table>
 
-![Table 3-1](images/table1-1-06.png)
-
-```{r}
-library(tidyverse)
-library(here)
-library(readxl)
-library(lubridate)
-library(assertr)
-library(janitor)
-library(gt)
-library(gtExtras)
-library(webshot)
-
-#Upload and clean
-mosqcw2020 <- read_excel(here("data/raw/mosqweekcount2020.xlsx")) %>%
-  row_to_names(row_number = 1)
-
-
-# Add header
-gtmcw2020 <- 
-  gt(mosqcw2020) %>% 
-  tab_header(
-    title = md("**Table 3-1: Weekly Number of Mosquitoes Trapped**"),
-    subtitle = md("The total number of five mosquito species trapped in eight
-                  communities in Western Manitoba from June 1<sup>st</sup> to
-                  September 1<sup>st</sup>, 2020")
-)
-
-# Italicize species names
-gtmcw2020 <- 
-  gtmcw2020 %>% 
-    cols_label(
-      "Ae. vexans" = md("*Ae. vexans*"),
-      "Oc. dorsalis" = md("*Oc. dorsalis*"),
-      "Oc. flavescens" = md("*Oc. flavescens*"),
-      "Cx. tarsalis" = md("*Cx. tarsalis*"),
-      "Cq. perturbans" = md("*Cq. perturbans*")
-    ) %>%
-  gtsave(filename = "table3-1.png", zoom = 1)
-
-gtmcw2020
-```
 
 ![Table 3-2](images/table1-2.png)
 
