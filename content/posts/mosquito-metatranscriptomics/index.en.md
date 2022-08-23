@@ -65,41 +65,282 @@ Total RNA was extracted from the mosquito pools using the Qiagen RNeasy Kit (Hil
 
 Mosquito RNA pools were combined by species, year, and location to form larger pools representing between 50 and \>2,000 mosquitoes (Table 2-1), and sent to Genome Quebec Innovation Centre (Montreal, QC, Canada) for cDNA synthesis using the mRNA stranded library preparation kit (NEB), adapter tagging, and RNA sequencing in 150 bp paired-end fashion using the NovaSeq 6000 platform (Illumina, San Diego, CA). The Illumina Analysis Package CASAVA 1.8.2 was used to perform bcl conversion and demultiplexing. Image deconvolution and quality value calculations were carried out using the Illumina GA pipeline (version 1.6).
 
-> The following code block is to generate and format table 2-1 using the `gt()` R package using a basic MS Excel input.
 
-```{r, include = FALSE, echo = FALSE}
-library(readxl)
-library(here)
-library(tidyverse)
-library(gt)
-library(gtExtras)
-library(webshot)
-
-pools <- read_excel(here("data/raw/sequencepools.xlsx")) 
-
-gtpools <- gt(pools) %>% 
-  tab_options(
-    table.border.top.color = "white",
-    column_labels.border.top.width = 3,
-    column_labels.border.top.color = "black",
-    column_labels.border.bottom.width = 3,
-    column_labels.border.bottom.color = "black",
-    table_body.border.bottom.color = "black",
-    table.width = pct(75)) %>% 
-  tab_style(
-    style = cell_text(style = "italic"),
-    locations = cells_body(
-      columns = Species
-    )
-  ) %>% 
-  tab_header(
-    title = md("**Table 2-1: Sequenced Mosquito RNA Pools**"),
-    subtitle = md("The year, location, species of mosquito and number of specimens comprising each mosquito pool that was sent for RNA Sequencing. A total of 2 pools, 19 pools and 23 RNA pools were sequenced from mosquitoes caught in 2019, 2020 and 2021, respectively. 1 pool (*Oc. triseriatus*) was comprised of specimens caught in Manitoba in 2019 and 2020.")
-  ) %>%
-  gtsave(filename = "table2-1.png", zoom = 1)
-```
-
-![Table 2-1](images/table2-1.png)
+<table id = "t1">
+  <caption><strong>Table 2-1.</strong> Sequenced Mosquito RNA Pools. The year, location, species of mosquito and number of specimens comprising each mosquito pool that was sent for RNA Sequencing. A total of 2 pools, 19 pools and 23 RNA pools were sequenced from mosquitoes caught in 2019, 2020 and 2021, respectively. 1 pool (<em>Oc. triseriatus</em>) was comprised of specimens caught in Manitoba in 2019 and 2020.</caption>
+  <tr>
+    <th>Year</th>
+    <th>Location</th>
+    <th>Species</th>
+    <th>Number of Mosquitoes</th>
+  </tr>
+   <tr>
+    <td>2019</a></td>
+    <td>Brandon</td>
+    <td><em>Cx. tarsalis</em></td>
+    <td>2089</td>
+  </tr>
+ <tr>
+    <td>2019</a></td>
+    <td>Brandon</td>
+    <td><em>Ae. vexans</em></td>
+    <td>1783</td>
+  </tr>
+    <tr>
+    <td>2020</a></td>
+    <td>Brandon</td>
+    <td><em>Ae. vexans</em></td>
+    <td>1766</td>
+   </tr>
+  <tr>
+    <td>2020</a></td>
+    <td>Shoal Lake</td>
+    <td><em>Ae. vexans</em></td>
+    <td>1126</td>
+   </tr>
+    <tr>
+    <td>2020</a></td>
+    <td>Shoal Lake</td>
+    <td><em>Ae. vexans</em></td>
+    <td>50*</td>
+  </tr>
+  <tr>
+    <td>2020</a></td>
+    <td>Virden & Souris</td>
+    <td><em>Ae. vexans</em></td>
+    <td>1788</td>
+  </tr>
+ <tr>
+    <td>2020</a></td>
+    <td>Boissevain</td>
+    <td><em>Ae. vexans</em></td>
+    <td>1144</td>
+  </tr>
+ <tr>
+    <td>2020</a></td>
+    <td>Killarney</td>
+    <td><em>Ae. vexans</em></td>
+    <td>653</td>
+  </tr>
+ <tr>
+    <td>2020</a></td>
+    <td>Carberry & Cypress River</td>
+    <td><em>Ae. vexans</em></td>
+    <td>550</td>
+  </tr>
+    <td>2020</a></td>
+    <td>Eastern MB</td>
+    <td><em>Ae. vexans</em></td>
+    <td>2208</td>
+  </tr>
+  <tr>
+    <td>2020</a></td>
+    <td>Shoal Lake</td>
+    <td><em>Oc. flavescens</em></td>
+    <td>270</td>
+  </tr>
+ <tr>
+    <td>2020</a></td>
+    <td>Brandon</td>
+    <td><em>Cx. tarsalis</em></td>
+    <td>897</td>
+  </tr>
+ <tr>
+    <td>2020</a></td>
+    <td>Shoal Lake, Virden & Souris</td>
+    <td><em>Cx. tarsalis</em></td>
+    <td>476</td>
+  </tr>
+ <tr>
+    <td>2020</a></td>
+    <td>Carberry & Cypress River</td>
+    <td><em>Cx. tarsalis</em></td>
+    <td>476</td>
+  </tr>
+  <tr>
+    <td>2020</a></td>
+    <td>Eastern MB</td>
+    <td><em>Cx. tarsalis</em></td>
+    <td>400</td>
+  </tr>
+ <tr>
+    <td>2020</a></td>
+    <td>Brandon</td>
+    <td><em>Oc. dorsalis</em></td>
+    <td>509</td>
+  </tr>
+ <tr>
+    <td>2020</a></td>
+    <td>Shoal Lake</td>
+    <td><em>Oc. dorsalis</em></td>
+    <td>681</td>
+  </tr>
+ <tr>
+    <td>2020</a></td>
+    <td>Souris & Virden</td>
+    <td><em>Oc. dorsalis</em></td>
+    <td>525</td>
+  </tr>
+ <tr>
+    <td>2020</a></td>
+    <td>Boissevain & Killarney</td>
+    <td><em>Oc. dorsalis</em></td>
+    <td>1107</td>
+  </tr>
+  <tr>
+    <td>2020</a></td>
+    <td>Cypress River</td>
+    <td><em>Cq. perturbans</em></td>
+    <td>2246</td>
+  </tr>
+  <tr>
+    <td>2020</a></td>
+    <td>Western MB</td>
+    <td><em>Cq. perturbans</em></td>
+    <td>427</td>
+  </tr>
+  <tr>
+    <td>2020</a></td>
+    <td>Eastern MB</td>
+    <td><em>Cq. perturbans</em></td>
+    <td>444</td>
+  </tr>
+  <tr>
+    <td>2021</a></td>
+    <td>Newdale</td>
+    <td><em>Ae. vexans</em></td>
+    <td>443</td>
+  </tr>
+  <tr>
+    <td>2021</a></td>
+    <td>Shoal Lake</td>
+    <td><em>Ae. vexans</em></td>
+    <td>1154</td>
+  </tr>
+  <tr>
+    <td>2021</a></td>
+    <td>Souris</td>
+    <td><em>Ae. vexans</em></td>
+    <td>992</td>
+  </tr>
+  <tr>
+    <td>2021</a></td>
+    <td>Virden</td>
+    <td><em>Ae. vexans</em></td>
+    <td>907</td>
+  </tr>
+  <tr>
+    <td>2021</a></td>
+    <td>Brandon</td>
+    <td><em>Ae. vexans</em></td>
+    <td>1544</td>
+  </tr>
+  <tr>
+    <td>2021</a></td>
+    <td>Boissevain</td>
+    <td><em>Ae. vexans</em></td>
+    <td>781</td>
+  </tr>
+  <tr>
+    <td>2021</a></td>
+    <td>Killarney</td>
+    <td><em>Ae. vexans</em></td>
+    <td>250</td>
+  </tr>
+  <tr>
+    <td>2021</a></td>
+    <td>Shoal Lake</td>
+    <td><em>Ae. vexans</em></td>
+    <td>283</td>
+  </tr>
+  <tr>
+    <td>2021</a></td>
+    <td>Souris</td>
+    <td><em>Ae. vexans</em></td>
+    <td>900</td>
+  </tr>
+  <tr>
+    <td>2021</a></td>
+    <td>Brandon</td>
+    <td><em>Ae. vexans</em></td>
+    <td>1213</td>
+  </tr>
+  <tr>
+    <td>2021</a></td>
+    <td>Carberry</td>
+    <td><em>Cx. tarsalis</em></td>
+    <td>137</td>
+  </tr>
+  <tr>
+    <td>2021</a></td>
+    <td>Shoal Lake</td>
+    <td><em>Cx. tarsalis</em></td>
+    <td>450</td>
+  </tr>
+  <tr>
+    <td>2021</a></td>
+    <td>Souris</td>
+    <td><em>Cx. tarsalis</em></td>
+    <td>126</td>
+  </tr>
+  <tr>
+    <td>2021</a></td>
+    <td>Brandon</td>
+    <td><em>Cx. tarsalis</em></td>
+    <td>547</td>
+  </tr>
+  <tr>
+    <td>2021</a></td>
+    <td>Boissevain</td>
+    <td><em>Cx. tarsalis</em></td>
+    <td>376</td>
+  </tr>
+  <tr>
+    <td>2021</a></td>
+    <td>Cypress River</td>
+    <td><em>Cx. tarsalis</em></td>
+    <td>222</td>
+  </tr>
+  <tr>
+    <td>2021</a></td>
+    <td>Virden</td>
+    <td><em>Cq. perturbans</em></td>
+    <td>1230</td>
+  </tr>
+  <tr>
+    <td>2021</a></td>
+    <td>Cypress River</td>
+    <td><em>Cq. perturbans</em></td>
+    <td>1000</td>
+  </tr>
+  <tr>
+    <td>2021</a></td>
+    <td>Cypress River</td>
+    <td><em>Cq. perturbans</em></td>
+    <td>1000</td>
+  </tr>
+  <tr>
+    <td>2021</a></td>
+    <td>Brandon</td>
+    <td><em>Ae. canadensis</em></td>
+    <td>24**</td>
+  </tr>
+  <tr>
+    <td>2021</a></td>
+    <td>Shoal Lake</td>
+    <td><em>An. earlei</em></td>
+    <td>184</td>
+  </tr>
+  <tr>
+    <td>2019-2020</a></td>
+    <td>Various***</td>
+    <td><em>Oc. triseriatus</em></td>
+    <td>199</td>
+  </tr>
+</table>
+<div>* This pool was re-sequenced due to a positive PCR result to identify whether a bunyavirus was present via NGS.</div>
+<div>** We caught very few *Ae. canadensis*, however we wanted to see what, if any pathogens we could find.</div>
+<div>*** We caught very few *Oc. triseriatus* in a single location, so we pooled all the *Oc. triseriatus* together to test if pathogens were present.</div>
 
 ### 2.5 Host and Quality Filtering
 
