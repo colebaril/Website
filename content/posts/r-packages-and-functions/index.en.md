@@ -30,9 +30,9 @@ This post serves as a repository of R packages, functions and use-cases I come a
 
 <!--more-->
 
-<<<<<<< HEAD
+
 ## Tidyverse
-=======
+
 ## Package Summary
 
 The packages table links to each package documentation. Links to my description and use-case in the notable functions column.  
@@ -118,7 +118,6 @@ The packages table links to each package documentation. Links to my description 
 ## Data Wrangling
 
 ### Tidyverse
->>>>>>> 8368cfeb64685c557d79699d279ea3e39df53c9e
 
 [tidyverse](https://www.tidyverse.org/) is a collection of R packages that work together to form the 'tidyverse'. These include:
 
@@ -258,8 +257,7 @@ plot1 / plot2 # top and bottom
   plot_layout(guides = `collect`) & # collects any legends that are similar (e.g., 1 legend rather than 4)
   theme(legend.position = `bottom`) # specifies legend position
 ```
-<<<<<<< HEAD
-=======
+
 
 ### gt
 
@@ -318,4 +316,4 @@ weather_rolled <- {weather %>%
   mutate(maxt30 = rollapplyr(max_temp, 30, mean, partial = TRUE, na.rm=T)) %>% 
   mutate(mintt30 = rollapplyr(min_temp, 30, mean, partial = TRUE, na.rm=T)) 
 ```
->>>>>>> 8368cfeb64685c557d79699d279ea3e39df53c9e
+
