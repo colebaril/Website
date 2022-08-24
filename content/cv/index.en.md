@@ -167,5 +167,14 @@ DL Seeds, Canola Breeding Program
 
 
 
+## PDF CV
+
+<style>
+#myPDF
+width: 85%
+height: 975px;
+</style>
+
+<iframe src = "Cole-CV.pdf" height="975" width="300"></iframe>
 
 

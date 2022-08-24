@@ -27,7 +27,7 @@ toc:
 weight: 1
 ---
 
-Publication in preparation.
+Chapter 2 of my Master's thesis. 
 
 A first-of-its kind study in Canada to identify the suite of pathogens harboured by mosquitoes in Manitoba using an [*a priori*](https://en.wikipedia.org/wiki/A_priori_and_a_posteriori) technique.
 

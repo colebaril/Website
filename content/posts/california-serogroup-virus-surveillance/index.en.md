@@ -26,7 +26,7 @@ toc:
 weight: 1
 ---
 
-Publication in preparation.
+Chapter 2 of my Master's thesis. 
 
 A comprehensive mosquito-borne virus surveillance project in Western Manitoba.
 
