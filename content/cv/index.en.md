@@ -10,7 +10,13 @@ math:
 title: Curriculum Vitae
 ---
 
-For the downloadable PDF version of my CV, [click here](https://colebaril.ca/cv/#pdf-cv). 
+## Downloadable PDF
+
+This CV was made using the `vitae::awesomecv` template from the `vitae` R package combined with the `tinytex` package. 
+
+<iframe src = "Cole-CV.pdf" height="3000"  width=125%></iframe>
+
+## About Me
 
 > I completed my Bachelor of Science in Biology at the University of Winnipeg where I first became interested in vector-borne pathogens.
 > I recently completed my Master of Science at Brandon University where I studied and led projects relating to mosquito borne pathogen 
@@ -169,11 +175,7 @@ DL Seeds, Canola Breeding Program
 
 
 
-## PDF CV
 
-This CV was made using the `vitae::awesomecv` template from the `vitae` R package combined with the `tinytex` package. 
-
-<iframe src = "Cole-CV.pdf" height="975"  width=85%></iframe>
 
 
 
