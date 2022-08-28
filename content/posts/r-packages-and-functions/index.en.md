@@ -30,9 +30,6 @@ This post serves as a repository of R packages, functions and use-cases I come a
 
 <!--more-->
 
-
-## Tidyverse
-
 ## Package Summary
 
 The packages table links to each package documentation. Links to my description and use-case in the notable functions column.  
@@ -94,6 +91,16 @@ The packages table links to each package documentation. Links to my description 
     <td>Elegant customizable tables</td>
   </tr>
   <tr>
+  <td><a href="https://cran.r-project.org/web/packages/stargazer/vignettes/stargazer.pdf">Stargazer</a></td>
+    <td>Visualization</td>
+    <td>Tables (stats)</td>
+  </tr>
+  <tr>
+  <td><a href="https://rstudio.github.io/DT/">DT</a></td>
+    <td>Visualization</td>
+    <td>Embeddable, downloadable data tables</td>
+  </tr>
+  <tr>
   <td><a href="https://www.rdocumentation.org/packages/knitr/versions/1.39/topics/kable">kable</a></td>
     <td>Visualization</td>
     <td>Simple table generator</td>
@@ -112,6 +119,26 @@ The packages table links to each package documentation. Links to my description 
   <td><a href="https://www.rdocumentation.org/packages/zoo/versions/1.8-10">zoo</a></td>
     <td>Math/stats</td>
     <td>Functions for dealing with time-series data (e.g., rolling mean)</td>
+  </tr>
+  <tr>
+  <td><a href="https://www.rdocumentation.org/packages/glmmTMB/versions/1.1.4/topics/glmmTMB">glmmTMB</a></td>
+    <td>Math/stats</td>
+    <td>GLMMs</td>
+  </tr>
+  <tr>
+  <td><a href="https://www.rdocumentation.org/packages/DHARMa/versions/0.4.5">DHARMa</a></td>
+    <td>Math/stats</td>
+    <td>Model diagnostics (residuals) for GLMMs</td>
+  </tr>
+  <tr>
+  <td><a href="https://www.rdocumentation.org/packages/emmeans/versions/1.8.0/topics/emmeans">emmeans</a></td>
+    <td>Math/stats</td>
+    <td>Post-hoc model comparison</td>
+  </tr>
+  <tr>
+  <td><a href="https://www.rdocumentation.org/packages/performance/versions/0.9.2">performance</a></td>
+    <td>Math/stats</td>
+    <td>Model quality (e.g., multicollinearity)</td>
   </tr>
 </table>
 
