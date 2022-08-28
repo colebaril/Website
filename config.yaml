@@ -42,7 +42,7 @@ menu:
       url: /categories/
       weight: 3
     - identifier: cv
-      name: Cirriculum Vitae
+      name: CV
       post: ''
       pre: ''
       title: ''
@@ -446,7 +446,7 @@ languages:
           url: /categories/
           weight: 3
         - identifier: cv
-          name: Curriculum Vitae
+          name: CV
           post: ''
           pre: ''
           title: ''
