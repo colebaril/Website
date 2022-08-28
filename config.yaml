@@ -459,13 +459,6 @@ languages:
           title: ''
           url: /publications-presentations/
           weight: 5
-        - identifier: documentation
-          name: Docs
-          post: ''
-          pre: ''
-          title: ''
-          url: /categories/documentation/
-          weight: 6
         - identifier: about
           name: About
           post: ''
