@@ -3,11 +3,11 @@ author: Cole
 authorLink: https://colebaril.ca
 categories:
 - Baking
-date: "2022-07-30T21:29:01+08:00"
+date: "2022-08-28T21:29:01+08:00"
 description: Baking
 draft: false
 images: []
-lastmod: "2020-03-06T21:29:01+08:00"
+lastmod: "2022-08-29T21:29:01+08:00"
 lightgallery: true
 resources:
 - name: featured-image
@@ -352,6 +352,10 @@ Baking times vary depending on oven make and model. Hazard on the lower end. On 
     <td><strong></strong></td>
   </tr>
 </table>
+
+{{< admonition tip "Baking Times Vary" >}}
+Substitute half the flour with oat bran or whole wheat flour for a healthier variant.
+{{< /admonition >}}
 
 #### Methods 
 
