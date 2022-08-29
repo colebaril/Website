@@ -4,7 +4,7 @@ authorLink: https://colebaril.ca
 categories:
 - Baking
 date: "2022-07-30T21:29:01+08:00"
-description: Bread recipes
+description: Baking
 draft: false
 images: []
 lastmod: "2020-03-06T21:29:01+08:00"
@@ -15,23 +15,23 @@ resources:
 tags:
 - baking
 - bread
-title: Bread
+title: Baking
 toc:
   auto: false
 weight: 1
 ---
 
-Recipes and photos of the bread I make. 
+A collection of my baking recipies. 
 
 <!--more-->
-
-## Dutch Oven Bread 
-
-Bread making can be a time consuming, tedious and tiresome process. However, using the dutch oven method makes making delicious bread fast and easy. 
 
 {{< admonition note "Calories" >}}
 Calories are for the full recipe and are approximate. To calculate per serving, weigh the final product and divide the total calories by weight to get calories per gram.
 {{< /admonition >}} 
+
+## Dutch Oven Bread 
+
+Bread making can be a time consuming, tedious and tiresome process. However, using the dutch oven method makes making delicious bread fast and easy. 
 
 ### White Bread 
 
@@ -165,9 +165,203 @@ The whole wheat variant is very similar to but slightly different than the white
 16. Remove and let cool. 
 
 
+## Muffins
 
+{{< admonition note "Calories" >}}
+Calories are for the full recipe and are approximate. To calculate per serving, weigh the final product and divide the total calories by weight to get calories per gram.
+{{< /admonition >}} 
 
+### Bran Muffins 
 
+#### Ingredients 
 
+<table>
+  <tr>
+    <th>Ingredient</th>
+    <th>Quantity</th>
+    <th>Calories</th>
+  </tr>
+  <tr>
+    <th colspan="3">Wet Ingredients</th>
+  </tr>
+  <tr>
+    <td>Brown sugar</td>
+    <td>1 cups (440g)</td>
+    <td>700</td>
+  </tr>
+    <tr>
+    <td>Canola oil</td>
+    <td>0.5 cups (118ml)</td>
+    <td>1000</td>
+  </tr>
+    </tr>
+    <tr>
+    <td>Skim milk</td>
+    <td>1 cup (250ml)</td>
+    <td>90</td>
+  </tr>
+    <tr>
+    <td>Vinegar</td>
+    <td>2 tbsp (30ml)</td>
+    <td>NA</td>
+  </tr>
+    <tr>
+    <td>Egg</td>
+    <td>1 large</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>Fancy molasses</td>
+    <td>2 tbsp (30ml)</td>
+    <td>120</td>
+  </tr>
+<tr>
+    <th colspan="3">Dry Ingredients</th>
+  </tr>
+ <tr>
+    <td>Wheat bran</td>
+    <td>1.5 cups</td>
+    <td></td>
+  </tr>
+ <tr>
+    <td>Wheat germ</td>
+    <td>0.5 cup</td>
+    <td></td>
+  </tr>
+ <tr>
+    <td>Whole wheat flour</td>
+    <td>1 cup</td>
+    <td></td>
+  </tr>
+ <tr>
+    <td>Ground flaxmeal</td>
+    <td>0.5 cup</td>
+    <td></td>
+  </tr>
+ <tr>
+    <td>Baking powder</td>
+    <td>1 tsp</td>
+    <td>NA</td>
+  </tr>
+ <tr>
+    <td>Baking soda</td>
+    <td>1 tsp</td>
+    <td>NA</td>
+  </tr>
+ <tr>
+    <td>Salt</td>
+    <td>0.5 tsp</td>
+    <td>NA</td>
+  </tr>
+ <tr>
+    <td>Cinnamon</td>
+    <td>0.5 tsp</td>
+    <td>NA</td>
+  </tr>
+ <tr>
+    <td>Raisins</td>
+    <td>1 cup</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Total calories</strong></td>
+    <td><strong></strong></td>
+  </tr>
+</table>
+
+{{< admonition note "Note" >}}
+Combine milk with vinegar to make low calorie homemade buttermilk. Raisins can be omitted. To reduce sweetness, do not pack brown sugar. 
+{{< /admonition >}} 
+
+#### Methods 
+
+1. Combine brown sugar, oil, buttermilk, eggs and molasses in a large mixing bowl. 
+2. Mix dry ingredients in a large bowl; add the liquid mixture to the dry ingredients. 
+3. Fold together briefly until incorporated. 
+4. Bake at 390°F for 13 minutes. 
+
+{{< admonition tip "Baking Times Vary" >}}
+Baking times vary depending on oven make and model. Hazard on the lower end. On first attempt, start with 10 minutes and increase by a minute as to not burn.  
+{{< /admonition >}} 
+
+## Cookies 
+
+### Chocolate Chip
+
+#### Ingredients 
+
+<table>
+  <tr>
+    <th>Ingredient</th>
+    <th>Quantity</th>
+    <th>Calories</th>
+  </tr>
+  <tr>
+    <th colspan="3">Wet Ingredients</th>
+  </tr>
+  <tr>
+    <td>Brown sugar</td>
+    <td>0.75 cup (440g)</td>
+    <td>700</td>
+  </tr>
+    <tr>
+    <td>Sugar</td>
+    <td>0.75 cup</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>Margarine</td>
+    <td>1 cup</td>
+    <td></td>
+  </tr>
+    </tr>
+    <tr>
+    <td>Egg</td>
+    <td>2</td>
+    <td>140</td>
+<tr>
+ </tr>
+    <tr>
+    <td>Vanilla extract</td>
+    <td>1 tsp</td>
+    <td>NA</td>
+<tr>
+    <th colspan="3">Dry Ingredients</th>
+  </tr>
+ <tr>
+    <td>2.5 cups flour</td>
+    <td>1.5 cups</td>
+    <td></td>
+  </tr>
+ <tr>
+    <td>Baking soda</td>
+    <td>1 tsp</td>
+    <td>NA</td>
+  </tr>
+ <tr>
+    <td>Salt</td>
+    <td>0.5 tsp</td>
+    <td>NA</td>
+  </tr>
+ <tr>
+    <td>Chocolate chips</td>
+    <td>1.5 cups</td>
+    <td></td>
+  </tr>
+    <td colspan="2"><strong>Total calories</strong></td>
+    <td><strong></strong></td>
+  </tr>
+</table>
+
+#### Methods 
+
+1. Combine flour, baking soda and salt. 
+2. Cream margarine with sugars. 
+3. Add eggs one at a time, mix well. 
+4. Fold in the flour mixture until combined. 
+5. fold in chocolate chips. 
+6. Drop 1 spoonful of dough onto greased (or ungreased airbake) cookie sheets. 
+7. Bake 11 minutes. 
+6. Let cool for 1 minute then move from cookie sheet onto cooling rack.
 
 
