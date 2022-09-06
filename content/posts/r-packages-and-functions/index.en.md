@@ -115,6 +115,11 @@ The packages table links to each package documentation. Links to my description 
     <td>Functionality</td>
     <td>Takes screenshots of rendered figures/documents</td>
   </tr>
+ <tr>
+  <td><a href="hhttps://docs.ropensci.org/pdftools/">pdftools</a></td>
+    <td>Functionality</td>
+    <td>Maniuplate and extract from .pdf files</td>
+  </tr>
   <tr>
   <td><a href="https://www.rdocumentation.org/packages/zoo/versions/1.8-10">zoo</a></td>
     <td>Math/stats</td>
@@ -322,6 +327,20 @@ gtpools <- gt(pools) %>%
     subtitle = md("The year, location, species of mosquito and number of specimens comprising each mosquito pool that was sent for RNA Sequencing. A total of 2 pools, 19 pools and 23 RNA pools were sequenced from mosquitoes caught in 2019, 2020 and 2021, respectively. 1 pool (*Oc. triseriatus*) was comprised of specimens caught in Manitoba in 2019 and 2020.")
   ) %>%
   gtsave(filename = "table2-1.png", zoom = 1)
+```
+
+## Functionality 
+
+### pdftools
+
+An extremely useful package, `pdftools` allows for manipulation and extraction of PDF documents. 
+
+For example:
+```{r}
+library(pdftools)
+# Extract a few pages
+pdf_subset('encyclopedia_lis.pdf',
+           pages = 3015:3026, output = "automation.pdf")
 ```
 
 ## Math/Stats
