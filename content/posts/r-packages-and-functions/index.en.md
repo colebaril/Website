@@ -1,13 +1,13 @@
 ---
 author: Cole
-authorLink: https://colebaril.netlify.app
+authorLink: https://colebaril.ca
 categories:
 - R
 date: "2022-07-30T21:29:01+08:00"
 description: Useful R packages, functions and use-cases. 
 draft: false
 images: []
-lastmod: "2020-03-06T21:29:01+08:00"
+lastmod: "2022-09-18T21:29:01+08:00"
 lightgallery: true
 resources:
 - name: featured-image
@@ -24,11 +24,14 @@ toc:
   auto: false
 weight: 1
 ---
+
+A list of R packages I find particularly useful.
+
+<!--more-->
+
 Usually when I run into problems while using R, cannot think of a solution off the top of my head, or forget something I have used in the past, I end up searching the internet for answers. This often results in a headache and wasted time searching for something I have already used before. 
 
 This post serves as a repository of R packages, functions and use-cases I come across that I do not want to forget and may be useful for others as well. It will be organized by package, then function and/or use/example. This is mainly so that I only have to look in one place to quickly find out what I need to know.
-
-<!--more-->
 
 ## Package Summary
 
@@ -64,6 +67,16 @@ The packages table links to each package documentation. Links to my description 
   <td><a href="https://www.rdocumentation.org/packages/janitor/versions/2.1.0">Janitor</a></td>
     <td>Data cleaning</td>
     <td>clean_names, row_to_number</td>
+  </tr>
+  <tr>
+  <td><a href="https://stringr.tidyverse.org/">stringr</a></td>
+    <td>Data Cleaning</td>
+    <td>String editing (str_)</td>
+  </tr>
+  <tr>
+  <td><a href="https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/grep">grep</a></td>
+    <td>Data Cleaning</td>
+    <td>String editing (grep, grepl, gsub)</td>
   </tr>
   <tr>
   <td><a href="https://www.rdocumentation.org/packages/assertr/versions/2.8">assertr</a></td>
@@ -106,6 +119,21 @@ The packages table links to each package documentation. Links to my description 
     <td>Simple table generator</td>
   </tr>
   <tr>
+  <td><a href="https://CRAN.R-project.org/package=hexSticker">hexSticker</a></td>
+    <td>Visualization</td>
+    <td>Create hexagon graphic</td>
+  </tr>
+  <tr>
+  <td><a href="https://CRAN.R-project.org/package=sysfonts">sysfonts</a></td>
+    <td>Visualization</td>
+    <td>Load fonts into R</td>
+  </tr>
+  <tr>
+  <td><a href="https://CRAN.R-project.org/package=magick">magick</a></td>
+    <td>Functionality/Visualization</td>
+    <td>Graphics/Image Processing</td>
+  </tr>
+  <tr>
   <td><a href="https://here.r-lib.org/">here</a></td>
     <td>Functionality</td>
     <td>Upload files from current working directory</td>
@@ -145,6 +173,12 @@ The packages table links to each package documentation. Links to my description 
     <td>Math/stats</td>
     <td>Model quality (e.g., multicollinearity)</td>
   </tr>
+  <tr>
+  <td><a href="https://rvest.tidyverse.org/">rvest</a></td>
+    <td>Web Scraping</td>
+    <td>Read and harvest HTML data from websites</td>
+  </tr>
+
 </table>
 
 ## Data Wrangling
