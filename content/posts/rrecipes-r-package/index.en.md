@@ -26,6 +26,10 @@ toc:
 weight: 1
 ---
 
+A hobby-project package containing functions to scrape recipes off the web. 
+
+<!--more-->
+
 <div align="center">
 
 ![](logo.png). 
