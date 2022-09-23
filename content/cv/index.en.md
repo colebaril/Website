@@ -10,7 +10,7 @@ math:
 title: Curriculum Vitae
 ---
 
-*To view on mobile, you may need to download the PDF or open in a new tab.
+_To view on mobile, you may need to download the PDF or open in a new tab._
 
 <iframe src = "Cole-CV.pdf" height="3000"  width=125%></iframe>
 
