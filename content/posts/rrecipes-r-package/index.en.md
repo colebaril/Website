@@ -30,13 +30,7 @@ A hobby-project package containing functions to scrape recipes off the web.
 
 <!--more-->
 
-<div align="center">
-
-![](logo.png). 
-
-</div>
-
-## Premise 
+## Premise <img src='logo.png' align="right" height="139" />
 
 As an avid amateur baker, I often search the web for the best recipes. Often times, I want to compare multiple recipes and paste them into an easier-to-access format such as a personal recipe list or send them to a friend. In a lot of cases, this involves a substantial amount of scrolling to the bottom of the page in order to find the recipe. 
 
