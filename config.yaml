@@ -124,7 +124,7 @@ params:
   page:
     code:
       copy: yes
-      maxShownLines: 10
+      maxShownLines: 50
     comment:
       commento:
         enable: no

@@ -21,8 +21,8 @@ tags:
 - Recipe
 - Webscraping
 title: rrecipes R Package
-toc:
-  auto: false
+toc: no
+keep_md: yes
 weight: 1
 ---
 
