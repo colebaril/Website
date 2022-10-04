@@ -25,7 +25,7 @@ keep_md: yes
 weight: 1
 ---
 
-A analytical pipeline I developed for analyzing personal Twitter data.
+An analytical pipeline I developed for analyzing personal Twitter data.
 
 <!--more-->
 

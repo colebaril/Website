@@ -12,14 +12,14 @@ title: Publications and Presentations
 
 ## 1 Publications 
 
-### (In Prep): Black queen cell virus detected in Canadian mosquitoes. 
+1. **Cole Baril**; Christophe MR. LeMoine; Bryan Cassone. Black queen cell virus detected in Canadian mosquitoes. Status: Manuscript being submitted to journal.
 
-Authors: **Cole Baril**, Christophe MR. LeMoine, Bryan J. Cassone. 
+2. **Cole Baril**, Ben G. Pilling, Milah J. Mikkelsen, Jessica M. Sparrow, Carlyn A. M Duncan, Cody W. Koloski,
+Stefanie E. LaZerte, Bryan J. Cassone. The impact of climatic factors on the population dynamics of common
+mosquito vector species in the Canadian Prairies Status: Finalizing manuscript.
 
-> Black queen cell virus (BQCV) is a ubiquitous honeybee viruses and significant pathogen to queen bee (Apis mellifera) larvae. In this study, we used next generation sequencing to identify 
-> BQCV in Aedes vexans collected in 2019 and 2020 from Manitoba, Canada. We assembled de novo the near complete genome sequence of the virus, which is the first available from North America 
-> and first report of BQCV being harbored by mosquitoes. Since we also identified sequences of plant origin in the mosquito samples, we hypothesize that the virus was indirectly acquired by 
-> foraging at the same nectar sources as honey bees. 
+3. **Cole Baril**, Carlyn A. M Duncan, Bryan J. Cassone. Arbovirus surveillance and metatranscriptomic sequencing
+of mosquitoes in the Canadian Prairies. Status: Finalizing manuscript.
 
 ## 2 Posters
 
@@ -34,6 +34,14 @@ Authors: **Baril, C.W.** & Cassone, B.J.
 ![Figure 1-3](posterdenver.jpg "Me standing next to the poster I presented at the 2021 Entomological Society of America Conference in Denver, Colorado at the Denver Convention Center.")
 
 ## 3 Presentations
+
+### Mosquito‑borne bunyavirus surveillance and mosquito‑weather relationships in Manitoba
+
+Designed and delivered a research presentation for the Manitoba West Nile Virus Scientific Committee 
+
+August 23<sup>rd</sup>, 2022.
+
+Author: Baril, C.W.
 
 ### Mosquito Surveillance and California Serogroup in Manitoba 
 

@@ -25,9 +25,7 @@ A collection of my baking recipies.
 
 <!--more-->
 
-{{< admonition note "Calories" >}}
-Calories are for the full recipe and are approximate. To calculate per serving, weigh the final product and divide the total calories by weight to get calories per gram.
-{{< /admonition >}} 
+> This page is under a complete overhaul. I have written a cookbook using R Markdown and LaTeX and I am in the process of converting it to regular Markdown/HTML for this page. 
 
 ## Bread
 

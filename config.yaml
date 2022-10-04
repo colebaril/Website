@@ -112,7 +112,7 @@ params:
       enable: yes
       gravatarEmail: ''
       social: yes
-      subtitle: Website Under Construction
+      subtitle: Welcome to my site! I am a biologist, mosquito and virus researcher, hobbyist coder and amateur baker.
       title: ''
       typeit: yes
     rss: 10
@@ -175,8 +175,8 @@ params:
         lightTheme: github-light
         repo: ''
       valine:
-        appId: QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI
-        appKey: WBmoGyJtbqUswvfLh6L8iEBr
+        appId: 
+        appKey: 
         avatar: mp
         emoji: ''
         enable: yes
@@ -187,7 +187,7 @@ params:
         pageSize: 10
         placeholder: ''
         recordIP: yes
-        serverURLs: https://leancloud.hugoloveit.com
+        serverURLs: 
         visitor: yes
     fontawesome: yes
     fraction: yes
@@ -480,7 +480,7 @@ languages:
           enable: yes
           gravatarEmail: ''
           social: yes
-          subtitle: Website Under Construction
+          subtitle: Welcome to my site! I am a biologist, mosquito and virus researcher, hobbyist coder and amateur baker.
           title: ''
           typeit: yes
         rss: 10
