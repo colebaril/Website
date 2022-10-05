@@ -107,7 +107,7 @@ params:
       enable: yes
       paginate: 6
     profile:
-      avatarURL: /images/mosquitostatue.jpg
+      avatarURL: /images/colecircle.jpg
       disclaimer: ''
       enable: yes
       gravatarEmail: ''
@@ -174,21 +174,6 @@ params:
         label: ''
         lightTheme: github-light
         repo: ''
-      valine:
-        appId: 
-        appKey: 
-        avatar: mp
-        emoji: ''
-        enable: yes
-        enableQQ: no
-        highlight: yes
-        lang: ''
-        meta: ''
-        pageSize: 10
-        placeholder: ''
-        recordIP: yes
-        serverURLs: 
-        visitor: yes
     fontawesome: yes
     fraction: yes
     hiddenFromHomePage: no
@@ -219,7 +204,7 @@ params:
     seo:
       images: []
       publisher:
-        logoUrl: /images/mosquitostatue.jpg
+        logoUrl: /images//images/colecircle.jpg
         name: xxxx
     share:
       Baidu: no
@@ -475,7 +460,7 @@ languages:
     params:
       home:
         profile:
-          avatarURL: /images/mosquitostatue.jpg
+          avatarURL: /images/colecircle.jpg
           disclaimer: ''
           enable: yes
           gravatarEmail: ''
