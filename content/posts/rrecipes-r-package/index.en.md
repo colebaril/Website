@@ -48,7 +48,7 @@ This package contains some simple functions to scrape recipes from the web using
 
 Adding more sites and functionality in my spare time, as this is a hobby project.
 
-## Download
+# Download
 
 To download and load the package, run the following code in R: 
 
@@ -57,24 +57,16 @@ devtools::install_git("https://github.com/colebaril/rrecipes")
 library(rrecipes)
 ```
 
-## Dependencies
-
-There are a number of packages required to run this package, which are automatically attached with `rrecipes`.
-
-1. dplyr
-2. Magrittr
-3. rvest
-4. Stringr
-5. data.table
-
-## Functions
+# Functionality
 
 
-### `scrape()`
+## `scrape()`
 
 Use the `scrape()` function employs a variety of other functions to extract recipes from the web. Internet connection required. This function prints recipes to the console and saves a file called `scraped_recipes.txt` in your working directory. 
 
-The `recipe_urls =`  argument takes in 1 or more recipe URLs. Make sure the URL is for a single recipe, not a list.
+### Arguments
+
+`recipe_urls = `:  Takes in 1 or more recipe URLs. Make sure the URL is for a single recipe, not a list.
 
 For example:
 
@@ -84,59 +76,74 @@ scrape(recipe_urls = c(
   "https://www.foodnetwork.ca/recipe/the-pioneer-woman-bbq-pork-walking-tacos-are-the-ultimate-snack/",
   "https://tasty.co/recipe/slow-cooker-ribs")) 
 ```
-### Search Recipe Websites 
+## Search Recipe Websites 
 
-For each supported website, a search feature has been or is being implemented. Note that the search functions retrieve only the top 10 recipes. This means that as recipes move up and down in rank, or a new recipe is added to the site and is popular, the results will change.
+For each supported website, a search feature has been or is being implemented.
 
-#### `search_allrecipes()`
+The `search_recipes()` function works by taking in an argument `query =` which can be any food you want to search for and `site =`, wwhich can be any of the supported sites, and will return the top 10 URLs for your query by default. You can also specify the number of URLs returned as demonstrated below. The number returned may be less than the number requested where there are no more recipes. 
 
-The `search_allrecipes()` function works by taking in an argument `query =`, which can be any word, and will return the top 10 URLs for your query. 
+### Arguments
+
+`query =`: The search term (e.g., "apple pie"). 
+
+`site =`: The site you wish to search (e.g., "allrecipes"). 
+
+**The following commands may be entered for `site`**
+
+- Foodnetwork.ca: `foodnetwork`
+- allrecipes.com: `allrecipes`
+- thepioneerwoman.com: `pioneerwoman`
+
+
+`number =`: The number of URLs you wish to return. There may be less results than requested.
+
+### Example
 
 For example, running this:
 
 ```{R}
-search_allrecipes(query = "brownies")
+search_recipes(query = "apple pie",
+               site = "allrecipes",
+               number = 10)
 ```
 Yields this:
 ```
-[1] "https://www.allrecipes.com/recipe/25080/mmmmm-brownies/"            "https://www.allrecipes.com/recipe/68436/vegan-brownies/"           
- [3] "https://www.allrecipes.com/recipe/10549/best-brownies/"             "https://www.allrecipes.com/recipe/10177/blonde-brownies-i/"        
- [5] "https://www.allrecipes.com/recipe/25817/white-brownies/"            "https://www.allrecipes.com/recipe/69886/best-brownies-ever/"       
- [7] "https://www.allrecipes.com/recipe/16607/cheesecake-brownies/"       "https://www.allrecipes.com/recipe/9698/walnut-brownies/"           
- [9] "https://www.allrecipes.com/recipe/277538/no-bake-healthy-brownies/" "https://www.allrecipes.com/recipe/274800/coffee-brownies/"         
+ [1] "https://www.allrecipes.com/recipe/283215/salted-caramel-apple-pie/"             
+ [2] "https://www.allrecipes.com/recipe/15806/chemical-apple-pie-no-apple-apple-pie/" 
+ [3] "https://www.allrecipes.com/recipe/235346/apple-pie-moonshine/"                  
+ [4] "https://www.allrecipes.com/recipe/261468/apple-pie-dip/"                        
+ [5] "https://www.allrecipes.com/recipe/234166/apple-pie-liquor/"                     
+ [6] "https://www.allrecipes.com/recipe/213569/grandmas-iron-skillet-apple-pie/"      
+ [7] "https://www.allrecipes.com/recipe/255040/awesome-apple-pie-cookies/"            
+ [8] "https://www.allrecipes.com/recipe/239918/apple-jam-apple-pie-in-a-jar/"         
+ [9] "https://www.allrecipes.com/recipe/15683/dutch-apple-pie-with-oatmeal-streusel/" 
+[10] "https://www.allrecipes.com/recipe/218330/grandmas-apple-pie-ala-mode-moonshine/"     
  ```
 
-### `search_foodnetwork()`
+## Use Pipes for Efficiency
 
-The `search_foodnetwork()` function works similar to `search_allrecipes()` however due to how the search results are displayed on the website, I have included parameters that specify which page number is searched. To get a decent number of recipes, I have opted for 3 pages. For some search queries, this could result in less than 10 search results (the rest specified by `NA`). I can always increase the number of pages. 
-
-{{< admonition tip "Use Pipes" >}}
-The functions work with `dplyr`. For example, see below as we search for brownie recipes and scrape the code. In this example, The outputs are printed in the console and the brownie URLs are piped through the `scrape()` function which retrieves the complete recipes from the site and saves the recipes in a file called `scraped_recipes.txt` in your file directory. 
-{{< /admonition >}} 
-
+The functions work with `magrittr` pipes. For example, see below as we search for brownie recipes and scrape the code. In this example, The outputs are printed in the console and the brownie URLs are piped through the `scrape()` function which retrieves the complete recipes from the site and saves the recipes in a file called `scraped_recipes.txt` in your file directory.
 
 ```
-brownies <- search_allrecipes(query = "brownies") %>% 
+apple_pie <- search_recipes(query = "apple pie",
+                           site = "allrecipes") %>% 
   scrape()
 ```
 
-{{< admonition note "Note" >}}
-Currently, single-word searches are only allowed (e.g., "pie" or "apple", but not "apple pie"). Adding a "+" character to the string (for the search URL to work) causes a whole bunch of issues which I am trying to solve to allow more specific searches.
-{{< /admonition >}}
-
-## Supported Sites
+# Supported Sites
 
 1. allrecipes.com
 2. foodnetwork.ca (Canadian version)
 3. tasty.co
+4. thepioneerwoman.com
 
 > More sites will be added as I feel like it, for this is a hobby project.
 
-## In Development 
+# In Development 
 
 Support for more sites for both the `scrape()` and search functions are being implemented. Work is being done to group all search functions into one search function, although I am working out the kinks on this. 
 
-## References 
+# References 
 
 Wickham H, François R, Henry L, Müller K (2022). _dplyr: A Grammar of Data Manipulation_. R package version 1.0.10,
 <https://CRAN.R-project.org/package=dplyr>.
@@ -164,4 +171,21 @@ library(purrr)
 c("dplyr", "rvest", "tidyr", "magrittr", "data.table", "hexSticker", "sysfonts", "magick") %>%
   map(citation) %>%
   print(style = "text")
+```
+
+Logo Code:
+
+```{R}
+library(hexSticker)
+
+sysfonts::font_add_google("Zilla Slab", "pf", regular.wt = 500)
+
+hexSticker::sticker(
+  subplot = ~ plot.new(), s_x = 1, s_y = 1, s_width = 0.1, s_height = 0.1,
+  package = "rrecipes", p_x = 1, p_y = 1, p_size = 30, h_size = 1.2, p_family = "pf",
+  p_color = "#00738c", h_fill = "#FFF9F2", h_color = "#00738c",
+  dpi = 320, filename = "man/figures/logo.png"
+)
+
+magick::image_read("man/figures/logo.png")
 ```
