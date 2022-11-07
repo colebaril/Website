@@ -27,6 +27,7 @@ A collection of salad and dressing recipes from my cookbook.
 
 
 <!--more-->
+
 <img src='salad.png' align="right" height="350" />
 
 ## Greek Pasta Salad 
