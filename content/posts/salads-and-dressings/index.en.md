@@ -10,8 +10,8 @@ images: []
 lastmod: "2020-03-06T21:29:01+08:00"
 lightgallery: true
 resources:
-- name: 
-  src: 
+- name: salad
+  src: salad
 tags:
 - cooking
 - salad
@@ -24,11 +24,12 @@ weight: 1
 ---
 
 A collection of salad and dressing recipes from my cookbook. 
-<img src='salad.png' align="right" height="350" />
+
 
 <!--more-->
+<img src='salad.png' align="right" height="350" />
 
-## Greek Pasta Salad
+## Greek Pasta Salad 
 
 *Vanessa Baril*  
 
