@@ -23,7 +23,8 @@ toc:
 weight: 1
 ---
 
-A collection of salad and dressing recipes from my cookbook. Authors of the recipe if known appear just after the recipe title. 
+A collection of salad and dressing recipes from my cookbook. 
+<img src='salad.png' align="right" height="350" />
 
 <!--more-->
 
