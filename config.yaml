@@ -248,7 +248,7 @@ params:
     maxResultLength: 10
     placeholder: ''
     snippetLength: 30
-    type: lunr
+    type: algolia
   section:
     dateFormat: 01-02
     paginate: 20
@@ -457,12 +457,47 @@ languages:
           title: GitHub
           url: https://github.com/colebaril
           weight: 7
+    params:
+      home:
+        profile:
+          avatarURL: /images/colecircle.jpg
+          disclaimer: ''
+          enable: yes
+          gravatarEmail: ''
+          social: yes
+          subtitle: Welcome to my site! I am a biologist, mosquito and virus researcher, hobbyist coder and amateur baker.
+          title: ''
+          typeit: yes
+        rss: 10
+      search:
+        absoluteURL: no
+        algolia:
+          appID: PASDMWALPK
+          index: index.en
+          searchKey: b42948e51daaa93df92381c8e2ac0f93
+        contentLength: 4000
+        enable: yes
+        highlightTag: em
+        maxResultLength: 10
+        placeholder: ''
+        snippetLength: 30
+        type: algolia
+      social:
+        Email: colewbaril@outlook.com
+        LinkedIn: cole-baril-5875291a2
+        Facebook: cole.baril.792
+        GitHub: colebaril
+        Instagram: colewbaril
+        Phone: +1 204-588-3112
+        RSS: yes
+        Twitter: SkeeterPeeper
+    weight: 1
   zh-cn:
     copyright: This work is licensed under a Creative Commons Attribution-NonCommercial
       4.0 International License.
     hasCJKLanguage: yes
-    languageCode: FR
-    languageName: Français
+    languageCode: zh-CN
+    languageName: 简体中文
     menu:
       main:
         - identifier: posts
@@ -509,41 +544,6 @@ languages:
     params:
       home:
         profile:
-          avatarURL: /images/colecircle.jpg
-          disclaimer: ''
-          enable: yes
-          gravatarEmail: ''
-          social: yes
-          subtitle: Welcome to my site! I am a biologist, mosquito and virus researcher, hobbyist coder and amateur baker.
-          title: ''
-          typeit: yes
-        rss: 10
-      search:
-        absoluteURL: no
-        algolia:
-          appID: PASDMWALPK
-          index: index.en
-          searchKey: b42948e51daaa93df92381c8e2ac0f93
-        contentLength: 4000
-        enable: yes
-        highlightTag: em
-        maxResultLength: 10
-        placeholder: ''
-        snippetLength: 30
-        type: lunr
-      social:
-        Email: colewbaril@outlook.com
-        LinkedIn: cole-baril-5875291a2
-        Facebook: cole.baril.792
-        GitHub: colebaril
-        Instagram: colewbaril
-        Phone: +1 204-588-3112
-        RSS: yes
-        Twitter: SkeeterPeeper
-    weight: 1
-    params:
-      home:
-        profile:
           avatarURL: /images/mosquitostatue.jpg
           disclaimer: ''
           enable: yes
@@ -565,7 +565,7 @@ languages:
         maxResultLength: 10
         placeholder: ''
         snippetLength: 50
-        type: lunr
+        type: algolia
       social:
         Bilibili: xxxx
         Devto: xxxx
