@@ -10,8 +10,8 @@ images: []
 lastmod: "2022-09-18T21:29:01+08:00"
 lightgallery: true
 resources:
-- name: logo
-  src: logo.png
+- name: 
+  src: 
 tags:
 - R
 - RStudio
