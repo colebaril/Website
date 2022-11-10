@@ -248,7 +248,7 @@ params:
     maxResultLength: 10
     placeholder: ''
     snippetLength: 30
-    type: algolia
+    type: lunr
   section:
     dateFormat: 01-02
     paginate: 20
