@@ -2,7 +2,8 @@
 title: "Meat Dishes"
 author: "Cole"
 date: '2022-11-06T21:29:01+08:00'
-categories: Cooking
+categories: 
+- Cooking
 description: A collection of meat recipes from my cookbook.
 draft: no
 images: []

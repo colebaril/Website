@@ -249,7 +249,7 @@ params:
     maxResultLength: 10
     placeholder: ''
     snippetLength: 30
-    type: algolia
+    type: lunr
   section:
     dateFormat: 01-02
     paginate: 20
@@ -482,7 +482,7 @@ languages:
         maxResultLength: 10
         placeholder: ''
         snippetLength: 30
-        type: algolia
+        type: lunr
       social:
         Email: colewbaril@outlook.com
         LinkedIn: cole-baril-5875291a2
@@ -566,7 +566,7 @@ languages:
         maxResultLength: 10
         placeholder: ''
         snippetLength: 50
-        type: algolia
+        type: lunr
       social:
         Bilibili: xxxx
         Devto: xxxx
