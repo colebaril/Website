@@ -1,3 +1,4 @@
+
 baseURL: https://colebaril.ca
 theme: LoveIt
 title: Cole Baril
@@ -248,7 +249,7 @@ params:
     maxResultLength: 10
     placeholder: ''
     snippetLength: 30
-    type: lunr
+    type: algolia
   section:
     dateFormat: 01-02
     paginate: 20
@@ -481,7 +482,7 @@ languages:
         maxResultLength: 10
         placeholder: ''
         snippetLength: 30
-        type: lunr
+        type: algolia
       social:
         Email: colewbaril@outlook.com
         LinkedIn: cole-baril-5875291a2
@@ -565,7 +566,7 @@ languages:
         maxResultLength: 10
         placeholder: ''
         snippetLength: 50
-        type: lunr
+        type: algolia
       social:
         Bilibili: xxxx
         Devto: xxxx
@@ -578,3 +579,4 @@ languages:
         Weibo: xxxx
         Zhihu: xxxx
     weight: 2
+    
