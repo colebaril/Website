@@ -492,43 +492,6 @@ languages:
         RSS: yes
         Twitter: SkeeterPeeper
     weight: 1
-    params:
-      home:
-        profile:
-          avatarURL: /images/mosquitostatue.jpg
-          disclaimer: ''
-          enable: yes
-          gravatarEmail: ''
-          social: yes
-          subtitle: 一个简洁、优雅且高效的 Hugo 主题
-          title: ''
-          typeit: yes
-        rss: 10
-      search:
-        absoluteURL: no
-        algolia:
-          appID: PASDMWALPK
-          index: index.zh-cn
-          searchKey: b42948e51daaa93df92381c8e2ac0f93
-        contentLength: 4000
-        enable: yes
-        highlightTag: em
-        maxResultLength: 10
-        placeholder: ''
-        snippetLength: 50
-        type: lunr
-      social:
-        Bilibili: xxxx
-        Devto: xxxx
-        Douban: xxxx
-        Email: colewbaril@outlook.com
-        GitHub: xxxx
-        Phone: +1 204-588-3112
-        RSS: yes
-        Steam: xxxx
-        Weibo: xxxx
-        Zhihu: xxxx
-    weight: 2
   zh-cn:
     copyright: This work is licensed under a Creative Commons Attribution-NonCommercial
       4.0 International License.
@@ -577,5 +540,41 @@ languages:
           pre: <i class='fab fa-github fa-fw' aria-hidden='true'></i>
           title: GitHub
           url: https://github.com/colebaril
-          weight: 6  
-  
+          weight: 6
+    params:
+      home:
+        profile:
+          avatarURL: /images/mosquitostatue.jpg
+          disclaimer: ''
+          enable: yes
+          gravatarEmail: ''
+          social: yes
+          subtitle: 一个简洁、优雅且高效的 Hugo 主题
+          title: ''
+          typeit: yes
+        rss: 10
+      search:
+        absoluteURL: no
+        algolia:
+          appID: PASDMWALPK
+          index: index.zh-cn
+          searchKey: b42948e51daaa93df92381c8e2ac0f93
+        contentLength: 4000
+        enable: yes
+        highlightTag: em
+        maxResultLength: 10
+        placeholder: ''
+        snippetLength: 50
+        type: lunr
+      social:
+        Bilibili: xxxx
+        Devto: xxxx
+        Douban: xxxx
+        Email: colewbaril@outlook.com
+        GitHub: xxxx
+        Phone: +1 204-588-3112
+        RSS: yes
+        Steam: xxxx
+        Weibo: xxxx
+        Zhihu: xxxx
+    weight: 2
