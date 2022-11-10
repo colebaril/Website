@@ -1,17 +1,16 @@
 ---
-author: Cole
-authorLink: https://colebaril.ca
-categories:
-- Cooking
-date: "2022-11-06T21:29:01+08:00"
-description: A collection of meat recipes from my cookbook. 
-draft: false
+title: "Meat Dishes"
+author: "Cole"
+date: '2022-11-06T21:29:01+08:00'
+categories: Cooking
+description: A collection of meat recipes from my cookbook.
+draft: no
 images: []
-lastmod: "2020-03-06T21:29:01+08:00"
-lightgallery: true
+lastmod: '2020-03-06T21:29:01+08:00'
+lightgallery: yes
 resources:
-- name: 
-  src: 
+- name: null
+  src: null
 tags:
 - cooking
 - meat
@@ -19,9 +18,9 @@ tags:
 - beef
 - pork
 - recipe
-title: Meat Dishes
+authorLink: https://colebaril.ca
 toc:
-  auto: false
+  auto: no
 weight: 1
 ---
 
