@@ -6,7 +6,7 @@ categories: Cooking
 description: A collection of meat recipes from my cookbook.
 draft: no
 images: []
-lastmod: '2020-03-06T21:29:01+08:00'
+lastmod: '2022-11-07T21:29:01+08:00'
 lightgallery: yes
 resources:
 - name: null
