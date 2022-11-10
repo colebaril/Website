@@ -10,8 +10,10 @@ images: []
 lastmod: "2022-09-29T21:29:01+08:00"
 lightgallery: true
 resources:
-- name: logo
-  src: logo.png
+- name: featured-image
+  src: featured-image.jpg
+- name: featured-image-preview
+  src: featured-image-preview.jpg
 tags:
 - R
 - RStudio
@@ -41,10 +43,6 @@ Over the years I have tweeted *a lot*. One day, I was curious about my tweeting 
 What better way to put my newly-discovered interest in data science to use than to turn my 
 Twitter data into a practice project? This analysis will walk you through the steps and provide 
 a workflow to analyze your own Twitter data.
-
-<div class="block">
-<img src="length.png" alt = "">
-</div>
 
 ## Exporting your Twitter Data
 
@@ -480,3 +478,11 @@ twitter %>%
 <div class="block">
 <img src="length.png" alt = "">
 </div>
+
+> Shown in this figure is the number of characters in each tweet over time. As you can see, there is a sharp increase around the time
+> when Twitter announced a character limit increase in [November of 2017](https://www.washingtonpost.com/news/the-switch/wp/2017/11/07/twitter-is-officially-doubling-the-character-limit-to-280/). 
+
+{{< admonition note "Why are some tweet lengths over the character limit?" >}}
+In some cases, other usernames contained within the tweet and portions of links do not count for the limit on Twitter, but are counted in the total character count. 
+{{< /admonition >}}
+

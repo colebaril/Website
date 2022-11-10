@@ -10,8 +10,10 @@ images: []
 lastmod: "2020-03-06T21:29:01+08:00"
 lightgallery: true
 resources:
-- name: salad
-  src: salad
+- name: featured-image
+  src: featured-image.jpg
+- name: featured-image-preview
+  src: featured-image-preview.jpg
 tags:
 - cooking
 - salad
@@ -27,8 +29,6 @@ A collection of salad and dressing recipes from my cookbook.
 
 
 <!--more-->
-
-<img src='salad.png' align="right" height="350" />
 
 ## Greek Pasta Salad 
 

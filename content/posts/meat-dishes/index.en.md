@@ -10,8 +10,10 @@ images: []
 lastmod: '2022-11-07T21:29:01+08:00'
 lightgallery: yes
 resources:
-- name: null
-  src: null
+- name: featured-image
+  src: featured-image.jpg
+- name: featured-image-preview
+  src: featured-image-preview.jpg
 tags:
 - cooking
 - meat
@@ -25,12 +27,7 @@ toc:
 weight: 1
 ---
 
-A collection of meat dish recipes from my cookbook. 
-
-
 <!--more-->
-
-<img src='meat.png' align="right" height="350" />
 
 ## Sloppy Joes
 
