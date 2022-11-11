@@ -113,7 +113,7 @@ params:
       enable: yes
       gravatarEmail: ''
       social: yes
-      subtitle: Welcome to my site! I am a biologist, mosquito and virus researcher, hobbyist coder and amateur baker.
+      subtitle: Welcome to my site! Here you will find posts about food, baking, data science and my research.
       title: ''
       typeit: yes
     rss: 10
@@ -466,7 +466,7 @@ languages:
           enable: yes
           gravatarEmail: ''
           social: yes
-          subtitle: Welcome to my site! I am a biologist, mosquito and virus researcher, hobbyist coder and amateur baker.
+          subtitle: Welcome to my site! Here you will find posts about food, baking, data science and my research.
           title: ''
           typeit: yes
         rss: 10

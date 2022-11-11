@@ -1,5 +1,5 @@
 ---
-date: "2019-08-02T11:04:49+08:00"
+date: "2022-07-30T11:04:49+08:00"
 description: About Cole
 draft: false
 images:
@@ -21,8 +21,7 @@ title: About Cole
  presence of California serogroup viruses and conducted generalized linear mixed modelling to identify relationships between mosquito activity
  and weather variables. 
  
- After my M.Sc., I have been lucky to get a job with the Public Health Agency of Canada, starting on October 20, 2022. I will be working on
- public health projects that are important to me and I feel blesses that I have been given this opportunity.
+ After my M.Sc., I have been lucky to get a job with the Public Health Agency of Canada. I am involved with international and domestic public health projects that have a wide-reaching positive impact on global health.
 
 ## Hobbies
 
@@ -31,6 +30,6 @@ title: About Cole
  book series such as *Harry Potter*, *Lord of the Rings* and the *Inheritance Cycle*. I have also taken up coding as a hobby and this site will serve as a medium
  to showcase those projects.
 
- This website will be a place where I document my research experience, hobby activities and write about topics that interest me.
+ This website will be a place where I document my research experience, hobby activities and write about topics that interest me. Additionally, it will serve as a medium for keeping my R and programming skills up-to-date.
 
 ![Cole next to a large mosquito statue](/images/mosquitostatue.jpg "Me next to the largest mosquito in the world in Komarno, Manitoba. The name of the town, Komarno, translates to 'many mosquitoes' in Ukrainian")

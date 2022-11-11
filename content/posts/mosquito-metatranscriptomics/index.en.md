@@ -1,13 +1,13 @@
 ---
 author: Cole
-authorLink: https://colebaril.netlify.app
+authorLink: https://colebaril.ca
 categories:
 - Research
 date: "2022-07-30T21:29:01+08:00"
 description: A first-of-its kind study in Canada to identify the full range of pathogens harboured by mosquitoes in Manitoba using an *a priori* technique.
 draft: false
 images: []
-lastmod: "2020-03-06T21:29:01+08:00"
+lastmod: "2022-07-30T21:29:01+08:00"
 lightgallery: true
 resources:
 - name: virus
