@@ -83,7 +83,6 @@ weight: 1
 3.  Optionally add lettuce, tomatoes, onions, grated cheese, or whatever you like.
 
 
-
 ## Garlic Spread
 
 **Ingredients**
