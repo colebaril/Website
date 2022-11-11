@@ -430,20 +430,27 @@ languages:
           title: ''
           url: /categories/
           weight: 3
+        - identifier: cookbook
+          name: Cookbook
+          post: ''
+          pre: ''
+          title: ''
+          url: /cookbook/
+          weight: 5
         - identifier: cv
           name: CV
           post: ''
           pre: ''
           title: ''
           url: /cv/
-          weight: 4
+          weight: 5
         - identifier: publications-presentations
           name: Publications and Presentations
           post: ''
           pre: ''
           title: ''
           url: /publications-presentations/
-          weight: 5
+          weight: 6
         - identifier: about
           name: About
           post: ''
@@ -457,7 +464,7 @@ languages:
           pre: <i class='fab fa-github fa-fw' aria-hidden='true'></i>
           title: GitHub
           url: https://github.com/colebaril
-          weight: 7
+          weight: 8
     params:
       home:
         profile:
