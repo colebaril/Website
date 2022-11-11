@@ -69,6 +69,7 @@ Author: Baril, C.W.
 
 ### Media Features for Mosquito Surveillance
 
+* Brandon University Research Connection: [Mosquito-borne pathogen surveillance in Manitoba](https://www.brandonu.ca/research-connection/files/Baril-Cassone-2022-wl-.pdf)
 * Shoal Lake June 2020 Newsletter
 * What's Up Yellowhead June 2020 Newsletter 
 * Cypress River community newsletters (2021)
