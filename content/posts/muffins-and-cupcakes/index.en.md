@@ -19,7 +19,7 @@ tags:
 - cupcakes
 - baking
 - recipe
-title: Muffins & Cupcakes
+title: Muffins and Cupcakes
 toc:
   auto: false
 weight: 1
