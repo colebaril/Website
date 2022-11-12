@@ -18,6 +18,7 @@ tags:
 - cookies
 - biscuits
 - recipe
+- baking
 title: Cookies and Biscuits
 toc:
   auto: false
