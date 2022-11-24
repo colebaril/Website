@@ -22,7 +22,7 @@ tags:
 - ggplot
 - DataScience
 title: Visualize your Twitter activity using R and ggplot2
-toc: no
+toc: yes
 keep_md: yes 
 weight: 1
 ---
@@ -39,10 +39,9 @@ display:block;
 
 ## Premise <img src='logo-twitter-png-5860.png' align="right" height="139" />
 
-Over the years I have tweeted *a lot*. One day, I was curious about my tweeting habits. 
-What better way to put my newly-discovered interest in data science to use than to turn my 
-Twitter data into a practice project? This analysis will walk you through the steps and provide 
-a workflow to analyze your own Twitter data.
+This has evolved into a data science project for when I am bored. This will mostly serve as a place for me to practice 
+using various R packages, functions and is a pretty cool project because I have 8 years of Twitter data. I used R and RStudio (now Posit) for
+this analysis and feature mostly packages within the `tidyverse`. 
 
 ## Exporting your Twitter Data
 
@@ -72,12 +71,8 @@ automatically clean up the nesting and children in the file.
 twitterraw <- fromJSON("tweet.json", flatten = TRUE)
 ```
 
-{{< admonition note "Preserve Raw Data Object" >}}
-Personally, because this is such a large data set I like to create a raw object that remains untouched. 
-{{< /admonition >}}
-
 Next, I create a data frame I will be working with and removing columns that are unnecessary for the analysis
-using `dplyr`. This is optional, but I prefer to not look at irrelavent columns throughout the analysis.
+using `dplyr`. This is optional, but I prefer to not look at irrelevant columns throughout the analysis.
 
 ```
 twitter <- twitterraw %>% 
@@ -174,7 +169,7 @@ I simply assign a 1 to each tweet in its own column `tweet.counter.1`.
 twitter[ , "tweet.counter.1"] <- +1
 ```
 
-## Superficial Numbers
+## Number of Tweets and Favourites
 
 The total number of tweets should be evident by the number of rows in the data, but let's count to double check:
 ```
@@ -195,20 +190,33 @@ mean(twitter$favorite_count)
 
 There are 29,538 favorites with an average of 1.6 favorites per tweet.
 
-## Tweets per Day
+## Tweet Histogram
 
-To calculate the number of tweets per day we will first do a bit of cleaning. We 
-will use the `floor_date()` function to calculate the number of tweets each day and
-then summarize by the sum of daily tweets to calculate the total number of tweets per day.
+The first step when looking at any data set is to create a histogram to identify
+the shape of the data and how many types of events occurred. 
 
 ```
-tweetsperday <- twitter %>% 
+twitter %>% 
   mutate(day = floor_date(datetimed, "day")) %>%
   group_by(day) %>% 
   summarize(sum.day = sum(tweet.counter.1)) %>% 
   mutate(year = year(ymd(day))) %>% 
-  mutate(month = month(ymd(day))) 
+  mutate(month = month(ymd(day))) %>% 
+  ggplot(aes(x = sum.day)) +
+  theme_bw() +
+  geom_histogram(fill = "#1DA1F2", colour = "black") +
+  labs(title = "Tweet Histogram",
+       x = "Number of Tweets",
+       y = "Number of Days")
 ```
+
+<div class="block">
+<img src="hist.png" alt = "Tweet histogram showing the number of tweets sent per day">
+</div>
+
+> Here we can see that on the vast majority of days spent tweeting, only a few tweets were sent.
+
+## Tweets per Day
 
 Twitter does not give you data for days on which you do not tweet. Therefore, to 
 calculate the average number of tweets per day, first calculate the number of days 
@@ -236,13 +244,21 @@ one day was sent. However, the highest number of tweets in a single day was 93.
 Let's visualize this over time:
 
 ```
-ggplot(data = tweetsperday, aes(x = day, y = sum.day)) +
-  theme_bw() +
-  geom_point(color = "#1DA1F2") +
-  stat_smooth(color = "black") +
-  labs(title = "Number of Tweets per Day",
+twitter %>% 
+  mutate(day = floor_date(datetimed, "day")) %>%
+  group_by(day) %>% 
+  summarize(sum.day = sum(tweet.counter.1)) %>% 
+  mutate(year = year(ymd(day))) %>% 
+  mutate(month = month(ymd(day))) %>% 
+  ggplot(aes(x = day, y = sum.day)) +
+  geom_col(aes(fill = sum.day)) +
+  scale_fill_gradient(high = "#00d4ff", low = "#0e457c") +
+  labs(title = "Number times I tweet per day",
+       subtitle = "2014 to 2022",
        x = "Date",
-       y = "Number of Tweets")
+       y = "Number of Tweets",
+       fill = "Tweets") +
+  theme_bw()
 ```
 
 
@@ -252,42 +268,25 @@ ggplot(data = tweetsperday, aes(x = day, y = sum.day)) +
 
 > Here we can see that my tweeting activity seems to have peaked from 2017-2020.
 
-```
-ggplot(data = tweetsperday, aes(x = sum.day)) +
-  theme_bw() +
-  geom_histogram(fill = "#1DA1F2", colour = "black") +
-  labs(title = "Tweet Histogram",
-       x = "Number of Tweets",
-       y = "Number of Days")
-```
-
-<div class="block">
-<img src="hist.png" alt = "Tweet histogram showing the number of tweets sent per day">
-</div>
-
-> Here we can see that on the vast majority of days spent tweeting, only a few tweets were sent.
-
 ## Tweeting Hours
 
 We can visualize tweets sent by time of day too. We are using the `floor_date` 
 function to determine the number of tweets sent in each hour of the day. 
 
 ```
-tweetsperhour <- twitter %>% 
+twitter %>% 
   mutate(hour_floor = floor_date(datetimed, "hour")) %>%
   mutate(hour = as_hms(hour_floor)) %>% 
   group_by(year, hour) %>% 
-  summarize(sum.hour = sum(tweet.counter.1))
-
-tweetsperhour %>% 
+  summarize(sum.hour = sum(tweet.counter.1)) %>% 
   mutate(hour = hour(hour)) %>% 
   ggplot(aes(x = hour, y = sum.hour)) + 
     theme_bw() +
-    geom_bar(stat = "identity", position = "dodge", fill = "#1DA1F2") +
+    geom_bar(stat = "identity", position = "dodge", fill = "#1DA1F2", colour = "black") +
     scale_x_continuous(breaks = seq(0, 23, 2)) +
     labs(title = "Number of Tweets Sent during Hours of the Day (GMT-6)",
         subtitle = "18,404 tweets",
-        x = "Hour (Military Time)",
+        x = "Hour",
         y = "Number of Tweets") +
     facet_wrap(~year)
 ```
@@ -295,28 +294,27 @@ tweetsperhour %>%
 <img src="hours.png" alt = "">
 </div>
 
-> Unsurprisingly, I tweet least in the night, except for in 2016. I recall a lot of late nights this year. 
-> This plot also shows my peak tweeting years of 2017-2020.
+> It looks like I Tweet the least during the night, which makes sense. 
 
 ## Days of the week
 
 I was also curious if I tweeted more on different days of the week. 
 
 ```
-tweetsperweekday <- twitter %>% 
+twitter %>% 
   group_by(year, weekday) %>% 
-  summarize(tweet.counter.1 = sum(tweet.counter.1))
-  
-ggplot(data = tweetsperweekday, aes(
+  summarize(tweet.counter.1 = sum(tweet.counter.1)) %>% 
+  ggplot(aes(
   x = factor(weekday, level = c('Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat')), 
   y = tweet.counter.1)) + 
-  geom_col(aes(fill = factor(year))) +
+  geom_col(fill = "#1DA1F2", colour = "black") +
   labs(title = "Number of Tweets Sent during Days of the Week",
-       subtitle = "18,404 tweets",
+       subtitle = "18,404 tweets from 2014 to 2022",
        x = "Day of the Week",
        y = "Number of Tweets") +
-  scale_fill_viridis_d("Year") +
-  theme_bw()
+  theme_bw() +
+  facet_wrap(~year) +
+  theme(legend.position = "none")
 ```
 
 <div class="block">
@@ -380,7 +378,7 @@ However, it will take a bit of cleaning as the names of the source are less than
 change these up and plot. 
 
 ```
-tweetdevice <- twitter %>% 
+twitter %>% 
   group_by(tweet.source, year, month, weekday, statusreply) %>% 
   summarize(sum.device = sum(tweet.counter.1)) %>% 
   mutate(tweet.source = replace(tweet.source,
@@ -399,25 +397,23 @@ mutate(tweet.source = replace(tweet.source,
                               tweet.source == '<a href="http://roundyearfun.com/twitterfamily" rel="nofollow">Twitter Family Tree</a>', "External App")) %>% 
 mutate(tweet.source = replace(tweet.source,
                               tweet.source ==   
-'<a href="https://www.nintendo.com/countryselector" rel="nofollow">Nintendo Switch Share</a>', "Nintendo Switch"))
-
-
-tweetdevice %>% 
+'<a href="https://www.nintendo.com/countryselector" rel="nofollow">Nintendo Switch Share</a>', "Nintendo Switch")) %>% 
   filter(tweet.source != "Nintendo Switch") %>% 
   filter(tweet.source != "External App") %>% 
+  group_by(statusreply, weekday, month, year, tweet.source) %>% 
+  summarize(sum.device = sum(sum.device)) %>% 
   ggplot(aes(x = factor(tweet.source, level = c(
     'Android', 'iPhone', 'Mobile Web Client', 'Web Client', 'Nintendo Switch', 'External App')), 
     y = sum.device)) +
-  geom_col(aes(fill = factor(year))) +
+  geom_col(fill = "#1DA1F2") +
   labs(title = "Number of Tweets Sent from Each Device",
-       subtitle = "18,404 tweets divided by whether each tweet was a reply or status and by the device used to Tweet. 1 tweet was sent by a Nintendo Switch, and 3 via an external app, which were removed 
-as they are very low values.",
+       subtitle = "18,404 tweets divided by whether each tweet was a reply or status and by the device used to Tweet. 1 tweet was sent by a Nintendo Switch, and 3 via an external app, which were removed. ",
        x = "Device",
        y = "Number of Tweets") +
   facet_wrap(~statusreply, labeller = as_labeller(c("Yes" = "Status", 
-                                                  "No" = "Reply"))) +
+                                                    "No" = "Reply"))) +
   theme_bw() +
-  scale_fill_viridis_d("Year") 
+  facet_wrap(~year)
 ```
 
 <div class="block">
@@ -486,3 +482,215 @@ twitter %>%
 In some cases, other usernames contained within the tweet and portions of links do not count for the limit on Twitter, but are counted in the total character count. 
 {{< /admonition >}}
 
+## Word Sentiment Analysis 
+
+> Using the `tidytext` package to analyze words and sentiments. 
+
+### Cleaning
+
+{{< admonition note "Clean Tweets function" >}}
+The function below serves as a way to clean tweets of any characters that are not real words I have annotated the function to explain what it does.
+{{< /admonition >}}
+
+```
+unclean_tweet <- twitter$tweet.full_text
+
+
+clean_tweets <- function(x) {
+  x %>%
+    # Remove URLs
+    str_remove_all(" ?(f|ht)(tp)(s?)(://)(.*)[.|/](.*)") %>%
+    # Remove mentions e.g. "@my_account"
+    str_remove_all("@[[:alnum:]_]{4,}") %>%
+    # Remove hashtags
+    str_remove_all("#[[:alnum:]_]+") %>%
+    # Replace "&" character reference with "and"
+    str_replace_all("&amp;", "and") %>%
+    # Remove puntucation, using a standard character class
+    str_remove_all("[[:punct:]]") %>%
+    # Remove "RT: " from beginning of retweets
+    str_remove_all("^RT:? ") %>%
+    # Replace any newline characters with a space
+    str_replace_all("\\\n", " ") %>%
+    # Make everything lowercase
+    str_to_lower() %>%
+    # Remove any trailing whitespace around the text
+    str_trim("both")
+}
+
+cleaned_tweets <- unclean_tweet %>% 
+  clean_tweets() %>% 
+  tibble(line = 1:18404) %>% 
+  rename_at(1, ~'text')
+```
+
+
+### Extract Words
+
+```
+word_df <- cleaned_tweets %>% 
+  unnest_tokens(word, text)
+```
+
+> After cleaning, there are a total of **258, 147 words**.
+
+### Bing Lexicon
+
+> The Bing lexicon classifies words as either positive or negative sentiments.
+
+{{< admonition note "Positive or Negative Sentiments" >}}
+The Bing Lexicon works by classifying each word as either "positive" or "negative". For example, the following table
+is a list of the most used positive words. Their score (n) represents the number of times they were used.
+
+```
+## # A tibble: 1,849 × 2
+##    word       n
+##    <chr>  <int>
+##  1 like    1466
+##  2 good     711
+##  3 love     410
+##  4 shit     300
+##  5 well     286
+##  6 work     268
+##  7 right    267
+##  8 bad      245
+##  9 better   227
+## 10 fun      196
+## # … with 1,839 more rows
+```
+{{< /admonition >}}
+
+Here, we are making use of the `tidytext` package to get a set of sentiments and match them up the database of words (`word_df`) coming from my Twitter data.
+
+```
+word_df %>%  
+  inner_join(get_sentiments("bing")) %>% 
+  count(word, sentiment) %>% 
+  pivot_wider(names_from = sentiment, values_from = n, values_fill = 0) %>% 
+  mutate(sentiment = positive - negative) %>% 
+  ggplot(aes(word, sentiment)) +
+  geom_col(show.legend = FALSE) +
+  theme(axis.text.x=element_blank(),
+        axis.ticks.x=element_blank()) +
+  labs(title = "Twitter Word Sentiment",
+       subtitle = "The number of times each positive (e.g., > 0) ad negative (e.g., < 0) word was Tweeted.",
+       y = "Sentiment Value",
+       x = "Word")
+```
+
+> This figure below shows the number of times each positive and negative word was used. 
+> Notice how there are few but bigger spikes in positive sentiment values, but more frequent but lower spikes in negative sentiment values. 
+> I am going to extract some of the >most used positive and negative words to see if we can learn more.
+
+<div class="block">
+<img src="sentimentbing.png" alt = "">
+</div>
+
+Below is a word cloud generated using the `wordcloud` and `reshape2` packages. 
+
+```
+library(reshape2)
+library(wordcloud)
+
+word_df %>% 
+  inner_join(get_sentiments("bing")) %>% 
+  count(word, sentiment) %>% 
+  acast(word ~ sentiment, value.var = "n", fill = 0) %>% 
+  comparison.cloud(colors = c("gray20", "gray80"),
+                   max.words = 100)
+```
+
+<div class="block">
+<img src="bingcloud.png" alt = "">
+</div>
+
+### NRC Lexicon
+
+> The NRC Lexicon works by assigning words to a variety of basic, core human emotions:
+> - Anger
+> - Fear
+> - Anticipation
+> - Trust
+> - Surprise
+> - Sadness
+> - Joy
+> - Disgust
+> - Positive
+> - Negative
+
+It works similar to the Bing Lexicon, however there are more emotions. I use the `treemapify` package
+which employs `ggplot2` to make a treemap. 
+
+```
+library(treemapify)
+
+nrc <- get_sentiments("nrc")
+
+word_df %>% 
+  inner_join(get_sentiments("nrc")) %>% 
+  count(word, sentiment) %>% 
+  pivot_wider(names_from = sentiment, values_from = n, values_fill = 0) %>% 
+  select_if(is.numeric) %>% 
+  map_dbl(sum) %>% 
+  as.data.frame() %>% 
+  rownames_to_column("Emotion") %>% 
+  rename("number" = ".") %>% 
+  mutate(across(where(is.character), tools::toTitleCase)) %>% 
+  ggplot(aes(area = number, fill = Emotion, label = Emotion)) +
+  geom_treemap() + 
+  geom_treemap_text(colour = "Black", 
+                    place = "centre",
+                    size = 25) +
+  scale_fill_viridis_d() +
+  labs(title = "Emotions based on Tweeted words",
+       subtitle = "NRC Lexicon")
+```
+
+<div class="block">
+<img src="treemap.png" alt = "">
+</div>
+
+## References 
+
+
+Wickham H, Averick M, Bryan J, Chang W, McGowan LD, François R, Grolemund G, Hayes A, Henry L, Hester J, Kuhn M, Pedersen TL, Miller E, Bache SM, Müller K,
+Ooms J, Robinson D, Seidel DP, Spinu V, Takahashi K, Vaughan D, Wilke C, Woo K, Yutani H (2019). “Welcome to the tidyverse.” _Journal of Open Source Software_,
+*4*(43), 1686. doi:10.21105/joss.01686 <https://doi.org/10.21105/joss.01686>.
+
+
+Ooms J (2014). “The jsonlite Package: A Practical and Consistent Mapping Between JSON Data and R Objects.” _arXiv:1403.2805 [stat.CO]_.
+<https://arxiv.org/abs/1403.2805>.
+
+
+Wickham H (2022). _stringr: Simple, Consistent Wrappers for Common String Operations_. R package version 1.4.1, <https://CRAN.R-project.org/package=stringr>.
+
+
+Dowle M, Srinivasan A (2021). _data.table: Extension of `data.frame`_. R package version 1.14.2, <https://CRAN.R-project.org/package=data.table>.
+
+
+Pedersen T (2022). _patchwork: The Composer of Plots_. R package version 1.1.2, <https://CRAN.R-project.org/package=patchwork>.
+
+
+Müller K (2022). _hms: Pretty Time of Day_. R package version 1.1.2, <https://CRAN.R-project.org/package=hms>.
+
+
+Silge J, Robinson D (2016). “tidytext: Text Mining and Analysis Using Tidy Data Principles in R.” _JOSS_, *1*(3). doi:10.21105/joss.00037
+<https://doi.org/10.21105/joss.00037>, <http://dx.doi.org/10.21105/joss.00037>.
+
+
+Wilkins D (2021). _treemapify: Draw Treemaps in 'ggplot2'_. R package version 2.5.5, <https://CRAN.R-project.org/package=treemapify>.
+
+
+Fellows I (2018). _wordcloud: Word Clouds_. R package version 2.6, <https://CRAN.R-project.org/package=wordcloud>.
+
+
+Wickham H (2007). “Reshaping Data with the reshape Package.” _Journal of Statistical Software_, *21*(12), 1-20. <http://www.jstatsoft.org/v21/i12/>.
+
+**References Code**
+
+```
+library(purrr)
+c("tidyverse", "jsonlite", "stringr", "data.table", "patchwork", "hms", "tidytext", "treemapify", "wordcloud", "reshape2") %>%
+  map(citation) %>%
+  print(style = "text")
+```

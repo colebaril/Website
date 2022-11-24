@@ -34,7 +34,7 @@ weight: 1
 Filling:
 
 -   4 cups milk
--   1 cups white sugar
+-   1 cup white sugar
 -   2 tbsp margarine
 -   2 tsp vanilla
 -   1 tsp salt
@@ -142,9 +142,9 @@ Pie Filling (for 2 pies):
 
 **Methods**
 
-1.  FOR FILLING; peel and cut apples, set aside.. Mix sugar, flour, cornstarch and cinnamon. Add to apples and mix making sure all the apples are well coated. Let stand for 15 min. Ready to place in crust.
-2.  FOR PIE CRUST; mix flour, lard, and salt into a crumb mixture, then add milk and work into a nice dough. Chill for about 1/2 an hour before you roll out for pie.
-3.  when frozen thaw for 15 min. and cut slits ito partly frozen pie. Bake at 350\* -375°F depending on your oven till golden brown.
+1.  For filling: peel and cut apples, set aside.. Mix sugar, flour, cornstarch and cinnamon. Add to apples and mix making sure all the apples are well coated. Let stand for 15 min. Ready to place in crust.
+2.  For pie crust: mix flour, lard, and salt into a crumb mixture, then add milk and work into a nice dough. Chill for about 1/2 an hour before you roll out for pie.
+3.  when frozen thaw for 15 min. and cut slits into partly frozen pie. Bake at 350-375°F depending on your oven until golden brown.
 
 
 
@@ -163,13 +163,13 @@ Pie Filling (for 2 pies):
 -   5 cups flour
 -   1 lb. lard
 -   1 cup milk
--   salt, pinch
+-   Salt, pinch
 
 **Methods**
 
-1. For the filling: mix cornstarch, flour and both sugared this to the blueberries and rhubarb, making sure all the fruit is well covered with sugar mixture. 
-2. For the pie crust: mix, flour, lard and salt into a crumb mixture. Then add milk and work into a nice dough. Chillier about 1/2 an hour before you roll out for pie.
-3. Bake at 350-375°F till golden brown.
+1. For the filling: mix cornstarch, flour and both sugars to the blueberries and rhubarb, making sure all the fruit is well covered with sugar mixture. 
+2. For the pie crust: mix, flour, lard and salt into a crumb mixture. Then add milk and work into a nice dough. Chill for about 1/2 an hour before you roll out for pie.
+3. Bake at 350-375°F until golden brown.
 
 
 
@@ -182,11 +182,10 @@ Pie Filling (for 2 pies):
 - 5 cups flour
 - 1 lb lard
 - 1 cup milk
-- 4 cups rhurbarb
+- 4 cups rhubarb
 - 1 cup sugar
 - 2 tablespoons cornstarch
 - 2 tablespoons flour
-- 3 cups rhurbarb
 - 3/4 cup sugar
 - 1½ tablespoons cornstarch
 - 1½ tablespoons flour
@@ -200,6 +199,6 @@ before you roll out for pie.
  rhubarb and mix thoroughly to stick to rhubarb.
 3. When frozen thaw for 15 min. & cut slits into partly 
 frozen pie.
-4. Bake at 350-375°F depending on your oven till golden brown.
+4. Bake at 350-375°F depending on your oven until golden brown.
 
 > Note: this recipe is for 5 pies.

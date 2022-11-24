@@ -128,7 +128,7 @@ border-radius: 15px;
 -   1½ cup white sugar
 -   2 eggs
 -   2 tablespoons milk
--   1 teaspoon baking soda, mixed with 1 tsp.hot water
+-   1 teaspoon baking soda, mixed with 1 tsp. hot water
 -   2 teaspoons vanilla
 -   1 cup raisins, optional
 -   3½ to 4 cups flour
@@ -300,7 +300,7 @@ border-radius: 15px;
 
 **Ingredients**
 
--   2.5 cups sifted flour
+-   2½ cups sifted flour
 -   4 tsp baking powder
 -   1/2 tsp salt
 -   1/3 cup shortening
@@ -309,7 +309,7 @@ border-radius: 15px;
 **Methods**
 
 1.  Preheat oven at 450°F.
-2.  Soft together flour, baking powder and salt.
+2.  Sift together flour, baking powder and salt.
 3.  Cut in shortening with 2 knives.
 4.  Add milk until dough is soft.
 5.  Pat 1/2 inch thick on floured board and cut with 2 inch biscuit cutter (makes \~16 biscuits).
@@ -340,7 +340,7 @@ border-radius: 15px;
 
 **Ingredients**
 
--   3.75 cup flour
+-   3¾ cup flour
 -   1 tsp baking powder
 -   1 tsp baking soda
 -   1 tsp ground cinnamon
@@ -370,12 +370,12 @@ border-radius: 15px;
 
 **Ingredients**
 
--   2.5 cups flour
+-   2½ cups flour
 -   1 tsp baking powder
 -   1 tsp baking soda
 -   2 tsp ground cinnamon
 -   1/2 tsp ground nutmeg
--   1/2 tsp ground gloves
+-   1/2 tsp ground cloves
 -   1/2 tsp salt
 -   1/2 cup butter, softened
 -   1½ cups white sugar
@@ -395,7 +395,7 @@ Glaze:
 1.  Preheat oven at 350°F,
 2.  Combine flour, baking powder, baking soda, cinnamon, nutmeg, cloves and salt.
 3.  Beat butter and white sugar together until creamy; add egg and vanilla. Add to dry ingredients.
-4.  Drop on cookie sheet by tablespoonfull; flatten slightly.
+4.  Drop on cookie sheet by tablespoonful; flatten slightly.
 5.  Bake for 15-20 minutes. Cool.
 6.  Combine icing sugar, milk, melted butter and vanilla, adding extra milk as needed. Beat.
 7.  Drizzle glaze on top of cooled cookies.
@@ -407,8 +407,6 @@ Glaze:
 *Cole Baril* <img src='eggnog-cookies.jpeg' align="right" height="450" class="rounded-corners"/> 
 
 **Ingredients**
-
-*Note: this is for a doubled recipe, as this is usually a hot item.*
 
 -   4 cups flour
 -   4 tsp baking powder
@@ -461,7 +459,7 @@ Frosting:
 **Methods**
 
 1.  In a small bowl sift together flour, nutmeg, ginger, baking powder and salt.
-2.  Blend butter and sugar in a separate bowl until light and fluffy.
+2.  Blend butter and icing sugar in a separate bowl until light and fluffy.
 3.  Add flour mixture to butter mixture 1/3 cup at a time; blend. Wrap and chill for 2 hours.
 4.  Preheat oven to 350°F.
 5.  Roll chilled dough to about 1/4 inch thick and cut out cookies with a cookie cutter.
@@ -485,7 +483,7 @@ Frosting:
 **Methods**
 
 1. Preheat oven at 350°F. 
-2. Cream butter and add sugar, work together.
+2. Cream butter and add icing sugar, work together.
 3. Sift flour and cornstarch. add to the creamed mixture.
 4. Either drop from tablespoon or add a little more flour
 and knead until it can be rolled, or put through cookie 
@@ -571,7 +569,7 @@ teaspoons onto cookie sheet.
 
 1. Preheat oven at 325°F.
 2. Mix brown sugar, softened margarine, eggs and vanilla.
-3. Add; oatmeal, flour, baking soda, baking powder,and salt.
+3. Add; oatmeal, flour, baking soda, baking powder and salt.
 4. Mix and roll in balls, press flat with a glass.
 5. Bake for about 7 minutes.
 6. Let cool and put together with dates.
