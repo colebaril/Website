@@ -3,11 +3,11 @@ author: Cole
 authorLink: https://colebaril.ca
 categories:
 - R
-date: "2022-09-29T21:29:01+08:00"
+date: "2022-11-23T21:29:01+08:00"
 description: A workflow for analyzing and visualizing your personal Twitter data. 
 draft: false
 images: []
-lastmod: "2022-09-29T21:29:01+08:00"
+lastmod: "2022-11-23T21:29:01+08:00"
 lightgallery: true
 resources:
 - name: featured-image
