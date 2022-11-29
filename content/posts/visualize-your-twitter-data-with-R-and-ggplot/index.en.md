@@ -43,6 +43,26 @@ This has evolved into a data science project for when I am bored. This will most
 using various R packages, functions and is a pretty cool project because I have 8 years of Twitter data. I used R and RStudio (now Posit) for
 this analysis and feature mostly packages within the `tidyverse`. 
 
+## Load Packages 
+
+```
+libs <- c(
+  "tidyverse", "jsonlite", "stringr", "data.table",
+  "gt", "patchwork", "hms", "tidytext", "lubridate",
+  "treemapify"
+)
+
+
+# install missing libraries
+installed_libs <- libs %in% rownames(installed.packages())
+if (any(installed_libs == F)) {
+  install.packages(libs[!installed_libs])
+}
+
+# load libraries
+invisible(lapply(libs, library, character.only = T))
+```
+
 ## Exporting your Twitter Data
 
 To export your data from Twitter, you will need to request your Twitter data
@@ -586,24 +606,6 @@ word_df %>%
 <img src="sentimentbing.png" alt = "">
 </div>
 
-Below is a word cloud generated using the `wordcloud` and `reshape2` packages. 
-
-```
-library(reshape2)
-library(wordcloud)
-
-word_df %>% 
-  inner_join(get_sentiments("bing")) %>% 
-  count(word, sentiment) %>% 
-  acast(word ~ sentiment, value.var = "n", fill = 0) %>% 
-  comparison.cloud(colors = c("gray20", "gray80"),
-                   max.words = 100)
-```
-
-<div class="block">
-<img src="bingcloud.png" alt = "">
-</div>
-
 ### NRC Lexicon
 
 > The NRC Lexicon works by assigning words to a variety of basic, core human emotions:
@@ -622,8 +624,6 @@ It works similar to the Bing Lexicon, however there are more emotions. I use the
 which employs `ggplot2` to make a treemap. 
 
 ```
-library(treemapify)
-
 nrc <- get_sentiments("nrc")
 
 word_df %>% 
