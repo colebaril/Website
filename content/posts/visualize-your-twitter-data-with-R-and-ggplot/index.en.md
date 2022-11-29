@@ -265,19 +265,17 @@ Let's visualize this over time:
 
 ```
 twitter %>% 
-  mutate(day = floor_date(datetimed, "day")) %>%
+  mutate(day = lubridate::floor_date(datetimed, "day")) %>%
   group_by(day) %>% 
   summarize(sum.day = sum(tweet.counter.1)) %>% 
-  mutate(year = year(ymd(day))) %>% 
-  mutate(month = month(ymd(day))) %>% 
   ggplot(aes(x = day, y = sum.day)) +
-  geom_col(aes(fill = sum.day)) +
-  scale_fill_gradient(high = "#00d4ff", low = "#0e457c") +
+  geom_col(aes(colour = sum.day)) +
   labs(title = "Number times I tweet per day",
        subtitle = "2014 to 2022",
        x = "Date",
-       y = "Number of Tweets",
-       fill = "Tweets") +
+       y = "Number of Tweets", 
+       colour = "Tweets"
+       ) +
   theme_bw()
 ```
 
