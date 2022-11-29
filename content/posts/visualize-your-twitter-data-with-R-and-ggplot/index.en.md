@@ -556,28 +556,6 @@ word_df <- cleaned_tweets %>%
 
 > The Bing lexicon classifies words as either positive or negative sentiments.
 
-{{< admonition note "Positive or Negative Sentiments" >}}
-The Bing Lexicon works by classifying each word as either "positive" or "negative". For example, the following table
-is a list of the most used positive words. Their score (n) represents the number of times they were used.
-
-```
-## # A tibble: 1,849 × 2
-##    word       n
-##    <chr>  <int>
-##  1 like    1466
-##  2 good     711
-##  3 love     410
-##  4 shit     300
-##  5 well     286
-##  6 work     268
-##  7 right    267
-##  8 bad      245
-##  9 better   227
-## 10 fun      196
-## # … with 1,839 more rows
-```
-{{< /admonition >}}
-
 Here, we are making use of the `tidytext` package to get a set of sentiments and match them up the database of words (`word_df`) coming from my Twitter data.
 
 ```
