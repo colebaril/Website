@@ -80,21 +80,30 @@ For example:
 
 ## References
 
-1. Allaire J, Horner J, Xie Y, Marti V, Porte N (2019). _markdown: Render Markdown with the C Library 'Sundown'_. R package version 1.1,
-<https://CRAN.R-project.org/package=markdown>.
+R Core Team (2022). _R: A Language and Environment for Statistical Computing_. R Foundation for Statistical Computing, Vienna, Austria.
+<https://www.R-project.org/>.
 
-2. Allaire J, Xie Y, McPherson J, Luraschi J, Ushey K, Atkins A, Wickham H, Cheng J, Chang W, Iannone R (2022). _rmarkdown: Dynamic Documents for R_. R package
-version 2.16, <https://github.com/rstudio/rmarkdown>.
+Allaire J, Xie Y, McPherson J, Luraschi J, Ushey K, Atkins A, Wickham H, Cheng J, Chang W, Iannone R (2022). _rmarkdown: Dynamic Documents for
+R_. R package version 2.16, <https://github.com/rstudio/rmarkdown>.
 
-3. Xie Y, Allaire J, Grolemund G (2018). _R Markdown: The Definitive Guide_. Chapman and Hall/CRC, Boca Raton, Florida. ISBN 9781138359338,
+Xie Y, Allaire J, Grolemund G (2018). _R Markdown: The Definitive Guide_. Chapman and Hall/CRC, Boca Raton, Florida. ISBN 9781138359338,
 <https://bookdown.org/yihui/rmarkdown>.
 
-4. Xie Y, Dervieux C, Riederer E (2020). _R Markdown Cookbook_. Chapman and Hall/CRC, Boca Raton, Florida. ISBN 9780367563837,
+Xie Y, Dervieux C, Riederer E (2020). _R Markdown Cookbook_. Chapman and Hall/CRC, Boca Raton, Florida. ISBN 9780367563837,
 <https://bookdown.org/yihui/rmarkdown-cookbook>.
 
-5. Xie Y (2022). _knitr: A General-Purpose Package for Dynamic Report Generation in R_. R package version 1.40, <https://yihui.org/knitr/>.
+Xie Y (2022). _knitr: A General-Purpose Package for Dynamic Report Generation in R_. R package version 1.40, <https://yihui.org/knitr/>.
 
-6. Xie Y (2015). _Dynamic Documents with R and knitr_, 2nd edition. Chapman and Hall/CRC, Boca Raton, Florida. ISBN 978-1498716963, <https://yihui.org/knitr/>.
+Xie Y (2015). _Dynamic Documents with R and knitr_, 2nd edition. Chapman and Hall/CRC, Boca Raton, Florida. ISBN 978-1498716963,
+<https://yihui.org/knitr/>.
 
-7. Xie Y (2014). “knitr: A Comprehensive Tool for Reproducible Research in R.” In Stodden V, Leisch F, Peng RD (eds.), _Implementing Reproducible Computational
-Research_. Chapman and Hall/CRC. ISBN 978-1466561595, <http://www.crcpress.com/product/isbn/9781466561595>.
+Xie Y (2014). “knitr: A Comprehensive Tool for Reproducible Research in R.” In Stodden V, Leisch F, Peng RD (eds.), _Implementing Reproducible
+Computational Research_. Chapman and Hall/CRC. ISBN 978-1466561595, <http://www.crcpress.com/product/isbn/9781466561595>.
+
+Baril, Cole (2022). "rrecipes: scrape recipes from the web". <https://github.com/colebaril/rrecipes>'
+
+Penner, Emmy (2022). Contributed recipes to the book. 
+
+Derksen, Darlene (2022). Contributed recipes to the book. 
+
+Sabourin, Lucette (2022). Contributed recipes to the book. 
