@@ -10,13 +10,7 @@ math:
 title: Cookbook
 ---
 
-## Baril Family Cookbook - PDF
-
-> **Note: this is a work in progress.**
-
-While the recipes are also available on the website directly (click [here](https://colebaril.ca/categories/cooking/)), this PDF document is easily searchable, downloadable, printable and editable. The Table of Contents is interactive: click on sections to jump to them. 
-
-<iframe src = "Cookbook.pdf" height="3000"  width=125%></iframe>
+<iframe src = "Cookbook.pdf" height="1000"  width=125%></iframe>
 
 ## About
 
