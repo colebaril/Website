@@ -14,6 +14,8 @@ title: Cookbook
 
 ## About
 
+> **The raw code file for this document is available at https://github.com/colebaril/Cookbook**
+
 ### Made with R Markdown
 
 This cookbook was made using [R Markdown](https://rmarkdown.rstudio.com/) and rendered via [Knitr](https://yihui.org/knitr/) using [XeLaTeX](https://www.overleaf.com/learn/latex/XeLaTeX), a [Tex](https://en.wikipedia.org/wiki/TeX) typesetting engine using Unicode and supporting modern font technologies. Combined, these tools make writing, formatting and rendering large documents easy and reproducible.
@@ -69,7 +71,6 @@ For example:
 
 ### Cole Baril {.unlisted .unnumbered}
 ```
-
 
 
 ## References
